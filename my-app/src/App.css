@@ -1,3 +1,34 @@
 .App {
-  text-align: center;
+    display: grid;
+    grid-template-areas:
+          'header header'
+          'navBar main'
+          'footer footer';
+    grid-auto-columns: 15% 85%;
+    grid-auto-rows: 40px 10fr;
+    width: 1000px;
+    margin: auto;
+    padding: 10px;
+    grid-gap: 2px;
+}
+
+.NavBar {
+    display: grid;
+    grid-area: navBar;
+}
+
+.Header {
+    display: grid;
+    grid-area: header;
+    background: cornflowerblue;
+    padding: 10px;
+
+}
+
+.Main {
+    display: grid;
+    grid-area: main;
+    background: red;
+    text-align: center;
+    padding: 10px;
 }

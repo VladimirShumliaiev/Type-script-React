@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c07f84e7-0c78-40ea-baea-2a793154fea8" name="Changes" comment="+++add">
-      <change afterPath="$PROJECT_DIR$/my-app/src/Components/Header/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/Components/NavLink/MyNavLink.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/Components/Todo.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/Components/TodoItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/Components/navBar/NavBar.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/Components/navBar/NavBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/index.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="c07f84e7-0c78-40ea-baea-2a793154fea8" name="Changes" comment="+++add" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +44,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676123478162</updated>
-      <workItem from="1676123480338" duration="2704000" />
+      <workItem from="1676123480338" duration="2793000" />
     </task>
     <task id="LOCAL-00001" summary="+++add">
       <created>1676123767284</created>
@@ -73,7 +60,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676123932543</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="+++add">
+      <created>1676126245055</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676126245055</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

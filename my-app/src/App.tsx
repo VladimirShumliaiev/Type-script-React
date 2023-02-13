@@ -22,6 +22,9 @@ function App() {
                     <Route path={'todoItem'} element={<TodoItem/>}/>
                 </Routes>
             </div>
+            <div className={'Footer'}>
+                hi
+            </div>
         </div>
     );
 }

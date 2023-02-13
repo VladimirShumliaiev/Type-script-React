@@ -1,0 +1,14 @@
+.item {
+    /*grid-area: navBar;*/
+    background: darkorchid;
+    padding: 5px;
+
+}
+
+.item a {
+    text-decoration: none;
+}
+
+a.item-active-link {
+    color: darkorange;
+}

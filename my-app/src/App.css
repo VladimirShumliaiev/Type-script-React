@@ -4,8 +4,8 @@
           'header header'
           'navBar main'
           'footer footer';
-    grid-auto-columns: 15% 85%;
-    grid-auto-rows: 40px 10fr;
+    grid-template-columns: 2fr 10fr;
+    grid-template-rows: 40px 10fr;
     width: 1000px;
     margin: auto;
     padding: 10px;
@@ -14,7 +14,7 @@
 
 .NavBar {
     display: grid;
-    grid-area: navBar;
+    text-decoration: none;
 }
 
 .Header {
@@ -31,4 +31,10 @@
     background: red;
     text-align: center;
     padding: 10px;
+}
+
+.Footer {
+    display: grid;
+    grid-area: footer;
+    background: cornflowerblue;
 }

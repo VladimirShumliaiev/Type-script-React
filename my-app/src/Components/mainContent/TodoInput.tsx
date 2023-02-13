@@ -8,21 +8,21 @@ interface TodoInputProps {
 
 const TodoInput: React.FC<TodoInputProps> = ({title, setTitle, addTodo}) => {
 
-    const handleSubmit = (e: any) => {
+    const handleSubmit = (e: { preventDefault: () => void; }) => {
         e.preventDefault()
         addTodo()
     }
-    const handleKeyPress = (e: any) => {
-        if (e.key === 'Enter') {
-            handleSubmit(e)
-            setTitle('')
-        }
-    }
+    // const handleKeyPress = (e) => {
+    //     if (e.key === 'Enter') {
+    //         handleSubmit(e)
+    //         setTitle('')
+    //     }
+
     return (
         <div>
-            <input title={title} onChange={e => setTitle(e.target.value)} onKeyDown={handleKeyPress}
+            <input title={title} onChange={( event:React.ChangeEvent<HTMLInputElement>) => setTitle(event.target.value)}
                    placeholder={'add todo...'}/>
-            <button onClick={addTodo}>add</button>
+            <button onClick={handleSubmit}>add</button>
         </div>
     );
 };

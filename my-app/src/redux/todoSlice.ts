@@ -1,4 +1,3 @@
-
 import {createSlice, PayloadAction} from "@reduxjs/toolkit";
 
 type Todo = {
@@ -14,7 +13,7 @@ const initialState: TodosState = {
     list: []
 }
 const todoSlice = createSlice({
-    name: 'todo',
+    name: 'todoSlice',
     initialState,
     reducers: {
         addTodos(state, action: PayloadAction<string>) {

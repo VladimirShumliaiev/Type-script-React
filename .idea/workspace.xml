@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c07f84e7-0c78-40ea-baea-2a793154fea8" name="Changes" comment="+++add">
+      <change afterPath="$PROJECT_DIR$/my-app/src/Components/NavLink/MyNavLink.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/TodoInput.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/TodoInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/TodoInput.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/redux/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/redux/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/redux/todoSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/redux/todoSlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/NavLink/MyNavLink.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/NavLink/MyNavLink.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/Todo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/Todo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/List.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/List.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/ListItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/ListItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/TodoInput.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/navBar/NavBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/navBar/NavBar.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +50,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\React\Project\React.JS\Type-script-React\my-app\src\Components\NavLink" />
+      <recent name="F:\React\Project\React.JS\Type-script-React\my-app\src\Components\mainContent\Todo" />
+      <recent name="F:\React\Project\React.JS\Type-script-React\my-app\src\Components\mainContent\" />
       <recent name="F:\React\Project\React.JS\Type-script-React\my-app\src\Components\mainContent" />
       <recent name="F:\React\Project\React.JS\Type-script-React\my-app\src" />
     </key>
@@ -76,6 +85,7 @@
       <workItem from="1676123480338" duration="2793000" />
       <workItem from="1676281438935" duration="15397000" />
       <workItem from="1676305003383" duration="3158000" />
+      <workItem from="1676312275479" duration="2868000" />
     </task>
     <task id="LOCAL-00001" summary="+++add">
       <created>1676123767284</created>

@@ -15,6 +15,7 @@
 .NavBar {
     display: grid;
     text-decoration: none;
+    color: #ded9d9;
 }
 
 .Header {
@@ -22,7 +23,6 @@
     grid-area: header;
     background: cornflowerblue;
     padding: 10px;
-
 }
 
 .Main {

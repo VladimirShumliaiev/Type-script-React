@@ -1,6 +1,6 @@
 import React from 'react';
-import {useAppDispatch} from "../../hooks/hooks";
-import {canselTodos, statusTodos} from "../../redux/todoSlice";
+import {useAppDispatch} from "../../../hooks/hooks";
+import {canselTodos, statusTodos} from "../../../redux/todoSlice";
 
 interface ListItemProps{
     title: string,

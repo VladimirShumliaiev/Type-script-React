@@ -1,13 +1,14 @@
 import React, {useState} from 'react';
-import {useAppDispatch} from "../hooks/hooks";
-import {addTodos} from "../redux/todoSlice";
-import TodoInput from "./mainContent/TodoInput";
-import List from "./mainContent/List";
+import {useAppDispatch} from "../../../hooks/hooks";
+import {addTodos} from "../../../redux/todoSlice";
+import TodoInput from "./TodoInput";
+import List from "./List";
 
 
 const Todo = () => {
     const [title, setTitle] = useState('')
     const dispatch = useAppDispatch()
+
     const addTodo = () => {
         if (title.trim().length){
             dispatch(addTodos(title))

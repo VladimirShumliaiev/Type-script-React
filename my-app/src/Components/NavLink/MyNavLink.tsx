@@ -14,7 +14,10 @@ const MyNavLink = () => {
                 <NavLink className={isActive} to={'/'}>Type-Script page 1</NavLink>
             </div>
             <div>
-                <NavLink className={isActive} to={'todoItem'}>Type-Script page 2 </NavLink>
+                <NavLink className={isActive} to={'homeWork'}>HomeWork</NavLink>
+            </div>
+            <div>
+                <NavLink className={isActive} to={'lessons'}>Lessons</NavLink>
             </div>
         </div>
     );

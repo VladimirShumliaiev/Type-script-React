@@ -11,6 +11,12 @@ type TodosState = {
     error: string | null;
 }
 
+// const createAppAsyncThunk = createAsyncThunk.withTypes<{
+//     state: RootState
+//     dispatch: AppDispatch
+//     rejectValue: string
+//     extra: { s: string; n: number }
+// }>()
 
 export const fetchTodo = createAsyncThunk<Todo[], undefined>(
     'todo/fetchTodo',
@@ -87,6 +93,8 @@ export const fetchDeleteTodo = createAsyncThunk<string, string>(
     }
 )
 
+
+
 const initialState: TodosState = {
     list: [],
     loading: false,
@@ -129,14 +137,13 @@ const todoSlice = createSlice({
             })
             .addCase(fetchAddTodo.fulfilled, (state, action) => {
                 state.list.push(action.payload)
-            })
-            .addCase(fetchToggleTodo.pending, (state) => {
-                state.error = null
+                state.loading = false
             })
             .addCase(fetchToggleTodo.fulfilled, (state, action) => {
                 const toggle = state.list.find(e => e.id === action.payload.id)
                 if (toggle) {
                     toggle.completed = !toggle.completed
+                    state.loading = false
                 }
             })
             .addCase(fetchDeleteTodo.fulfilled, (state, action) => {

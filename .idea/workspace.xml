@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c07f84e7-0c78-40ea-baea-2a793154fea8" name="Changes" comment="+++add 14.02.2023 21:10">
+    <list default="true" id="c07f84e7-0c78-40ea-baea-2a793154fea8" name="Changes" comment="+++add 15.02.2023 21:10">
+      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/Todo.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/ListItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/ListItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/Todo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/Todo.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/redux/todoSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/redux/todoSlice.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +82,7 @@
       <workItem from="1676312275479" duration="3023000" />
       <workItem from="1676368424636" duration="5316000" />
       <workItem from="1676451676761" duration="2985000" />
-      <workItem from="1676454703509" duration="7636000" />
+      <workItem from="1676454703509" duration="11383000" />
     </task>
     <task id="LOCAL-00001" summary="+++add">
       <created>1676123767284</created>
@@ -140,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676373732424</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="+++add 15.02.2023 21:10">
+      <created>1676462692600</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676462692600</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +168,7 @@
     <MESSAGE value="+++add" />
     <MESSAGE value="+++add 13.02.2023 21:10" />
     <MESSAGE value="+++add 14.02.2023 21:10" />
-    <option name="LAST_COMMIT_MESSAGE" value="+++add 14.02.2023 21:10" />
+    <MESSAGE value="+++add 15.02.2023 21:10" />
+    <option name="LAST_COMMIT_MESSAGE" value="+++add 15.02.2023 21:10" />
   </component>
 </project>

@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c07f84e7-0c78-40ea-baea-2a793154fea8" name="Changes" comment="+++add 13.02.2023 21:10">
-      <change afterPath="$PROJECT_DIR$/my-app/src/Components/Routers/AppCell.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/LessonsTypeScript.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/LessonsTypeScrypt.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/Layout/Layout.tsx" afterDir="false" />
+    <list default="true" id="c07f84e7-0c78-40ea-baea-2a793154fea8" name="Changes" comment="+++add 14.02.2023 21:10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/NavLink/MyNavLink.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/NavLink/MyNavLink.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/TodoItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/HomeWork/HomeWork.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/ListItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/ListItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/Todo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/Todo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/redux/todoSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/redux/todoSlice.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,22 +26,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "F:/React/Project/React.JS/MyProject/my-app/src/components/header/Header.jsx",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.javascript.linters.tslint",
-    "ts.external.directory.path": "F:\\React\\Project\\React.JS\\Type-script-React\\my-app\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/React/Project/React.JS/MyProject/my-app/src/components/header/Header.jsx&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.tslint&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;F:\\React\\Project\\React.JS\\Type-script-React\\my-app\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\React\Project\React.JS\Type-script-React\my-app\src\Components\mainContent\HomeWork" />
@@ -85,7 +80,9 @@
       <workItem from="1676281438935" duration="15397000" />
       <workItem from="1676305003383" duration="3158000" />
       <workItem from="1676312275479" duration="3023000" />
-      <workItem from="1676368424636" duration="4973000" />
+      <workItem from="1676368424636" duration="5316000" />
+      <workItem from="1676451676761" duration="2985000" />
+      <workItem from="1676454703509" duration="7636000" />
     </task>
     <task id="LOCAL-00001" summary="+++add">
       <created>1676123767284</created>
@@ -136,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676315421293</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="+++add 14.02.2023 21:10">
+      <created>1676373732424</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676373732424</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +160,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="+++add" />
     <MESSAGE value="+++add 13.02.2023 21:10" />
-    <option name="LAST_COMMIT_MESSAGE" value="+++add 13.02.2023 21:10" />
+    <MESSAGE value="+++add 14.02.2023 21:10" />
+    <option name="LAST_COMMIT_MESSAGE" value="+++add 14.02.2023 21:10" />
   </component>
 </project>

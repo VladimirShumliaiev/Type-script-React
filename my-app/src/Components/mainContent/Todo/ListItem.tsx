@@ -1,6 +1,6 @@
 import React from 'react';
 import {useAppDispatch} from "../../../hooks/hooks";
-import {canselTodos, statusTodos} from "../../../redux/todoSlice";
+import {fetchDeleteTodo, fetchToggleTodo} from "../../../redux/todoSlice";
 
 interface ListItemProps{
     title: string,
@@ -12,9 +12,9 @@ const ListItem: React.FC<ListItemProps> = ({completed,title,id }) => {
 
     return (
         <div>
-            <input type={"checkbox"} checked={completed} onChange={ () => dispatch(statusTodos(id))}/>
+            <input type={"checkbox"} checked={completed} onChange={ () => dispatch(fetchToggleTodo(id))}/>
             {title}
-            <span onClick={() => dispatch(canselTodos(id))}> X</span>
+            <span onClick={() => dispatch(fetchDeleteTodo(id))}> X</span>
         </div>
     );
 };

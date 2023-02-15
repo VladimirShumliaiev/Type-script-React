@@ -1,4 +1,4 @@
-import {createAsyncThunk, createSlice} from "@reduxjs/toolkit";
+import {createAsyncThunk, createSlice,PayloadAction} from "@reduxjs/toolkit";
 
 type Todo = {
     id: string,
@@ -118,9 +118,9 @@ const todoSlice = createSlice({
     //             toggle.completed = !toggle.completed
     //         }
     //     },
-    //     canselTodos(state, action: PayloadAction<string>) {
-    //         state.list = state.list.filter(e => e.id !== action.payload)
-    //     },
+        canselTodos(state, action: PayloadAction<string>) {
+            state.list = state.list.filter(e => e.id !== action.payload)
+        },
     },
     extraReducers: (builder) => {
         builder
@@ -138,6 +138,9 @@ const todoSlice = createSlice({
             .addCase(fetchAddTodo.fulfilled, (state, action) => {
                 state.list.push(action.payload)
                 state.loading = false
+            })
+            .addCase(fetchToggleTodo.pending, (state) => {
+                state.error = null
             })
             .addCase(fetchToggleTodo.fulfilled, (state, action) => {
                 const toggle = state.list.find(e => e.id === action.payload.id)

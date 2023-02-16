@@ -6,7 +6,7 @@ import Todo from "../mainContent/Todo/Todo"
 import LessonsTypeScript from "../mainContent/Lessons/LessonsTypeScript";
 
 
-const AppCell = () => {
+const LayoutCell = () => {
     return (
         <>
             <Routes>
@@ -20,4 +20,4 @@ const AppCell = () => {
     );
 };
 
-export default AppCell;
+export default LayoutCell

@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import AppCell from "./Components/Routers/AppCell";
+import LayoutCell from "./Components/Routers/LayoutCell";
 
 
 
 function App() {
     return (
         <div>
-          <AppCell/>
+          <LayoutCell/>
         </div>
     );
 }

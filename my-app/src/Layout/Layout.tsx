@@ -6,10 +6,11 @@ import {Outlet} from "react-router-dom";
 const Layout = () => {
     return (
         <div className="App">
+
             <div className={'Header'}>
                 <Header/>
-
             </div>
+
             <div className={'NavBar'}>
                 <NavBar/>
             </div>
@@ -17,9 +18,11 @@ const Layout = () => {
             <div className={'Main'}>
                 <Outlet/>
             </div>
+
             <div className={'Footer'}>
                 hi
             </div>
+
         </div>
     );
 };

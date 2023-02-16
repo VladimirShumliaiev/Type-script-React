@@ -27,6 +27,7 @@ const Todo = () => {
             {loading && <h2>Loading...</h2>}
             {error && <h2>{error}</h2>}
             <List/>
+            <hr/>
         </div>
     );
 };

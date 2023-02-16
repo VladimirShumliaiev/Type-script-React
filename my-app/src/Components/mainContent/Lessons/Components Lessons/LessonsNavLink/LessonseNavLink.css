@@ -1,0 +1,11 @@
+.lessons {
+    color: #fafafa;
+}
+
+.lessons a {
+color: #020101;
+}
+
+a.lessons-active-link {
+    color: #ffffff;
+}

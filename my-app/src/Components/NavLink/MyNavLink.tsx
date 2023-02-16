@@ -11,7 +11,7 @@ const MyNavLink = () => {
     return (
         <div className={style.item}>
             <div>
-                <NavLink className={isActive} to={'/'}>Type-Script page 1</NavLink>
+                <NavLink className={isActive} to={'/'}>Todos</NavLink>
             </div>
             <div>
                 <NavLink className={isActive} to={'homeWork'}>HomeWork</NavLink>

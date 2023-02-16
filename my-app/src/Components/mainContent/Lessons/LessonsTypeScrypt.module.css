@@ -1,4 +1,7 @@
 .item {
+    background: #35a9a9;
+}
 
-    background: aqua;
+.item a{
+ text-decoration: none;
 }

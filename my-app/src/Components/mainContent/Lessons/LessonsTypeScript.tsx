@@ -1,10 +1,14 @@
-import React from 'react';
+import React, {FC} from 'react';
 import styles from './LessonsTypeScrypt.module.css'
+import LessonsNavLink from "./Components Lessons/LessonsNavLink/LessonsNavLink";
+import LessonsRouting from "./Components Lessons/Routing Lessons/LessonsRouting";
 
-const LessonsTypeScript = () => {
+const LessonsTypeScript: FC = () => {
     return (
         <div className={styles.item}>
-            type-script
+            <LessonsNavLink/>
+            <hr/>
+            <LessonsRouting/>
         </div>
     );
 };

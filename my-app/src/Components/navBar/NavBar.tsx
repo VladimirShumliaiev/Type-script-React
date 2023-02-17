@@ -4,7 +4,7 @@ import MyNavLink from "../NavLink/MyNavLink";
 
 const NavBar = () => {
     return (
-        <div className={'item'}>
+        <div className={'itemNavBar'}>
             <MyNavLink/>
         </div>
     );

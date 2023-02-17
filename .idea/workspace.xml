@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c07f84e7-0c78-40ea-baea-2a793154fea8" name="Changes" comment="+++add 16.02.2023 21:10">
-      <change afterPath="$PROJECT_DIR$/my-app/src/Components/Header/Header.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/Todo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/Todo.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/Todo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/Todo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/TodoInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/TodoInput.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/redux/todoSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/redux/todoSlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/NavLink/MyNavLink.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/NavLink/MyNavLink.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/navBar/NavBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/navBar/NavBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/navBar/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/navBar/NavBar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,22 +27,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "F:/React/Project/React.JS/Чужой репозиторий Github/react-pizza-html/public/img/cart.svg",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.javascript.linters.tslint",
-    "ts.external.directory.path": "F:\\React\\Project\\React.JS\\Type-script-React\\my-app\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/React/Project/React.JS/Чужой репозиторий Github/react-pizza-html/public/img/cart.svg&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.tslint&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;F:\\React\\Project\\React.JS\\Type-script-React\\my-app\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\React\Project\React.JS\Type-script-React\my-app\src\Components\Header" />
@@ -92,7 +89,8 @@
       <workItem from="1676537445573" duration="4706000" />
       <workItem from="1676542284400" duration="5295000" />
       <workItem from="1676583621588" duration="2244000" />
-      <workItem from="1676627642786" duration="13108000" />
+      <workItem from="1676627642786" duration="13194000" />
+      <workItem from="1676642759237" duration="1550000" />
     </task>
     <task id="LOCAL-00001" summary="+++add">
       <created>1676123767284</created>
@@ -185,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676585879344</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="+++add 16.02.2023 21:10">
+      <created>1676641145436</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1676641145436</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

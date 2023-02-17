@@ -12,16 +12,20 @@
     grid-gap: 2px;
 }
 
-.NavBar {
-    display: grid;
-    text-decoration: none;
-    color: #ded9d9;
-}
+
 
 .Header {
     display: grid;
     grid-area: header;
     background: #1e66f3;
+    padding: 10px;
+}
+.NavBar {
+    display: grid;
+    grid-area: navBar;
+    text-decoration: none;
+    color: #ded9d9;
+    background: #c2c2c4;
     padding: 10px;
 }
 

@@ -1,14 +1,14 @@
-.item {
-    /*grid-area: navBar;*/
-    background: #d3cfcf;
-    padding: 5px;
-}
+/*.itemNavBar {*/
+/*    !*grid-area: navBar;*!*/
+/*    background: #9f9292;*/
+/*    padding: 5px;*/
+/*}*/
 
-.item a {
+.itemNavBar a {
     text-decoration: none;
     color: #0a0101;
 }
 
-a.item-active-link {
+a.itemNavBar-active-link {
     color: #0015ff;
 }

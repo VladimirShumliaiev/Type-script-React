@@ -1,15 +1,15 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
-import style from './MyNavLink.module.css'
+
 
 interface IsActiveProps {
     isActive: boolean
 }
 
 const MyNavLink = () => {
-    const isActive = ({isActive}: IsActiveProps) => isActive ? 'item-active-link' : '';
+    const isActive = ({isActive}: IsActiveProps) => isActive ? 'itemNavBar-active-link' : '';
     return (
-        <div className={style.item}>
+        <div>
             <div>
                 <NavLink className={isActive} to={'/'}>Todos</NavLink>
             </div>

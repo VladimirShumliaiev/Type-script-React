@@ -6,13 +6,8 @@ type Todo = {
     completed: boolean,
 }
 
-type User = {
-    name: string
-    age: number
-}
 
 type TodosState = {
-    userList: User[];
     list: Todo[];
     loading: boolean;
     error: string | null;
@@ -102,7 +97,6 @@ export const fetchDeleteTodo = createAsyncThunk<string, string, { rejectValue: s
 
 
 const initialState: TodosState = {
-    userList: [],
     list: [],
     loading: false,
     error: null,

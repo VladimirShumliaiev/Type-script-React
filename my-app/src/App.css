@@ -5,8 +5,8 @@
           'navBar main'
           'footer footer';
     grid-template-columns: 2fr 10fr;
-    grid-template-rows: 40px 10fr;
-    width: 1000px;
+    grid-template-rows: 70px 10fr;
+    width: 1400px;
     margin: auto;
     padding: 10px;
     grid-gap: 2px;
@@ -21,7 +21,7 @@
 .Header {
     display: grid;
     grid-area: header;
-    background: cornflowerblue;
+    background: #1e66f3;
     padding: 10px;
 }
 

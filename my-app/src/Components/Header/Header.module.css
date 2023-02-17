@@ -1,0 +1,31 @@
+.item {
+    text-align: center;
+    color: darkorange;
+}
+
+.inputHeader {
+    font-size: 15px;
+    height: 36px;
+    width: 500px;
+    border-radius: 20px 0 0 20px;
+    border: 1px solid;
+}
+.inputHeader img {
+    width: 10px;
+    height: 10px;
+}
+
+.search {
+    height: 40px;
+    width: 100px;
+    border-radius: 0 20px 20px 0;
+    background: white;
+    border: 1px solid;
+}
+
+.search img {
+    /*margin-top: 1px;*/
+    height: 14px;
+    width: 14px;
+}
+

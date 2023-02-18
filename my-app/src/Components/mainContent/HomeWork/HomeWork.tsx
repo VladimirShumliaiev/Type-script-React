@@ -19,7 +19,7 @@ const HomeWork = () => {
     let h = null
     return (
         <div>
-            {g}
+            {d}
         </div>
     );
 };

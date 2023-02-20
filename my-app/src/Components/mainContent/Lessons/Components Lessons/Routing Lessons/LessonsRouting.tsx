@@ -11,7 +11,7 @@ const LessonsRouting: FC = () => {
             <Routes>
                 <Route path={'examples'} element={<Examples/>}/>
                 <Route path={'photo'} element={<Photo/>}/>
-                <Route path={'todoLessons'} element={<TodoLessons/>}/>
+                <Route path={'todo'} element={<TodoLessons/>}/>
             </Routes>
         </div>
 

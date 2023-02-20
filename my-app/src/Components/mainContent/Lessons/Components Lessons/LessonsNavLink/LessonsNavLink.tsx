@@ -12,7 +12,7 @@ const LessonsNavLink = () => {
         <div className={'lessons'}>
             <NavLink className={isActive} to={'examples'}>Examples </NavLink>
             <NavLink className={isActive} to={'photo'}> Photo</NavLink>
-            <NavLink className={isActive} to={'todoLessons'}> Todos</NavLink>
+            <NavLink className={isActive} to={'todo'}> Todos</NavLink>
         </div>
     );
 };

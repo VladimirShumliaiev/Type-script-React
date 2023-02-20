@@ -11,10 +11,10 @@ const NavLinkHomeWork: FC = () => {
     return (
         <div className={'navLinkHomeWork'}>
             <div>
-                <NavLink className={isActive} to={'chapter'}>Exercise for chapter 2 </NavLink>
+                <NavLink className={isActive} to={'chapter2'}>Exercise for chapter 2 </NavLink>
             </div>
           <div>
-              <NavLink className={isActive} to={'chapter2'}> Exercise for chapter 3</NavLink>
+              <NavLink className={isActive} to={'chapter3'}> Exercise for chapter 3</NavLink>
           </div>
         </div>
     );

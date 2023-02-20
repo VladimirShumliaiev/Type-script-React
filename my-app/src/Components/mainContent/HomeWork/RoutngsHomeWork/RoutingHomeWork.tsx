@@ -8,8 +8,8 @@ const RoutingHomeWork: FC = () => {
     return (
         <div className={style.item}>
             <Routes>
-                <Route path={'chapter'} element={<Chapter2/>}/>
-                <Route path={'chapter2'} element={<Chapter3/>}/>
+                    <Route path={'chapter2'} element={<Chapter2/>}/>
+                    <Route path={'chapter3'} element={<Chapter3/>}/>
             </Routes>
         </div>
     );

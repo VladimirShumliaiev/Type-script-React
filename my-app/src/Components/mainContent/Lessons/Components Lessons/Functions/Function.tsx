@@ -1,11 +1,11 @@
 import React, {FC} from 'react';
 
-const Photo: FC = () => {
+const Functions: FC = () => {
     return (
         <div>
-            Photo
+            Function
         </div>
     );
 };
 
-export default Photo;
+export default Functions;

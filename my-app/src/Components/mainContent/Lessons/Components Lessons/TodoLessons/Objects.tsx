@@ -4,7 +4,7 @@ import {addTodo} from "../../../../../redux/todoLessonsSlice";
 import TodoLessonsInput from "./TodoLessonsInput";
 import TodoLessonsList from "./TodoLessonsList";
 
-const TodoLessons = () => {
+const Objects = () => {
     const [title, setTitle] = useState('')
     const dispatch = useAppDispatch()
 
@@ -20,4 +20,4 @@ const TodoLessons = () => {
     );
 };
 
-export default TodoLessons;
+export default Objects;

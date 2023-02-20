@@ -11,8 +11,8 @@ const LessonsNavLink = () => {
     return (
         <div className={'lessons'}>
             <NavLink className={isActive} to={'examples'}>Examples </NavLink>
-            <NavLink className={isActive} to={'photo'}> Photo</NavLink>
-            <NavLink className={isActive} to={'todo'}> Todos</NavLink>
+            <NavLink className={isActive} to={'functions'}> Functions</NavLink>
+            <NavLink className={isActive} to={'objects'}> Objects</NavLink>
         </div>
     );
 };

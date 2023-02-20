@@ -1,17 +1,17 @@
 import React, {FC} from 'react';
 import {Route, Routes} from "react-router-dom";
-import Photo from "../Photo/Photo";
 import style from './LessonsRouting.module.css'
-import TodoLessons from "../TodoLessons/TodoLessons";
 import Examples from "../Examples/Examples";
+import Functions from "../Functions/Function";
+import Objects from "../TodoLessons/Objects";
 
 const LessonsRouting: FC = () => {
     return (
         <div className={style.item}>
             <Routes>
                 <Route path={'examples'} element={<Examples/>}/>
-                <Route path={'photo'} element={<Photo/>}/>
-                <Route path={'todo'} element={<TodoLessons/>}/>
+                <Route path={'functions'} element={<Functions/>}/>
+                <Route path={'objects'} element={<Objects/>}/>
             </Routes>
         </div>
 

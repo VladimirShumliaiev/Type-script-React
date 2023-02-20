@@ -33,7 +33,7 @@
 .Main {
     display: grid;
     grid-area: main;
-    background: #fafafa;
+    background: #faf9f9;
     text-align: center;
     padding: 1px;
 }

@@ -1,0 +1,16 @@
+.navLinkHomeWork {
+    display: grid;
+    grid-area: left;
+    /*background: #35a9a9;*/
+    text-align: left;
+    padding: 10px;
+}
+
+.navLinkHomeWork a {
+    text-decoration: none;
+    color: #030c03;
+}
+
+a.navLinkHomeWork-active-link {
+    color: #8b2dea;
+}

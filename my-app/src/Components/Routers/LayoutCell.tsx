@@ -12,7 +12,7 @@ const LayoutCell = () => {
             <Routes>
                 <Route path={'/'} element={<Layout/>}>
                     <Route index element={<Todo/>}/>
-                    <Route path={'homeWork'} element={<HomeWork/>}/>
+                    <Route path={'homeWork/*'} element={<HomeWork/>}/>
                     <Route path={'lessons/*'} element={<LessonsTypeScript/>}/>
                 </Route>
             </Routes>

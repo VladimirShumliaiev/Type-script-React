@@ -1,25 +1,18 @@
 import React from 'react';
+import NavLinkHomeWork from "./NavLinkHomeWork/NavLinkHomeWork";
+import RoutingHomeWork from "./RoutngsHomeWork/RoutingHomeWork";
+import './HomeWork.css'
 
 const HomeWork = () => {
-    //Number
-    let a = 1042;
-    //String
-    let b = 'apples and oranges';
-    //string
-    const c = 'pineapples';
-    //boolean
-    let d = [true,true,false]
-    //object
-    let e =  {type: 'ficus'}
-    //number || boolean
-    let f = [1, false]
-    //number
-    const g = [3]
-    //any
-    let h = null
+
     return (
-        <div>
-            {d}
+        <div className={'HomeWork'}>
+            <div>
+                <NavLinkHomeWork/>
+            </div>
+            <div>
+                <RoutingHomeWork/>
+            </div>
         </div>
     );
 };

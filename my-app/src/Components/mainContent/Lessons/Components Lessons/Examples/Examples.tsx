@@ -1,19 +1,22 @@
-import React, {FC} from 'react';
+import React, {FC, useState} from 'react';
+import Count from "./Count";
 
 const Examples: FC = () => {
-    let a = 1 + 2;
-    let b = a + 3;
+    const [count, setCount] = useState(0)
+    // let a = 1 + 2;
+    // let b = a + 3;
+    //
+    // let c = {
+    //     apple: a,
+    //     banana: b,
+    // }
+    //
+    // let d = c.banana * 4
 
-    let c = {
-        apple: a,
-        banana: b,
-    }
-
-    let d = c.banana * 4
 
     return (
         <div>
-            {d}
+            <Count count={count} setCount={setCount}/>
         </div>
     );
 };

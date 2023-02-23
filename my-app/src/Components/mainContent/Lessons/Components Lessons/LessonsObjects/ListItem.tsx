@@ -2,28 +2,28 @@ import React, {FC} from 'react';
 import {useAppDispatch} from "../../../../../hooks/hooks";
 import {completedTodo, removeTodo} from "../../../../../redux/todoLessonsSlice";
 
-type listItemProp = {
+type ListItemProp = {
     id: string,
     title: string,
-    completed: boolean,
+    completed: boolean
 }
 
-const ListItem: FC<listItemProp> = ({title, id, completed}) => {
+const ListItem: FC<ListItemProp> = ({id, title, completed}) => {
     const dispatch = useAppDispatch()
-    const onClick = () => {
-        const del = window.confirm('Delete todo?')
-        if(del) {
-            dispatch(removeTodo(id))
-        }
-    }
+
     const onChange = () => {
         dispatch(completedTodo(id))
+    }
+
+    const onClick = () => {
+        dispatch(removeTodo(id))
     }
     return (
         <div>
             <input type={"checkbox"} checked={completed} onChange={onChange}/>
             {title}
-            <button onClick={onClick}>&times;</button>
+            {' '}
+            <button onClick={onClick}> X </button>
         </div>
     );
 };

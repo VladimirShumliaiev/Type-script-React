@@ -3,7 +3,7 @@ import {useAppDispatch} from "../../../hooks/hooks";
 import {fetchDeleteTodo, fetchToggleTodo} from "../../../redux/todoSlice";
 import styles from './Todo.module.css'
 
-interface ListItemProps{
+interface ListItemProps {
     title: string,
     completed: boolean,
     id: string

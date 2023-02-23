@@ -1,6 +1,6 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {useAppDispatch} from "../../../../../hooks/hooks";
-import {addTodo} from "../../../../../redux/todoLessonsSlice";
+import {addTodo, fetchTodoLessons} from "../../../../../redux/todoLessonsSlice";
 import TodoLessonsInput from "./TodoLessonsInput";
 import TodoLessonsList from "./TodoLessonsList";
 
@@ -12,6 +12,11 @@ const Objects = () => {
         dispatch(addTodo(title))
         setTitle('')
     }
+
+    useEffect(() => {
+        dispatch(fetchTodoLessons())
+    })
+
     return (
         <div>
             <TodoLessonsInput title={title} setTitle={setTitle} addTodo={addTask}/>

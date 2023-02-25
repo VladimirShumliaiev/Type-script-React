@@ -1,6 +1,6 @@
 import React, {FC} from 'react';
 import {useAppDispatch} from "../../../../../hooks/hooks";
-import {completedTodo, removeTodo} from "../../../../../redux/todoLessonsSlice";
+import {fetchCompleteTodoLessons, removeTodoLessons} from "../../../../../redux/Slices/todoLessonsSlice";
 
 type ListItemProp = {
     id: string,
@@ -12,18 +12,22 @@ const ListItem: FC<ListItemProp> = ({id, title, completed}) => {
     const dispatch = useAppDispatch()
 
     const onChange = () => {
-        dispatch(completedTodo(id))
+        dispatch(fetchCompleteTodoLessons(id))
     }
 
     const onClick = () => {
-        dispatch(removeTodo(id))
+        const del = window.confirm('delete todo?')
+        if (del) {
+            dispatch(removeTodoLessons(id))
+        }
     }
+
     return (
         <div>
             <input type={"checkbox"} checked={completed} onChange={onChange}/>
             {title}
             {' '}
-            <button onClick={onClick}> X </button>
+            <button onClick={onClick}> X</button>
         </div>
     );
 };

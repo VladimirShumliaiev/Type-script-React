@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {useAppDispatch, useAppSelector} from "../../../hooks/hooks";
-import {fetchAddTodo, fetchTodo} from "../../../redux/todoSlice";
+import {fetchAddTodo, fetchTodo} from "../../../redux/Slices/todoSlice";
 import TodoInput from "./TodoInput";
 import List from "./List";
 import style from './Todo.module.css';

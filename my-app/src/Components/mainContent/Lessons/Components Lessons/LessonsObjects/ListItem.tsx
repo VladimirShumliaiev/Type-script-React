@@ -1,6 +1,7 @@
 import React, {FC} from 'react';
 import {useAppDispatch} from "../../../../../hooks/hooks";
 import {fetchCompleteTodoLessons, removeTodoLessons} from "../../../../../redux/Slices/todoLessonsSlice";
+import style from './Objects.module.css'
 
 type ListItemProp = {
     id: string,
@@ -27,7 +28,7 @@ const ListItem: FC<ListItemProp> = ({id, title, completed}) => {
             <input type={"checkbox"} checked={completed} onChange={onChange}/>
             {title}
             {' '}
-            <button onClick={onClick}> X</button>
+            <button className={style.button}  onClick={onClick}> &times;</button>
         </div>
     );
 };

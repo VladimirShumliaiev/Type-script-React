@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c07f84e7-0c78-40ea-baea-2a793154fea8" name="Changes" comment="+++add 5.02.2023 21:10">
-      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/Objects.module.css" afterDir="false" />
+    <list default="true" id="c07f84e7-0c78-40ea-baea-2a793154fea8" name="Changes" comment="+++add 27.02.2023 20:24">
+      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/Quiz/Game.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/Quiz/Quiz.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/Quiz/Quiz.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/Quiz/Result.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/Quiz/gameList.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/Header/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/ListItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/ListItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/Examples.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/Examples.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +103,8 @@
       <workItem from="1677068955402" duration="155000" />
       <workItem from="1677142460593" duration="6050000" />
       <workItem from="1677331626926" duration="3706000" />
-      <workItem from="1677521865265" duration="310000" />
+      <workItem from="1677521865265" duration="405000" />
+      <workItem from="1677670026275" duration="4130000" />
     </task>
     <task id="LOCAL-00001" summary="+++add">
       <created>1676123767284</created>
@@ -256,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677335358185</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="+++add 27.02.2023 20:24">
+      <created>1677522258421</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1677522258421</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,6 +294,7 @@
     <MESSAGE value="+++add 21.02.2023 21:10" />
     <MESSAGE value="+++add 22.02.2023 21:10" />
     <MESSAGE value="+++add 5.02.2023 21:10" />
-    <option name="LAST_COMMIT_MESSAGE" value="+++add 5.02.2023 21:10" />
+    <MESSAGE value="+++add 27.02.2023 20:24" />
+    <option name="LAST_COMMIT_MESSAGE" value="+++add 27.02.2023 20:24" />
   </component>
 </project>

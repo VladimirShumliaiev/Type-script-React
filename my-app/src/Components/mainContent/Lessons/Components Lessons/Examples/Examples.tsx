@@ -1,5 +1,6 @@
 import React, {FC, useState} from 'react';
 import Count from "./Count";
+import Quiz from "./Quiz/Quiz";
 
 const Examples: FC = () => {
     const [count, setCount] = useState(0)
@@ -17,6 +18,8 @@ const Examples: FC = () => {
     return (
         <div>
             <Count count={count} setCount={setCount}/>
+            <hr/>
+            <Quiz/>
         </div>
     );
 };

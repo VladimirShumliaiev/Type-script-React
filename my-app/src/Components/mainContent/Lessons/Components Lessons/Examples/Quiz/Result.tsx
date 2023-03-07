@@ -9,7 +9,7 @@ type ResultProp = {
 const Result: FC<ResultProp> = ({correct}) => {
     return (
         <div className={style.result}>
-                <img src="https://gazeta19.ru/media/k2/items/cache/4e24ef2452a14787a5872b83cf3e3244_XL.jpg" alt=""/>
+            <img src="https://gazeta19.ru/media/k2/items/cache/4e24ef2452a14787a5872b83cf3e3244_XL.jpg" alt=""/>
             <div>
                 вы ответили на {correct} ответа из {gameList.length} вариантов
             </div>
@@ -17,6 +17,11 @@ const Result: FC<ResultProp> = ({correct}) => {
                 <a href="examples">
                     <button>New game</button>
                 </a>
+                <div>
+                    <a href="lessons">
+                            back to page
+                    </a>
+                </div>
             </div>
 
         </div>

@@ -15,7 +15,7 @@ const Result: FC<ResultProp> = ({correct}) => {
             </div>
             <div>
                 <a href="examples">
-                    <button>New game</button>
+                    <button>New Game</button>
                 </a>
                 <div>
                     <a href="lessons">

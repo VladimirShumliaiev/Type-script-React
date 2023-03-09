@@ -4,8 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c07f84e7-0c78-40ea-baea-2a793154fea8" name="Changes" comment="+++add 01.03.2023 20:24">
+    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="09.03.2023 12:43">
+      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/Input/Input.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/Input/Input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/Input/InputItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/Input/InputList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/redux/Slices/examplesSlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/Count.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/Count.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/Examples.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/Examples.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/Quiz/Game.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/Quiz/Game.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/Quiz/Quiz.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/Quiz/Quiz.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/Quiz/Result.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/Quiz/Result.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/redux/Store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/redux/Store/store.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +79,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c07f84e7-0c78-40ea-baea-2a793154fea8" name="Changes" comment="" />
+      <changelist id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="07.03.2023" />
       <created>1676123478162</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -100,6 +111,7 @@
       <workItem from="1677521865265" duration="405000" />
       <workItem from="1677670026275" duration="4130000" />
       <workItem from="1678177176077" duration="301000" />
+      <workItem from="1678353694028" duration="5035000" />
     </task>
     <task id="LOCAL-00001" summary="+++add">
       <created>1676123767284</created>
@@ -269,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678177316519</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="07.03.2023">
+      <created>1678177961809</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1678177961809</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,6 +318,8 @@
     <MESSAGE value="+++add 27.02.2023 20:24" />
     <MESSAGE value="+++add 07.03.2023 10:21" />
     <MESSAGE value="+++add 01.03.2023 20:24" />
-    <option name="LAST_COMMIT_MESSAGE" value="+++add 01.03.2023 20:24" />
+    <MESSAGE value="07.03.2023" />
+    <MESSAGE value="09.03.2023 12:43" />
+    <option name="LAST_COMMIT_MESSAGE" value="09.03.2023 12:43" />
   </component>
 </project>

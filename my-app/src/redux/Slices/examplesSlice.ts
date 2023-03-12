@@ -1,4 +1,4 @@
-import {createSlice} from "@reduxjs/toolkit";
+import {createSlice, PayloadAction} from "@reduxjs/toolkit";
 
 type Examples = {
     id: string
@@ -17,14 +17,14 @@ const examplesSlice = createSlice({
     name: 'examples',
     initialState,
     reducers: {
-        addTitle(state, action) {
+        addTitle(state, action: PayloadAction<string>) {
             state.examples.push({
                 id: new Date().toISOString(),
                 title: action.payload
             })
         },
-        deleteTitle(state, action) {
-            state.examples = state.examples.filter(e => e.id !== action.payload.id)
+        deleteTitle(state, action: PayloadAction<string>) {
+            state.examples = state.examples.filter(e => e.id !== action.payload)
         }
     }
 })

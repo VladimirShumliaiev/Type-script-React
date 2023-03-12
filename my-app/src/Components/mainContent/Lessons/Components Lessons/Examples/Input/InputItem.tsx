@@ -14,7 +14,7 @@ const InputItem: FC<InputItemProps> = ({id, title}) => {
     const delTitle = () => {
         const del = window.confirm('Delete todo?')
         if (del) {
-            dispatch(deleteTitle({id}))
+            dispatch(deleteTitle(id))
         }
     }
     return (

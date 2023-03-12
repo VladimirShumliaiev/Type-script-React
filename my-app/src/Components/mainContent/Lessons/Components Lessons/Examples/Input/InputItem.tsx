@@ -12,7 +12,10 @@ const InputItem: FC<InputItemProps> = ({id, title}) => {
     const dispatch = useAppDispatch()
 
     const delTitle = () => {
-        dispatch(deleteTitle({id}))
+        const del = window.confirm('Delete todo?')
+        if (del) {
+            dispatch(deleteTitle({id}))
+        }
     }
     return (
         <div>

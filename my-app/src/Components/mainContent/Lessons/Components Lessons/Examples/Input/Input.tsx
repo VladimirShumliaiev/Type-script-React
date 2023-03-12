@@ -21,7 +21,7 @@ const Input: FC<InputProps> = ({title, setTitle}) => {
             e.preventDefault()
             addText()
         }}>
-            <input value={title} onChange={e => setTitle(e.target.value)}/>
+            <input value={title} onChange={e => setTitle(e.target.value)} placeholder={'add text...'}/>
             <button> add</button>
             <InputList/>
         </form>

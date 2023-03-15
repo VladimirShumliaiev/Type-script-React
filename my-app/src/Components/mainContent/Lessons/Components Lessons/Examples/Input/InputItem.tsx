@@ -18,11 +18,11 @@ const InputItem: FC<InputItemProps> = ({id, title}) => {
         }
     }
     return (
-        <div>
+        <li>
             {title}
             {' '}
             <button className={style.button} onClick={delTitle}> &times; </button>
-        </div>
+        </li>
     );
 };
 

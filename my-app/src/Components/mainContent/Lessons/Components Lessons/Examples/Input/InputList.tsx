@@ -6,12 +6,12 @@ const InputList: FC = () => {
     const list = useAppSelector(state => state.examples.examples)
 
     return (
-        <div>
+        <ol>
             {
                 list.map(e => <InputItem key={e.id} {...e}/>
                 )
             }
-        </div>
+        </ol>
     );
 };
 

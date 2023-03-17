@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="15.03.2023 12:39" />
+    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="17.03.2023 11:15">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/Input/InputItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/Input/InputItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/redux/Slices/examplesSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/redux/Slices/examplesSlice.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,6 +106,7 @@
       <workItem from="1678616620085" duration="1261000" />
       <workItem from="1678871513122" duration="288000" />
       <workItem from="1678871817995" duration="106000" />
+      <workItem from="1679044288483" duration="1724000" />
     </task>
     <task id="LOCAL-00001" summary="+++add">
       <created>1676123767284</created>
@@ -313,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678871901018</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="17.03.2023 11:15">
+      <created>1679044522720</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1679044522720</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,6 +359,7 @@
     <MESSAGE value="09.03.2023 12:43" />
     <MESSAGE value="12.03.2023 12:27" />
     <MESSAGE value="12.03.2023 12:39" />
-    <option name="LAST_COMMIT_MESSAGE" value="12.03.2023 12:39" />
+    <MESSAGE value="17.03.2023 11:15" />
+    <option name="LAST_COMMIT_MESSAGE" value="17.03.2023 11:15" />
   </component>
 </project>

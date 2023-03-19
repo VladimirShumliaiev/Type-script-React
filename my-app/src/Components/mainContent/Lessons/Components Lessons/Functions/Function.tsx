@@ -1,7 +1,7 @@
 import React, {FC} from 'react';
 
 const Functions: FC = () => {
-    const add = (a: number, b: number): number => {
+    const addSum = (a: number, b: number): number => {
         return a * b
     }
 
@@ -9,14 +9,18 @@ const Functions: FC = () => {
         return 'hello' + name
     }
 
-    const log = (message: string, userId?: string) => {
+    type Log = (message: string, userId?: string) => void
+
+    const log: Log = (message, userId = 'Page loaded') => {
         let time = new Date().toISOString()
         console.log(time, message, userId || 'Not signet in')
     }
     console.log(log('Page loaded'))
     console.log( log('User signet in', 'da763be'))
 
-    const sum = (...number: number[]): number => {
+    type Sum = (...number: number[]) => number
+
+    const sum: Sum = (...number) => {
         return number.reduce((total, n) => total * n, 1)
     }
 
@@ -42,7 +46,7 @@ const Functions: FC = () => {
     return (
         <div>
             <div>
-                {add(4, 5)}
+                {addSum(4, 5)}
             </div>
             <div>
                 {name(' ivan')}

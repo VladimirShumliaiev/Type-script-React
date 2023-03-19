@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="19.03.2023 12:15">
+    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="19.03.2023 12:18">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Functions/Function.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Functions/Function.tsx" afterDir="false" />
     </list>
@@ -106,7 +106,7 @@
       <workItem from="1678871513122" duration="288000" />
       <workItem from="1678871817995" duration="106000" />
       <workItem from="1679044288483" duration="3826000" />
-      <workItem from="1679217302560" duration="3731000" />
+      <workItem from="1679217302560" duration="5227000" />
     </task>
     <task id="LOCAL-00001" summary="+++add">
       <created>1676123767284</created>
@@ -339,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679048140065</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="19.03.2023 12:18">
+      <created>1679221182825</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1679221182825</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,6 +384,7 @@
     <MESSAGE value="17.03.2023 11:45" />
     <MESSAGE value="17.03.2023 12:15" />
     <MESSAGE value="19.03.2023 12:15" />
-    <option name="LAST_COMMIT_MESSAGE" value="19.03.2023 12:15" />
+    <MESSAGE value="19.03.2023 12:18" />
+    <option name="LAST_COMMIT_MESSAGE" value="19.03.2023 12:18" />
   </component>
 </project>

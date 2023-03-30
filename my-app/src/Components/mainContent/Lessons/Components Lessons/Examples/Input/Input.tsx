@@ -21,6 +21,7 @@ const Input: FC<InputProps> = ({title, setTitle}) => {
             e.preventDefault()
             addText()
         }}>
+            <h1>add task</h1>
             <input value={title} onChange={e => setTitle(e.target.value)} placeholder={'add text...'}/>
             <button> add</button>
             <InputList/>

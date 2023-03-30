@@ -8,3 +8,13 @@
     border-radius: 50px;
     border: 1px;
 }
+
+.todo {
+    background-color: #49ea25;
+    border-radius: 5px;
+    border: solid 1px;
+    margin: 5px auto;
+    width: 500px;
+    padding: 5px;
+    /*margin-top: 5px;*/
+}

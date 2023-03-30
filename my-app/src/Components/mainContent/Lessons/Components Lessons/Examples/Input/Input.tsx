@@ -13,7 +13,7 @@ const Input: FC<InputProps> = ({title, setTitle}) => {
 
     const addText = () => {
         if (title.trim().length)
-        dispatch(addTitle(title))
+            dispatch(addTitle(title))
         setTitle('')
     }
     return (

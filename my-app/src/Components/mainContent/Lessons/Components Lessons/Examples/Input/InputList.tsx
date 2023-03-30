@@ -1,6 +1,7 @@
 import React, {FC} from 'react';
 import {useAppSelector} from "../../../../../../hooks/hooks";
 import InputItem from "./InputItem";
+import style from './Input.module.css'
 
 const InputList: FC = () => {
     const list = useAppSelector(state => state.examples.examples)
@@ -8,7 +9,7 @@ const InputList: FC = () => {
     return (
         <ol>
             {
-                list.map(e => <InputItem key={e.id} {...e}/>
+                list.map(e =><div className={style.todo}><InputItem key={e.id} {...e}/></div>
                 )
             }
         </ol>

@@ -3,32 +3,31 @@ import {useAppDispatch} from "../../../../../hooks/hooks";
 import {fetchCompleteTodoLessons, removeTodoLessons} from "../../../../../redux/Slices/todoLessonsSlice";
 import style from './Objects.module.css'
 
-type ListItemProp = {
+type ListItemProps = {
     id: string,
     title: string,
-    completed: boolean
+    completed: boolean,
 }
 
-const ListItem: FC<ListItemProp> = ({id, title, completed}) => {
+
+const ListItem: FC<ListItemProps> = ({id, completed, title}) => {
     const dispatch = useAppDispatch()
 
-    const onChange = () => {
+    const onChangeHandler = () => {
         dispatch(fetchCompleteTodoLessons(id))
     }
 
-    const onClick = () => {
-        const del = window.confirm('delete todo?')
+    const onClickHandler = () => {
+        const del = window.confirm(`delete todo? ${id}`)
         if (del) {
             dispatch(removeTodoLessons(id))
         }
     }
-
     return (
-        <div>
-            <input type={"checkbox"} checked={completed} onChange={onChange}/>
+        <div className={style.todo}>
+            <input type={"checkbox"} checked={completed} onChange={onChangeHandler}/>
             {title}
-            {' '}
-            <button className={style.button}  onClick={onClick}> &times;</button>
+            <button onClick={onClickHandler}>&times;</button>
         </div>
     );
 };

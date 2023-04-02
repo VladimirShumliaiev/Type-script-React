@@ -1,15 +1,16 @@
-import React, {useEffect, useState} from 'react';
+import React, {FC, useEffect, useState} from 'react';
 import {useAppDispatch} from "../../../../../hooks/hooks";
 import {addFetchTodo, fetchTodoLessons} from "../../../../../redux/Slices/todoLessonsSlice";
 import TodoLessonsInput from "./TodoLessonsInput";
 import TodoLessonsList from "./TodoLessonsList";
 
-const Objects = () => {
+
+const Objects: FC = () => {
     const [title, setTitle] = useState('')
     const dispatch = useAppDispatch()
 
     const addTask = () => {
-        if (title.trim().length){
+        if(title.trim().length) {
             dispatch(addFetchTodo(title))
             setTitle('')
         }

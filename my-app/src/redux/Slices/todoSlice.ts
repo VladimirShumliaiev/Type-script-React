@@ -162,5 +162,3 @@ export default todoSlice.reducer
 const isError = (action: AnyAction) => {
     return action.type.endsWith('rejected')
 }
-
-

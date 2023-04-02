@@ -1,21 +1,23 @@
-import React, {FC} from 'react';
+import React, { FC, SyntheticEvent} from 'react';
 
-type InputProps = {
+type Props = {
     title: string,
-    setTitle: (str: string) => void,
+    setTitle: (str: string) => void
     addTodo: () => void
 }
 
+const TodoLessonsInput:FC<Props> = ({title, setTitle, addTodo}) => {
 
-
-const TodoLessonsInput: FC<InputProps> = ({title, addTodo, setTitle}) => {
+    const formHandler = (e: SyntheticEvent) => {
+        e.preventDefault()
+        addTodo()
+        setTitle('')
+    }
+    console.log(title)
     return (
-        <form onSubmit={e => {
-            e.preventDefault()
-            addTodo()
-        }}>
-            <input value={title} onChange={e => setTitle(e.target.value)} placeholder={'add todo...'}/>
-            <button>add todos</button>
+        <form onSubmit={formHandler}>
+            <input value={title} onChange={e => setTitle(e.target.value)} placeholder={'Text...'}/>
+            <button>add</button>
         </form>
     );
 };

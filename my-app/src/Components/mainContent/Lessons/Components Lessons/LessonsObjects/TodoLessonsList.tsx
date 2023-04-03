@@ -1,13 +1,14 @@
 import React from 'react';
 import {useAppSelector} from "../../../../../hooks/hooks";
-import ListItem from "./ListItem";
+import TodoLessonsListItem from "./TodoLessonsListItem";
+
 
 const TodoLessonsList = () => {
-    const listSelector = useAppSelector(state => state.todoLessons.todo)
+    const todoLessonsListSelector = useAppSelector(state => state.lessonsObject.todo)
     return (
         <div>
             {
-                listSelector.map(e => <ListItem key={e.id} {...e}/>)
+               todoLessonsListSelector.map(e => <TodoLessonsListItem key={e.id} {...e}/>)
             }
         </div>
     );

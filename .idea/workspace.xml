@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="30.03.2023 12:39">
+    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="02.04.2023 12:58">
+      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/TodoLessons.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/TodoLessons.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/TodoLessonsListItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/redux/Slices/lessonsObjectTodoSlice.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/ListItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/ListItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/Objects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/Objects.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/Objects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/Objects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/ListItem.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/Objects.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/Objects.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/TodoLessonsInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/TodoLessonsInput.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/TodoLessonsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/TodoLessonsList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/TodoInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/TodoInput.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/redux/Slices/todoSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/redux/Slices/todoSlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Routing Lessons/LessonsRouting.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Routing Lessons/LessonsRouting.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/redux/Slices/todoLessonsSlice.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/redux/Store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/redux/Store/store.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +122,8 @@
       <workItem from="1680421827111" duration="2129000" />
       <workItem from="1680423988381" duration="3188000" />
       <workItem from="1680427219598" duration="1927000" />
-      <workItem from="1680429179145" duration="299000" />
+      <workItem from="1680429179145" duration="329000" />
+      <workItem from="1680514805531" duration="4224000" />
     </task>
     <task id="LOCAL-00001" summary="+++add">
       <created>1676123767284</created>
@@ -378,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680169323804</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="02.04.2023 12:58">
+      <created>1680429499094</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1680429499094</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,6 +431,7 @@
     <MESSAGE value="19.03.2023 12:15" />
     <MESSAGE value="19.03.2023 12:18" />
     <MESSAGE value="30.03.2023 12:39" />
-    <option name="LAST_COMMIT_MESSAGE" value="30.03.2023 12:39" />
+    <MESSAGE value="02.04.2023 12:58" />
+    <option name="LAST_COMMIT_MESSAGE" value="02.04.2023 12:58" />
   </component>
 </project>

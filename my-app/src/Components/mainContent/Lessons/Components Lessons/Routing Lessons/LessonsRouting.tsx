@@ -3,8 +3,8 @@ import {Route, Routes} from "react-router-dom";
 import style from './LessonsRouting.module.css'
 import Examples from "../Examples/Examples";
 import Functions from "../Functions/Function";
-import Objects from "../LessonsObjects/Objects";
 import AboutTypes from "../About Types/AboutTypes";
+import TodoLessons from "../LessonsObjects/TodoLessons";
 
 const LessonsRouting: FC = () => {
     return (
@@ -13,7 +13,7 @@ const LessonsRouting: FC = () => {
                 <Route path={'examples'} element={<Examples/>}/>
                 <Route path={'aboutType'} element={<AboutTypes/>}/>
                 <Route path={'functions'} element={<Functions/>}/>
-                <Route path={'objects'} element={<Objects/>}/>
+                <Route path={'objects'} element={<TodoLessons/>}/>
             </Routes>
         </div>
 

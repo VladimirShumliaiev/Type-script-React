@@ -11,11 +11,19 @@ interface ListItemProps {
 const ListItem: React.FC<ListItemProps> = ({completed,title,id }) => {
     const dispatch = useAppDispatch()
 
+    const toggleHandler = () => {
+        dispatch(fetchToggleTodo(id))
+    }
+
+    const deleteHandler = () => {
+        dispatch(fetchDeleteTodo(id))
+    }
+
     return (
         <div>
-            <input type={"checkbox"} checked={completed} onChange={ () => dispatch(fetchToggleTodo(id))}/>
+            <input type={"checkbox"} checked={ completed } onChange={ toggleHandler }/>
             {title}
-            <span className={styles.item} onClick={() => dispatch(fetchDeleteTodo(id))}> X</span>
+            <span className={styles.item} onClick={ deleteHandler }> X</span>
         </div>
     );
 };

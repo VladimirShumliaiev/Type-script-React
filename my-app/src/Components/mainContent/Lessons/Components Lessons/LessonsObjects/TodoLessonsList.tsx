@@ -1,17 +1,17 @@
 import React from 'react';
 import {useAppSelector} from "../../../../../hooks/hooks";
-import TodoLessonsListItem from "./TodoLessonsListItem";
+import ListItem from "../../../Todo/ListItem";
 
 
-const TodoLessonsList = () => {
-    const todoLessonsListSelector = useAppSelector(state => state.lessonsObject.todo)
+const List = () => {
+    const listSelector = useAppSelector(state => state.lessonsObject.list)
     return (
         <div>
             {
-               todoLessonsListSelector.map(e => <TodoLessonsListItem key={e.id} {...e}/>)
+                listSelector.map(e => <ListItem key={e.id} {...e}/>)
             }
         </div>
     );
 };
 
-export default TodoLessonsList;
+export default List;

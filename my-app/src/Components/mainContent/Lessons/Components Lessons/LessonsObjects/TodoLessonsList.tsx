@@ -1,6 +1,6 @@
 import React from 'react';
 import {useAppSelector} from "../../../../../hooks/hooks";
-import ListItem from "../../../Todo/ListItem";
+import TodoLessonsListItem from "./TodoLessonsListItem";
 
 
 const List = () => {
@@ -8,7 +8,7 @@ const List = () => {
     return (
         <div>
             {
-                listSelector.map(e => <ListItem key={e.id} {...e}/>)
+                listSelector.map(e => <TodoLessonsListItem key={e.id} {...e}/>)
             }
         </div>
     );

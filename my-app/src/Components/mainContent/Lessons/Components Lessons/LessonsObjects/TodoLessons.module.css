@@ -1,2 +1,24 @@
 .Todo {
+    background: #e8d932;
+    border: 1px skyblue;
+    /*width: 600px;*/
+    margin: 2px 300px;
+    color: #0a0101;
 }
+
+.Todo img {
+    width: 10px;
+    height: 10px;
+}
+
+.TodoButton {
+    width: 20px;
+    height: 20px;
+}
+
+input:checked + span {
+    text-decoration: line-through;
+}
+
+
+

@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="11.04.2023 11:35">
+    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="12.04.2023 12:08">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/TodoLessons.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/TodoLessons.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/TodoLessonsListItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/TodoLessonsListItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/LessonsTypeScrypt.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/LessonsTypeScrypt.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +120,7 @@
       <workItem from="1681284949698" duration="522000" />
       <workItem from="1681285491220" duration="1902000" />
       <workItem from="1681287898237" duration="563000" />
-      <workItem from="1681288479717" duration="1838000" />
+      <workItem from="1681288479717" duration="4766000" />
     </task>
     <task id="LOCAL-00001" summary="+++add">
       <created>1676123767284</created>
@@ -397,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681202168228</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="12.04.2023 12:08">
+      <created>1681290538823</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1681290538823</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,6 +444,7 @@
     <MESSAGE value="30.03.2023 12:39" />
     <MESSAGE value="02.04.2023 12:58" />
     <MESSAGE value="11.04.2023 11:35" />
-    <option name="LAST_COMMIT_MESSAGE" value="11.04.2023 11:35" />
+    <MESSAGE value="12.04.2023 12:08" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.04.2023 12:08" />
   </component>
 </project>

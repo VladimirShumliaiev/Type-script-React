@@ -1,0 +1,13 @@
+.Todo {
+    background: #f31111;
+    margin: 10px ;
+}
+
+.Button {
+    height: 20px;
+    text-align: right;
+}
+
+.Input {
+    text-align: left;
+}

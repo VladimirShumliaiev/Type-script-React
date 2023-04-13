@@ -5,8 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="12.04.2023 12:08">
+      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/TodoObject.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/TodoObject.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/TodoObjectForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/TodoObjectList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/TodoObjectListItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/redux/Slices/lessonsObjectSlice.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/TodoLessonsListItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/TodoLessonsListItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/TodoLessons.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/TodoLessons.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/TodoLessonsInput.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/TodoLessonsList.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/TodoLessonsListItem.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Routing Lessons/LessonsRouting.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Routing Lessons/LessonsRouting.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/LessonsTypeScrypt.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/LessonsTypeScrypt.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/redux/Slices/lessonsObjectTodoSlice.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/redux/Store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/redux/Store/store.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +134,11 @@
       <workItem from="1681284949698" duration="522000" />
       <workItem from="1681285491220" duration="1902000" />
       <workItem from="1681287898237" duration="563000" />
-      <workItem from="1681288479717" duration="4766000" />
+      <workItem from="1681288479717" duration="4779000" />
+      <workItem from="1681368213755" duration="706000" />
+      <workItem from="1681368939005" duration="3435000" />
+      <workItem from="1681372423868" duration="148000" />
+      <workItem from="1681372586160" duration="967000" />
     </task>
     <task id="LOCAL-00001" summary="+++add">
       <created>1676123767284</created>
@@ -402,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681290538823</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="12.04.2023 12:08">
+      <created>1681293517346</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1681293517346</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

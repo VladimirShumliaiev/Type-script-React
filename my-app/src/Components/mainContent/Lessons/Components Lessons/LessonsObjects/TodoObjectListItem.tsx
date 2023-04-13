@@ -1,5 +1,7 @@
 import React, {FC} from 'react';
 import style from './TodoObject.module.css'
+import {useAppDispatch} from "../../../../../hooks/hooks";
+import {deleteTodo, toggleTodo} from "../../../../../redux/Slices/lessonsObjectSlice";
 
 type TodoProps = {
     title: string
@@ -7,12 +9,25 @@ type TodoProps = {
     completed: boolean
 }
 
+
 const TodoObjectListItem: FC<TodoProps> = ({completed, id, title}) => {
+    const dispatch = useAppDispatch()
+
+    const onChangeHandler = () => {
+        dispatch(toggleTodo(id))
+    }
+
+    const onClickHandler = () => {
+        const del = window.confirm("delete todo?")
+        if (del) {
+            dispatch(deleteTodo(id))
+        }
+    }
     return (
         <div className={style.Todo}>
-                <input className={style.Input} type="checkbox"/>
+                <input type="checkbox" checked={completed} onChange={onChangeHandler}/>
                 {title}
-                <button className={style.Button}>delete</button>
+               <button onClick={onClickHandler}>delete</button>
         </div>
     );
 };

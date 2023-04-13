@@ -3,7 +3,7 @@ import {useAppSelector} from "../../../../../hooks/hooks";
 import TodoObjectListItem from "./TodoObjectListItem";
 
 const  TodoObjectList: FC = () => {
-    const list = useAppSelector(state => state.todoObject.todo)
+    const list = useAppSelector(state => state.todoObject.list)
     return (
         <div>
             {

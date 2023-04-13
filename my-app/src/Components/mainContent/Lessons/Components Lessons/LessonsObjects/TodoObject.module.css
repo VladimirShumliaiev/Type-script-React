@@ -1,13 +1,9 @@
 .Todo {
-    background: #f31111;
-    margin: 10px ;
+    background: #28c921;
+    margin: 10px auto ;
+    width: 600px;
+    border:  solid 1px;
+    overflow:hidden;
+
 }
 
-.Button {
-    height: 20px;
-    text-align: right;
-}
-
-.Input {
-    text-align: left;
-}

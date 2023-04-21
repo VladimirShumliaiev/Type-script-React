@@ -12,7 +12,7 @@ const UsersList: FC<UserListProps> = () => {
     return (
         <ol>
             {
-                list.map(e => <UsersItem key={e.id} {...e}/>)
+                list.map((e, index ) => <UsersItem key={index} {...e}/>)
             }
         </ol>
     );

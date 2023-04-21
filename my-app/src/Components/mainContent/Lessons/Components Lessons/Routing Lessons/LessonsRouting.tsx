@@ -4,7 +4,7 @@ import style from './LessonsRouting.module.css'
 import Examples from "../Examples/Examples";
 import Functions from "../Functions/Function";
 import AboutTypes from "../About Types/AboutTypes";
-import TodoObject from "../LessonsObjects/TodoObject";
+import Users from "../LessonsObjects/Users";
 
 
 const LessonsRouting: FC = () => {
@@ -14,7 +14,7 @@ const LessonsRouting: FC = () => {
                 <Route path={'examples'} element={<Examples/>}/>
                 <Route path={'aboutType'} element={<AboutTypes/>}/>
                 <Route path={'functions'} element={<Functions/>}/>
-                <Route path={'objects'} element={<TodoObject/>}/>
+                <Route path={'objects'} element={<Users/>}/>
             </Routes>
         </div>
 

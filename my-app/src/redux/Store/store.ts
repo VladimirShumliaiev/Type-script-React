@@ -8,7 +8,7 @@ export const store = configureStore({
     reducer: {
         todo: todoSlice,
         examples: examplesSlice,
-        todoObject: lessonsObjectSlice,
+        usersObject: lessonsObjectSlice,
     }
 })
 

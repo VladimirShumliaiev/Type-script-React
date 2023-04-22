@@ -4,20 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="13.04.2023 13:21">
-      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/Users.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/Users.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/UsersItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/UsersList.tsx" afterDir="false" />
+    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="22.04.2023">
+      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/HomeWork/ComponentsHomeWork/Chapter5.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/TodoObject.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/TodoObject.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/TodoObjectForm.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/TodoObjectList.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsObjects/TodoObjectListItem.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Routing Lessons/LessonsRouting.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Routing Lessons/LessonsRouting.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/redux/Slices/lessonsObjectSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/redux/Slices/lessonsObjectSlice.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/redux/Store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/redux/Store/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/HomeWork/HomeWork.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/HomeWork/HomeWork.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/HomeWork/NavLinkHomeWork/NavLinkHomeWork.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/HomeWork/NavLinkHomeWork/NavLinkHomeWork.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/HomeWork/NavLinkHomeWork/NavLinkHomeWork.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/HomeWork/NavLinkHomeWork/NavLinkHomeWork.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/HomeWork/RoutngsHomeWork/RoutingHomeWork.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/HomeWork/RoutngsHomeWork/RoutingHomeWork.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,6 +137,8 @@
       <workItem from="1681380489188" duration="208000" />
       <workItem from="1681380712125" duration="592000" />
       <workItem from="1682057996541" duration="6974000" />
+      <workItem from="1682065058042" duration="501000" />
+      <workItem from="1682145452164" duration="2588000" />
     </task>
     <task id="LOCAL-00001" summary="+++add">
       <created>1676123767284</created>
@@ -444,7 +441,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681381306303</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="21.04.2023">
+      <created>1682065184252</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1682065184252</updated>
+    </task>
+    <task id="LOCAL-00045" summary="21.04.2023">
+      <created>1682065253090</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1682065253090</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,8 +473,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="+++add 14.02.2023 21:10" />
-    <MESSAGE value="+++add 15.02.2023 21:10" />
     <MESSAGE value="+++add 16.02.2023 21:10" />
     <MESSAGE value="+++add 20.02.2023 21:10" />
     <MESSAGE value="+++add 21.02.2023 21:10" />
@@ -487,6 +496,8 @@
     <MESSAGE value="12.04.2023 12:08" />
     <MESSAGE value="13.04.2023" />
     <MESSAGE value="13.04.2023 13:21" />
-    <option name="LAST_COMMIT_MESSAGE" value="13.04.2023 13:21" />
+    <MESSAGE value="21.04.2023" />
+    <MESSAGE value="22.04.2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="22.04.2023" />
   </component>
 </project>

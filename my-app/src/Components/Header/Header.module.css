@@ -8,7 +8,10 @@
     height: 36px;
     width: 500px;
     border-radius: 20px 0 0 20px;
-    border: 1px solid;
+    border: 1px solid silver;
+    /*text-align: center;*/
+    padding: 0 4px 0 16px;
+    border-right: none;
 }
 .inputHeader img {
     width: 10px;
@@ -16,11 +19,12 @@
 }
 
 .search {
-    height: 40px;
+    height: 38px;
     width: 100px;
     border-radius: 0 20px 20px 0;
     background: white;
     border: 1px solid;
+    cursor: pointer;
 }
 
 .search img {

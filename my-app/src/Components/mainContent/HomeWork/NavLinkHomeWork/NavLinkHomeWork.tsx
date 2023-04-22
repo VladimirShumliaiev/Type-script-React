@@ -19,6 +19,9 @@ const NavLinkHomeWork: FC = () => {
             <div>
                 <NavLink className={isActive} to={'chapter4'}> Exercise for chapter 4</NavLink>
             </div>
+            <div>
+                <NavLink className={isActive} to={'chapter5'}> Exercise for chapter 5</NavLink>
+            </div>
         </div>
     );
 };

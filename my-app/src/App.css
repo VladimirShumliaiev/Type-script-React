@@ -18,7 +18,7 @@
 .Header {
     display: grid;
     grid-area: header;
-    background: #d8ddde;
+    background: #fae706;
     padding: 10px;
 }
 .NavBar {

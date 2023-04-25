@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="25.04.2023">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/Hooks Navlink/HooksNavLink.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/Hooks Navlink/HooksNavLink.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useEffect/UseEffectLessons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useEffect/UseEffectLessons.tsx" afterDir="false" />
+    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="25.04.2023 hooks">
       <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessons.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,14 +137,7 @@
       <workItem from="1682145452164" duration="5926000" />
       <workItem from="1682405027939" duration="392000" />
       <workItem from="1682405436264" duration="6197000" />
-      <workItem from="1682411866755" duration="5523000" />
-    </task>
-    <task id="LOCAL-00002" summary="+++add">
-      <created>1676123932543</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1676123932543</updated>
+      <workItem from="1682411866755" duration="5889000" />
     </task>
     <task id="LOCAL-00003" summary="+++add">
       <created>1676126245055</created>
@@ -485,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682414502073</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="25.04.2023 hooks">
+      <created>1682419035202</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1682419035202</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,7 +500,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="+++add 20.02.2023 21:10" />
     <MESSAGE value="+++add 21.02.2023 21:10" />
     <MESSAGE value="+++add 22.02.2023 21:10" />
     <MESSAGE value="+++add 5.02.2023 21:10" />
@@ -528,6 +524,7 @@
     <MESSAGE value="21.04.2023" />
     <MESSAGE value="22.04.2023" />
     <MESSAGE value="25.04.2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="25.04.2023" />
+    <MESSAGE value="25.04.2023 hooks" />
+    <option name="LAST_COMMIT_MESSAGE" value="25.04.2023 hooks" />
   </component>
 </project>

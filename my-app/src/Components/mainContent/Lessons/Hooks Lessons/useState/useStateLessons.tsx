@@ -10,7 +10,7 @@ const UseStateLessons: FC = () => {
     }
 
     const handlerMinus = () => {
-        setCount(count - 1)
+        setCount(prev => prev - 1)
     }
 
     const handlerReset = () => {

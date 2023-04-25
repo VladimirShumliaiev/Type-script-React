@@ -12,12 +12,17 @@ const HooksNavLink = () => {
 
     return (
         <div className={'HooksNavLink'}>
-            <div>
+            <h3>Basic Hooks:</h3>
+            <li>
                 <NavLink className={isActive} to={'useState'}> useState </NavLink>
-            </div>
-            <div>
+            </li>
+            <li>
                 <NavLink className={isActive} to={'useEffect'}> useEffect </NavLink>
-            </div>
+            </li>
+            <li>
+                <NavLink className={isActive} to={'useContext'}> useContext </NavLink>
+            </li>
+            <h3>Additional Hooks:</h3>
 
         </div>
     );

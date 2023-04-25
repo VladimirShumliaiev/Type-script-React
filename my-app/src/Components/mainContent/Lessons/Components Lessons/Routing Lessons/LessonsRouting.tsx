@@ -5,7 +5,7 @@ import Examples from "../Examples/Examples";
 import Functions from "../Functions/Function";
 import AboutTypes from "../About Types/AboutTypes";
 import Users from "../LessonsObjects/Users";
-import Hooks from "../Hooks/Hooks";
+import Hooks from "../../Hooks Lessons/Hooks";
 
 
 const LessonsRouting: FC = () => {

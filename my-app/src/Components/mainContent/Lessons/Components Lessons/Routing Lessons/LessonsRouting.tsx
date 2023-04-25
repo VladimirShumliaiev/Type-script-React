@@ -5,6 +5,7 @@ import Examples from "../Examples/Examples";
 import Functions from "../Functions/Function";
 import AboutTypes from "../About Types/AboutTypes";
 import Users from "../LessonsObjects/Users";
+import Hooks from "../Hooks/Hooks";
 
 
 const LessonsRouting: FC = () => {
@@ -15,6 +16,7 @@ const LessonsRouting: FC = () => {
                 <Route path={'aboutType'} element={<AboutTypes/>}/>
                 <Route path={'functions'} element={<Functions/>}/>
                 <Route path={'objects'} element={<Users/>}/>
+                <Route path={'hooks/*'} element={<Hooks/>}/>
             </Routes>
         </div>
 

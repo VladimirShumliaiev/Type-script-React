@@ -14,6 +14,7 @@ const LessonsNavLink = () => {
             <NavLink className={isActive} to={'aboutType'}> About Type </NavLink>
             <NavLink className={isActive} to={'functions'}> Functions</NavLink>
             <NavLink className={isActive} to={'objects'}> Objects </NavLink>
+            <NavLink className={isActive} to={'hooks'}> Hooks </NavLink>
         </div>
     );
 };

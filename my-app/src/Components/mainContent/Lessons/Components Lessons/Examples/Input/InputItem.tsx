@@ -19,12 +19,12 @@ const InputItem: FC<InputItemProps> = ({id, title , completed}) => {
         }
     }
 
-    const onClickInput = () => {
+    const onChangeInput = () => {
         dispatch(toggleTitle(id))
     }
     return (
         <li>
-            <input className={style.input} type={"checkbox"} checked={completed} onClick={onClickInput}/>
+            <input className={style.input} type={"checkbox"} checked={completed} onChange={onChangeInput}/>
             {title}
             {' '}
             <button className={style.button} onClick={delTitle}> &times; </button>

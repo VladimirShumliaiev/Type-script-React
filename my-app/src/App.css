@@ -9,8 +9,9 @@
     /*width: 1870px;*/
     width: 1500px;
     margin: auto;
-    padding: 10px;
+    /*padding: 10px;*/
     grid-gap: 2px;
+    border: 1px silver solid;
 }
 
 

@@ -9,7 +9,7 @@ const InputList: FC = () => {
     return (
         <ol>
             {
-                list.map(e =><div className={style.todo}><InputItem key={e.id} {...e}/></div>
+                list.map(e =><div key={e.id} className={style.todo}><InputItem {...e} /></div>
                 )
             }
         </ol>

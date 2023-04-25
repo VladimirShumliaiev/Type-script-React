@@ -1,0 +1,13 @@
+.HooksNavLink {
+    background: white;
+    text-align: left;
+    padding: 10px;
+}
+
+.HooksNavLink a {
+    text-decoration: none;
+}
+
+a.HooksNavLinkActive {
+    color: crimson;
+}

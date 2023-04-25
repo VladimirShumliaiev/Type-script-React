@@ -1,6 +1,6 @@
 .HomeWork {
     display: grid;
-    grid-template-areas: 'left' 'right';
+    /*grid-template-areas: 'left' 'right';*/
     /*grid-template-rows: 60px ;*/
     grid-template-columns: 200px 12fr;
 }

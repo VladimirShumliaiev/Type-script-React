@@ -1,7 +1,9 @@
-import React, {useState} from 'react';
+import React, {FC, useState} from 'react';
 
-const UseStateLessons = () => {
-    const [count, setCount] = useState(0)
+const initialState = 0
+
+const UseStateLessons: FC = () => {
+    const [count, setCount] = useState(initialState)
 
     const handlerPlus = () => {
         setCount(count + 1)
@@ -10,13 +12,21 @@ const UseStateLessons = () => {
     const handlerMinus = () => {
         setCount(count - 1)
     }
+
+    const handlerReset = () => {
+        setCount(initialState)
+    }
     return (
         <div>
             <h3>first example:</h3>
             Counter: {count}
             <li>
-                <button onClick={handlerMinus}>- Minus</button>
+                <button onClick={handlerMinus}>- Minus </button>
+                {' '}
+                <button onClick={handlerReset}> reset</button>
+                {' '}
                 <button onClick={handlerPlus}> Plus+</button>
+
             </li>
 
             <h3>second example:</h3>

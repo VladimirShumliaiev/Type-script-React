@@ -1,16 +1,47 @@
-import React, {ChangeEvent, useState} from 'react';
+import React, {useState} from 'react';
+import TodoInput from "./TodoInput";
+import TodoList from "./TodoList";
+
+
+const initialState: Todos[] = [
+    {
+        title: 'title one',
+        completed: false
+    },
+    {
+        title: 'title two',
+        completed: true
+    },
+
+]
+
 
 const Todo = () => {
-    const [value, setValue] = useState('')
+    const [todos, setTodos] = useState<Array<Todos>>(initialState)
 
-    const onChange = (e: ChangeEvent<HTMLInputElement>) => {
-        setValue(e.target.value)
+    const toggleTodo: ToggleTodo = (selectedTodo: Todos) => {
+        const newTodos = todos.map((todo) => {
+            if (todo === selectedTodo) {
+                return {
+                    ...todo,
+                    completed: !todo.completed
+                }
+            }
+            return todo
+        })
+        setTodos(newTodos)
     }
 
+    const addTodo: AddTodo = (newTodos) => {
+        if (newTodos.trim().length) {
+            setTodos([...todos, {title: newTodos, completed: false}])
+        }
+
+    }
     return (
         <div>
-            <input type="text" value={value} onChange={onChange}/>
-            <button onClick={() => console.log(value)}>+</button>
+            <TodoInput addTodo={addTodo}/>
+            <TodoList todos={todos} toggleTodo={toggleTodo}/>
         </div>
     );
 };

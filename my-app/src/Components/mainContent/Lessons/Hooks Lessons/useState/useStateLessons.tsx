@@ -34,7 +34,6 @@ const UseStateLessons: FC = () => {
             <h3>second example:</h3>
 
             <Todo/>
-
         </div>
     );
 };

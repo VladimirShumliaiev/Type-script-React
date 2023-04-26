@@ -1,10 +1,25 @@
-import React from 'react';
+import React, {FC} from 'react';
+import TodoItem from "./TodoItem";
 
-const TodoList = () => {
+
+type TodoListProps = {
+    toggleTodo: ToggleTodo,
+    todos: Todos[],
+}
+
+const TodoList: FC<TodoListProps> = (
+    {toggleTodo, todos}
+) => {
     return (
-        <div>
-            
-        </div>
+        <ul>
+            {todos.map((todo, index) => (
+                <TodoItem
+                    key={index}
+                    todo={todo}
+                    toggleTodo={toggleTodo}
+                />
+            ))}
+        </ul>
     );
 };
 

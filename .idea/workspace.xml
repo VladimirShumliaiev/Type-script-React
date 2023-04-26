@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="25.04.2023 hooks">
-      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/Todo.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/TodoInput.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/TodoList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/TodoItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/types.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessons.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/Todo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/Todo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/TodoInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/TodoInput.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/TodoList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/TodoList.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,14 +144,7 @@
       <workItem from="1682405027939" duration="392000" />
       <workItem from="1682405436264" duration="6197000" />
       <workItem from="1682411866755" duration="5940000" />
-      <workItem from="1682499787849" duration="977000" />
-    </task>
-    <task id="LOCAL-00004" summary="+++add">
-      <created>1676281452998</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1676281452998</updated>
+      <workItem from="1682499787849" duration="16960000" />
     </task>
     <task id="LOCAL-00005" summary="+++add">
       <created>1676285046979</created>
@@ -487,11 +482,25 @@
       <option name="project" value="LOCAL" />
       <updated>1682419414145</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="25.04.2023 hooks">
+      <created>1682500926434</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1682500926435</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/my-app/src/index.d.ts" />
+        <option value="$PROJECT_DIR$/my-app/src/index.d.ts" />
+        <option value="$PROJECT_DIR$/my-app/src/index.d.ts" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

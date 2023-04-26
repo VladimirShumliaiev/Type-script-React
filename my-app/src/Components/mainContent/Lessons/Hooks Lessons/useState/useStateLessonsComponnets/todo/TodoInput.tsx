@@ -1,10 +1,24 @@
-import React from 'react';
+import React, {ChangeEvent, FC, useState} from 'react';
 
-const TodoInput = () => {
+type Props = {
+    addTodo: AddTodo
+}
+
+const TodoInput: FC<Props> = ({addTodo}) => {
+    const [newTodo, setNewTodo] = useState('')
+
+    const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
+         setNewTodo(e.target.value)
+    }
     return (
-        <div>
-            
-        </div>
+        <form onSubmit={e => {
+            e.preventDefault()
+            addTodo(newTodo)
+            setNewTodo('')
+        }}>
+            <input value={newTodo} onChange={handleChange}/>
+            <button>add Todos</button>
+        </form>
     );
 };
 

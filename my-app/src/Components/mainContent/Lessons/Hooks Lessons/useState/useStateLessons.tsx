@@ -1,4 +1,6 @@
 import React, {FC, useState} from 'react';
+import Todo from "./useStateLessonsComponnets/todo/Todo";
+
 
 const initialState = 0
 
@@ -30,6 +32,8 @@ const UseStateLessons: FC = () => {
             </li>
 
             <h3>second example:</h3>
+
+            <Todo/>
 
         </div>
     );

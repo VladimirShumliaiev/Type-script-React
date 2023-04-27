@@ -32,9 +32,9 @@ const Todo = () => {
         setTodos(newTodos)
     }
 
-    const addTodo: AddTodo = (newTodos) => {
-        if (newTodos.trim().length) {
-            setTodos([...todos, {title: newTodos, completed: false}])
+    const addTodo: AddTodo = (addTodos) => {
+        if (addTodos.trim().length) {
+            setTodos([...todos, {title: addTodos, completed: false}])
         }
 
     }

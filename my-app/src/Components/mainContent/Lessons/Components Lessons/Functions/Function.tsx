@@ -1,4 +1,5 @@
 import React, {FC} from 'react';
+import TestTodo from "./Test/TestTodo";
 
 const Functions: FC = () => {
     const addSum = (a: number, b: number): number => {
@@ -57,6 +58,7 @@ const Functions: FC = () => {
             <div>
                 {numbers2}
             </div>
+            <TestTodo/>
         </div>
     );
 };

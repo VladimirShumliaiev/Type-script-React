@@ -1,24 +1,34 @@
-import React, {ChangeEvent, FC, useState} from 'react';
+import React, {FC, useEffect, useRef} from 'react';
 
-type Props = {
-    addTodo: AddTodo
+type TodoInputProps = {
+    value: string,
+    setValue: (str: string) => void
+    addTodo: () => void
 }
 
-const TodoInput: FC<Props> = ({addTodo}) => {
-    const [newTodo, setNewTodo] = useState('')
+const TodoInput: FC<TodoInputProps> = ({value, setValue, addTodo}) => {
+    const inputRef = useRef<HTMLInputElement>(null)
 
-    const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
-         setNewTodo(e.target.value)
+    const onChangeHandler: React.ChangeEventHandler<HTMLInputElement> = (e) => {
+        setValue(e.target.value)
     }
+
+    const keyDownHandler: React.KeyboardEventHandler<HTMLInputElement> = (e) => {
+        if (e.key === 'Enter') {
+            addTodo()
+        }
+    }
+
+    useEffect(() => {
+        if (inputRef.current)
+            inputRef.current.focus()
+    }, [])
+
     return (
-        <form onSubmit={e => {
-            e.preventDefault()
-            addTodo(newTodo)
-            setNewTodo('')
-        }}>
-            <input value={newTodo} onChange={handleChange}/>
-            <button>add Todos</button>
-        </form>
+        <div>
+            <input type="text" value={value} onChange={onChangeHandler} onKeyDown={keyDownHandler} ref={inputRef}/>
+            <button onClick={addTodo}>add</button>
+        </div>
     );
 };
 

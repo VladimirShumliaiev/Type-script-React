@@ -1,25 +1,19 @@
 import React, {FC} from 'react';
 import TodoItem from "./TodoItem";
 
-
 type TodoListProps = {
-    toggleTodo: ToggleTodo,
-    todos: Todos[],
+    item: Todos[],
+    removeTodo:(id: number) => void,
+    toggleTodo:(id: number) => void,
 }
 
-const TodoList: FC<TodoListProps> = (
-    {toggleTodo, todos}
-) => {
+const TodoList: FC<TodoListProps> = ({item, removeTodo, toggleTodo}) => {
     return (
-        <ul>
-            {todos.map((todo, index) => (
-                <TodoItem
-                    key={index}
-                    todo={todo}
-                    toggleTodo={toggleTodo}
-                />
-            ))}
-        </ul>
+        <div>
+            {
+                item.map(e => <TodoItem removeTodo={removeTodo} toggleTodo={toggleTodo}  key={e.id} {...e}/>)
+            }
+        </div>
     );
 };
 

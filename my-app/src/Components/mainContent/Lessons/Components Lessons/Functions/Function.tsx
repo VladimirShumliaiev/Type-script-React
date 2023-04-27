@@ -1,5 +1,4 @@
 import React, {FC} from 'react';
-import TestTodo from "./Test/TestTodo";
 
 const Functions: FC = () => {
     const addSum = (a: number, b: number): number => {
@@ -16,9 +15,6 @@ const Functions: FC = () => {
         let time = new Date().toISOString()
         console.log(time, message, userId || 'Not signet in')
     }
-    console.log(log('Page loaded'))
-    console.log( log('User signet in', 'da763be'))
-
     type Sum = (...number: number[]) => number
 
     const sum: Sum = (...number) => {
@@ -58,7 +54,6 @@ const Functions: FC = () => {
             <div>
                 {numbers2}
             </div>
-            <TestTodo/>
         </div>
     );
 };

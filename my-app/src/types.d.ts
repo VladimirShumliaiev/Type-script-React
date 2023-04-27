@@ -1,10 +1,6 @@
 
 interface Todos {
+    id: number,
     title: string,
-    completed: boolean
+    completed: boolean,
 }
-
-
-type ToggleTodo = (selectedTodo: Todos) => void
-
-type AddTodo = (title: string) => void

@@ -19,13 +19,13 @@ const Todo: FC = () => {
 
     }
 
-    const removeTodo = (id: number) => {
+    const removeTodo = (id: number): void => {
         if (window.confirm('delete todo?')) {
             setTodos(todos.filter(e => e.id !== id))
         }
     }
 
-    const toggleTodo = (id: number) => {
+    const toggleTodo = (id: number): void => {
         setTodos(todos.map(e => {
             if (e.id !== id) return e
             return {

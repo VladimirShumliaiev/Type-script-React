@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="27.04.2023 hooks">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Functions/Function.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Functions/Function.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Functions/Test/TestTodo.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Functions/Test/TestTodoInput.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Functions/Test/TestTodoItem.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Functions/Test/TestTodoList.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/Todo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/Todo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/TodoInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/TodoInput.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/TodoItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/TodoItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/TodoList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/TodoList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/types.d.ts" afterDir="false" />
-    </list>
+    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="28.04.2023 hooks" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,14 +137,7 @@
       <workItem from="1682405436264" duration="6197000" />
       <workItem from="1682411866755" duration="5940000" />
       <workItem from="1682499787849" duration="17200000" />
-      <workItem from="1682580770537" duration="10875000" />
-    </task>
-    <task id="LOCAL-00008" summary="+++add 14.02.2023 21:10">
-      <created>1676373732424</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1676373732424</updated>
+      <workItem from="1682580770537" duration="11271000" />
     </task>
     <task id="LOCAL-00009" summary="+++add 15.02.2023 21:10">
       <created>1676462692600</created>
@@ -494,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682587853162</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="28.04.2023 hooks">
+      <created>1682592076998</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1682592076998</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,7 +507,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="+++add 5.02.2023 21:10" />
     <MESSAGE value="+++add 27.02.2023 20:24" />
     <MESSAGE value="+++add 07.03.2023 10:21" />
     <MESSAGE value="+++add 01.03.2023 20:24" />
@@ -544,6 +531,7 @@
     <MESSAGE value="25.04.2023 hooks" />
     <MESSAGE value="26.04.2023 hooks" />
     <MESSAGE value="27.04.2023 hooks" />
-    <option name="LAST_COMMIT_MESSAGE" value="27.04.2023 hooks" />
+    <MESSAGE value="28.04.2023 hooks" />
+    <option name="LAST_COMMIT_MESSAGE" value="28.04.2023 hooks" />
   </component>
 </project>

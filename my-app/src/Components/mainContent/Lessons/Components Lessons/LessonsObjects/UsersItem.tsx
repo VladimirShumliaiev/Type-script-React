@@ -33,8 +33,7 @@ const UsersItem: FC<UsersItemProps> = ({
     const dispatch = useAppDispatch()
 
     const deleteHandler = () => {
-        const del = window.confirm(`Delete user ${username}`)
-        if (del) {
+        if (window.confirm(`Delete user ${username}`)) {
             dispatch(deleteUser(id))
         }
     }

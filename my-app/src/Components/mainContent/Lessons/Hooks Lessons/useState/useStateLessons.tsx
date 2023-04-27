@@ -23,7 +23,7 @@ const UseStateLessons: FC = () => {
             <h3>first example:</h3>
             Counter: {count}
             <li>
-                <button onClick={handlerMinus}>- Minus </button>
+                <button onClick={handlerMinus}>- Minus</button>
                 {' '}
                 <button onClick={handlerReset}> reset</button>
                 {' '}
@@ -32,7 +32,6 @@ const UseStateLessons: FC = () => {
             </li>
 
             <h3>second example:</h3>
-
             <Todo/>
         </div>
     );

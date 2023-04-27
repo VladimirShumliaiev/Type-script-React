@@ -1,7 +1,7 @@
 import React, {FC, useEffect, useRef} from 'react';
 
 type TodoInputProps = {
-    value: string,
+    value: string
     setValue: (str: string) => void
     addTodo: () => void
 }
@@ -13,7 +13,7 @@ const TodoInput: FC<TodoInputProps> = ({value, setValue, addTodo}) => {
         setValue(e.target.value)
     }
 
-    const keyDownHandler: React.KeyboardEventHandler<HTMLInputElement> = (e) => {
+    const onKeyDownHandler: React.KeyboardEventHandler<HTMLInputElement> = (e) => {
         if (e.key === 'Enter') {
             addTodo()
         }
@@ -26,7 +26,8 @@ const TodoInput: FC<TodoInputProps> = ({value, setValue, addTodo}) => {
 
     return (
         <div>
-            <input type="text" value={value} onChange={onChangeHandler} onKeyDown={keyDownHandler} ref={inputRef}/>
+            <input type="text" value={value} onChange={onChangeHandler} onKeyDown={onKeyDownHandler}
+                   placeholder={'add text...'} ref={inputRef}/>
             <button onClick={addTodo}>add</button>
         </div>
     );

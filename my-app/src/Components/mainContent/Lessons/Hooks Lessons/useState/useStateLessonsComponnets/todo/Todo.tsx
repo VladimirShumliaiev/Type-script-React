@@ -2,37 +2,41 @@ import React, {FC, useState} from 'react';
 import TodoInput from "./TodoInput";
 import TodoList from "./TodoList";
 
-const initialState: Todos[] = [
+type Todo = {
+    id: number,
+    title: string,
+    completed: boolean,
+}
+
+const initialState: Todo[] = [
     {
         id: 1,
         title: 'Type-script',
-        completed: true
+        completed: true,
     },
     {
         id: 2,
         title: 'React',
-        completed: false
+        completed: true,
     }
 ]
 
 
 const Todo: FC = () => {
-    const [todos, setTodos] = useState<Todos[]>(initialState)
+    const [todos, setTodos] = useState(initialState)
     const [value, setValue] = useState('')
 
     const addTodo = () => {
         if (value) {
-            setTodos([...todos,
-                {id: Date.now(), title: value, completed: false}])
+            setTodos([...todos, {id: Date.now(), title: value, completed: false}])
+            setValue('')
         }
-        setValue('')
     }
 
     const removeTodo = (id: number): void => {
-        if (window.confirm('delete todo?')) {
+        if (window.confirm('Delete todo?')){
             setTodos(todos.filter(e => e.id !== id))
         }
-
     }
 
     const toggleTodo = (id: number): void => {
@@ -44,10 +48,9 @@ const Todo: FC = () => {
             }
         }))
     }
-
     return (
         <div>
-            <TodoInput addTodo={addTodo} value={value} setValue={setValue}/>
+            <TodoInput value={value} setValue={setValue} addTodo={addTodo}/>
             <TodoList item={todos} removeTodo={removeTodo} toggleTodo={toggleTodo}/>
         </div>
     );

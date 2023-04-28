@@ -1,17 +1,20 @@
 import React, {FC} from 'react';
+import style from './Todo.module.css'
 
-interface TodoItemProps extends Todos {
+type TodoItemProps = {
+    id: number,
+    title: string,
+    completed: boolean,
     removeTodo: (id: number) => void
     toggleTodo: (id: number) => void
 }
 
-const TodoItem:FC<TodoItemProps> = (props) => {
-    const {id, removeTodo, toggleTodo, completed, title} = props
+const TodoItem: FC<TodoItemProps> = ({title, completed, id , removeTodo, toggleTodo}) => {
     return (
-        <div>
+        <div className={style.todoItem}>
             <input type="checkbox" checked={completed} onChange={() => toggleTodo(id)}/>
-            {title }
-            <button onClick={() => removeTodo(id)}>x</button>
+            {title}
+            <button className={style.item} onClick={() => removeTodo(id)}>x</button>
         </div>
     );
 };

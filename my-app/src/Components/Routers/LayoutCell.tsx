@@ -1,8 +1,8 @@
 import React from 'react';
 import {Route, Routes} from "react-router-dom";
 import HomeWork from "../mainContent/HomeWork/HomeWork"
-import Layout from "../../Layout/Layout"
 import Todo from "../mainContent/Todo/Todo"
+import Layout from "../../Layout/Layout";
 import LessonsTypeScript from "../mainContent/Lessons/LessonsTypeScript";
 
 

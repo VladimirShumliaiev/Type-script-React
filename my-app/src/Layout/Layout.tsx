@@ -20,7 +20,7 @@ const Layout = () => {
             </div>
 
             <div className={'Footer'}>
-                hi
+                Footer
             </div>
 
         </div>

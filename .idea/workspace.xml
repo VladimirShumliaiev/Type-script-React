@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="28.04.2023 hooks">
+    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="29.04.2023 rtk">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/Header/Header componnets/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/Header/Header componnets/Menu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/Routers/LayoutCell.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/Routers/LayoutCell.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/List.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/TodoList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/ListItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/TodoListItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/Todo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/Todo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/TodoInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/TodoInput.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Layout/Layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/redux/Slices/todoSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/redux/Slices/todoSlice.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessons.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,14 +146,8 @@
       <workItem from="1682699948074" duration="176000" />
       <workItem from="1682709574525" duration="1149000" />
       <workItem from="1682710748405" duration="961000" />
-      <workItem from="1682785385861" duration="6060000" />
-    </task>
-    <task id="LOCAL-00012" summary="+++add 16.02.2023 21:10">
-      <created>1676547435005</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1676547435005</updated>
+      <workItem from="1682785385861" duration="6366000" />
+      <workItem from="1682876987982" duration="1051000" />
     </task>
     <task id="LOCAL-00013" summary="+++add 16.02.2023 21:10">
       <created>1676585879344</created>
@@ -500,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682700115290</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="29.04.2023 rtk">
+      <created>1682791862439</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1682791862439</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,7 +517,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="+++add 27.02.2023 20:24" />
     <MESSAGE value="+++add 07.03.2023 10:21" />
     <MESSAGE value="+++add 01.03.2023 20:24" />
     <MESSAGE value="07.03.2023" />
@@ -550,6 +541,7 @@
     <MESSAGE value="26.04.2023 hooks" />
     <MESSAGE value="27.04.2023 hooks" />
     <MESSAGE value="28.04.2023 hooks" />
-    <option name="LAST_COMMIT_MESSAGE" value="28.04.2023 hooks" />
+    <MESSAGE value="29.04.2023 rtk" />
+    <option name="LAST_COMMIT_MESSAGE" value="29.04.2023 rtk" />
   </component>
 </project>

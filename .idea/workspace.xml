@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="29.04.2023 rtk">
+    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="30.04.2023 rtk">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessons.tsx" afterDir="false" />
     </list>
@@ -147,14 +147,8 @@
       <workItem from="1682709574525" duration="1149000" />
       <workItem from="1682710748405" duration="961000" />
       <workItem from="1682785385861" duration="6366000" />
-      <workItem from="1682876987982" duration="1051000" />
-    </task>
-    <task id="LOCAL-00013" summary="+++add 16.02.2023 21:10">
-      <created>1676585879344</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1676585879344</updated>
+      <workItem from="1682876987982" duration="1151000" />
+      <workItem from="1682932288103" duration="1391000" />
     </task>
     <task id="LOCAL-00014" summary="+++add 16.02.2023 21:10">
       <created>1676641145436</created>
@@ -492,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682791862439</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="30.04.2023 rtk">
+      <created>1682878080351</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1682878080351</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,7 +518,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="+++add 07.03.2023 10:21" />
     <MESSAGE value="+++add 01.03.2023 20:24" />
     <MESSAGE value="07.03.2023" />
     <MESSAGE value="09.03.2023 12:43" />
@@ -542,6 +542,7 @@
     <MESSAGE value="27.04.2023 hooks" />
     <MESSAGE value="28.04.2023 hooks" />
     <MESSAGE value="29.04.2023 rtk" />
-    <option name="LAST_COMMIT_MESSAGE" value="29.04.2023 rtk" />
+    <MESSAGE value="30.04.2023 rtk" />
+    <option name="LAST_COMMIT_MESSAGE" value="30.04.2023 rtk" />
   </component>
 </project>

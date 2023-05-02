@@ -1,20 +1,19 @@
 import React, {FC} from 'react';
-import style from './Todo.module.css'
 
 type TodoItemProps = {
-    id: number,
-    title: string,
-    completed: boolean,
+    id: number
+    title: string
+    completed: boolean
     removeTodo: (id: number) => void
     toggleTodo: (id: number) => void
 }
 
-const TodoItem: FC<TodoItemProps> = ({title, completed, id , removeTodo, toggleTodo}) => {
+const TodoItem:FC<TodoItemProps> = ({id, removeTodo, toggleTodo, completed, title}) => {
     return (
-        <div className={style.todoItem}>
+        <div>
             <input type="checkbox" checked={completed} onChange={() => toggleTodo(id)}/>
             {title}
-            <button className={style.item} onClick={() => removeTodo(id)}>x</button>
+            <button onClick={() => removeTodo(id)}>delete</button>
         </div>
     );
 };

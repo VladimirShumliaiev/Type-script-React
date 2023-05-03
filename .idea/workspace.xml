@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="01.05.2023 rtk">
+    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="02.05.2023 rtk">
+      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/TodoItem/TodoItem.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/Todo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/Todo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/TodoInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/TodoInput.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/TodoItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/TodoItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsNavLink/LessonsNavLink.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsNavLink/LessonsNavLink.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsNavLink/LessonseNavLink.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsNavLink/LessonseNavLink.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/TodoItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/TodoItem/TodoItem.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/TodoList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/TodoList.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,11 +49,11 @@
       <recent name="F:\React\Project\React.JS\Type-script-React\my-app\src\assets\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\React\Project\React.JS\Type-script-React\my-app\src\Components\mainContent\Lessons\Hooks Lessons\useState\useStateLessonsComponnets\todo\TodoItem" />
+      <recent name="F:\React\Project\React.JS\Type-script-React\my-app\src\Components\mainContent\Lessons\Components Lessons\Hooks Lessons" />
+      <recent name="F:\React\Project\React.JS\Type-script-React\my-app\src\Components\mainContent\Lessons\Components Lessons" />
       <recent name="F:\React\Project\React.JS\Type-script-React\my-app\src\Components\mainContent\Lessons\Hooks Lessons" />
       <recent name="F:\React\Project\React.JS\Type-script-React\my-app\src\Components\mainContent\Lessons\Components Lessons\Hooks\useState" />
-      <recent name="F:\React\Project\React.JS\Type-script-React\my-app\src\redux\Slices" />
-      <recent name="F:\React\Project\React.JS\Type-script-React\my-app\src\redux\Store" />
-      <recent name="F:\React\Project\React.JS\Type-script-React\my-app\src\Components\Header" />
     </key>
   </component>
   <component name="RunManager">
@@ -152,14 +153,8 @@
       <workItem from="1682785385861" duration="6366000" />
       <workItem from="1682876987982" duration="1151000" />
       <workItem from="1682932288103" duration="2021000" />
-      <workItem from="1683049654629" duration="3130000" />
-    </task>
-    <task id="LOCAL-00015" summary="+++add 16.02.2023 21:10">
-      <created>1676644333877</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1676644333877</updated>
+      <workItem from="1683049654629" duration="3394000" />
+      <workItem from="1683101355237" duration="3310000" />
     </task>
     <task id="LOCAL-00016" summary="+++add 16.02.2023 21:10">
       <created>1676716221458</created>
@@ -497,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682934236064</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="02.05.2023 rtk">
+      <created>1683052909584</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1683052909585</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -522,7 +524,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="07.03.2023" />
     <MESSAGE value="09.03.2023 12:43" />
     <MESSAGE value="12.03.2023 12:27" />
     <MESSAGE value="12.03.2023 12:39" />
@@ -547,6 +548,7 @@
     <MESSAGE value="29.04.2023 rtk" />
     <MESSAGE value="30.04.2023 rtk" />
     <MESSAGE value="01.05.2023 rtk" />
-    <option name="LAST_COMMIT_MESSAGE" value="01.05.2023 rtk" />
+    <MESSAGE value="02.05.2023 rtk" />
+    <option name="LAST_COMMIT_MESSAGE" value="02.05.2023 rtk" />
   </component>
 </project>

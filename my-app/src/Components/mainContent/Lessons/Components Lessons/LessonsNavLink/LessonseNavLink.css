@@ -3,9 +3,10 @@
 }
 
 .lessons a {
-color: #020101;
+    color: #020101;
 }
 
 a.lessons-active-link {
-    color: #ff0202;
+    color: #0206ff;
+    text-decoration: underline;
 }

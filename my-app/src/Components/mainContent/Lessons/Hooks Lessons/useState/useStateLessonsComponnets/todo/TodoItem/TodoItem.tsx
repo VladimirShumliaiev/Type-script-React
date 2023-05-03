@@ -1,5 +1,6 @@
 import React, {FC} from 'react';
 
+
 type TodoItemProps = {
     id: number
     title: string
@@ -8,7 +9,9 @@ type TodoItemProps = {
     toggleTodo: (id: number) => void
 }
 
-const TodoItem:FC<TodoItemProps> = ({id, removeTodo, toggleTodo, completed, title}) => {
+
+const TodoItem: FC<TodoItemProps> = ({id, removeTodo, toggleTodo, completed, title}) => {
+
     return (
         <div>
             <input type="checkbox" checked={completed} onChange={() => toggleTodo(id)}/>

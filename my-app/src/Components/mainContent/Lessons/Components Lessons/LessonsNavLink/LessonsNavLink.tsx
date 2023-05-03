@@ -10,11 +10,11 @@ const LessonsNavLink = () => {
     const isActive = ({isActive}: IsActiveProps) => isActive ? 'lessons-active-link' : '';
     return (
         <div className={'lessons'}>
-            <NavLink className={isActive} to={'examples'}> Examples </NavLink>
-            <NavLink className={isActive} to={'aboutType'}> About Type </NavLink>
-            <NavLink className={isActive} to={'functions'}> Functions</NavLink>
-            <NavLink className={isActive} to={'objects'}> Objects </NavLink>
-            <NavLink className={isActive} to={'hooks'}> Hooks </NavLink>
+            {'|'}<NavLink className={isActive} to={'examples'}> Examples </NavLink>{'|'}
+            <NavLink className={isActive} to={'aboutType'}> About Type </NavLink>{'|'}
+            <NavLink className={isActive} to={'functions'}> Functions </NavLink>{'|'}
+            <NavLink className={isActive} to={'objects'}> Objects </NavLink>{'|'}
+            <NavLink className={isActive} to={'hooks'}> Hooks </NavLink>{'|'}
         </div>
     );
 };

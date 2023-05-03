@@ -1,5 +1,5 @@
 import React, {FC} from 'react';
-import TodoItem from "./TodoItem";
+import TodoItem from "./TodoItem/TodoItem";
 
 
 type Todo = {

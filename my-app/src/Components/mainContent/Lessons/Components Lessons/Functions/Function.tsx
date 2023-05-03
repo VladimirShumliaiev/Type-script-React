@@ -29,9 +29,8 @@ const Functions: FC = () => {
     }
 
     let numbers = createNumber()
-    console.log(numbers.next())
-    console.log(numbers.next())
-    console.log(numbers.next())
+    console.log(numbers)
+    console.log(numbers)
 
     const numbers2 = {
         *[Symbol.iterator](){
@@ -39,6 +38,10 @@ const Functions: FC = () => {
                 yield n
             }
         }
+    }
+
+    const greet = (name: string) => {
+        return 'hello ' + name
     }
     return (
         <div>
@@ -53,6 +56,9 @@ const Functions: FC = () => {
             </div>
             <div>
                 {numbers2}
+            </div>
+            <div>
+                {greet('world')}
             </div>
         </div>
     );

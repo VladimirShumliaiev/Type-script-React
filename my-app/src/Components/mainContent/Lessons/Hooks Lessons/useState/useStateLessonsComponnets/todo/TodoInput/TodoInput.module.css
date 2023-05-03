@@ -1,0 +1,15 @@
+.item {
+
+}
+
+
+.item img {
+    width: 10px;
+    height: 10px;
+
+}
+
+
+.itemButton {
+    cursor: pointer;
+}

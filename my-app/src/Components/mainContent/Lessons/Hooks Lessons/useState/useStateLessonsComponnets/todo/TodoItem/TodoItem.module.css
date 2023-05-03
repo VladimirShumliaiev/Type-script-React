@@ -1,0 +1,11 @@
+.todoItem {
+    border: none;
+    background: white;
+    cursor: pointer;
+}
+
+.todoItem img{
+    width: 20px;
+    height: 15px;
+
+}

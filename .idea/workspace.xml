@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="02.05.2023 rtk">
-      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/TodoItem/TodoItem.css" afterDir="false" />
+    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="03.05.2023">
+      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/TodoInput/TodoInput.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/assets/img/action-undo-svgrepo-com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/assets/img/add-svgrepo-com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/assets/img/delete-svgrepo-com.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsNavLink/LessonsNavLink.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsNavLink/LessonsNavLink.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsNavLink/LessonseNavLink.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/LessonsNavLink/LessonseNavLink.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/TodoItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/TodoItem/TodoItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/TodoList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/TodoList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Functions/Function.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Functions/Function.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessons.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/Todo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/Todo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/TodoInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/TodoInput/TodoInput.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/TodoItem/TodoItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/TodoItem/TodoItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/TodoItem/TodoItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/useState/useStateLessonsComponnets/todo/TodoItem/TodoItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/Todo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/Todo.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +30,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2LayRCCd6Ge2NXnmFoO0mb4SzcB" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -49,11 +59,11 @@
       <recent name="F:\React\Project\React.JS\Type-script-React\my-app\src\assets\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\React\Project\React.JS\Type-script-React\my-app\src\Components\mainContent\Lessons\Hooks Lessons\useState\useStateLessonsComponnets\todo\BackToPage" />
+      <recent name="F:\React\Project\React.JS\Type-script-React\my-app\src\Components\mainContent\Lessons\Hooks Lessons\useState\useStateLessonsComponnets\todo\TodoInput" />
       <recent name="F:\React\Project\React.JS\Type-script-React\my-app\src\Components\mainContent\Lessons\Hooks Lessons\useState\useStateLessonsComponnets\todo\TodoItem" />
       <recent name="F:\React\Project\React.JS\Type-script-React\my-app\src\Components\mainContent\Lessons\Components Lessons\Hooks Lessons" />
       <recent name="F:\React\Project\React.JS\Type-script-React\my-app\src\Components\mainContent\Lessons\Components Lessons" />
-      <recent name="F:\React\Project\React.JS\Type-script-React\my-app\src\Components\mainContent\Lessons\Hooks Lessons" />
-      <recent name="F:\React\Project\React.JS\Type-script-React\my-app\src\Components\mainContent\Lessons\Components Lessons\Hooks\useState" />
     </key>
   </component>
   <component name="RunManager">
@@ -154,14 +164,10 @@
       <workItem from="1682876987982" duration="1151000" />
       <workItem from="1682932288103" duration="2021000" />
       <workItem from="1683049654629" duration="3394000" />
-      <workItem from="1683101355237" duration="3310000" />
-    </task>
-    <task id="LOCAL-00016" summary="+++add 16.02.2023 21:10">
-      <created>1676716221458</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1676716221458</updated>
+      <workItem from="1683101355237" duration="5586000" />
+      <workItem from="1683107013535" duration="571000" />
+      <workItem from="1683107608055" duration="773000" />
+      <workItem from="1683108402653" duration="848000" />
     </task>
     <task id="LOCAL-00017" summary="+++add 20.02.2023 21:10">
       <created>1676895497873</created>
@@ -499,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683052909585</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="03.05.2023">
+      <created>1683104764167</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1683104764168</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,7 +537,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="09.03.2023 12:43" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="12.03.2023 12:27" />
     <MESSAGE value="12.03.2023 12:39" />
     <MESSAGE value="17.03.2023 11:15" />
@@ -549,6 +562,7 @@
     <MESSAGE value="30.04.2023 rtk" />
     <MESSAGE value="01.05.2023 rtk" />
     <MESSAGE value="02.05.2023 rtk" />
-    <option name="LAST_COMMIT_MESSAGE" value="02.05.2023 rtk" />
+    <MESSAGE value="03.05.2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="03.05.2023" />
   </component>
 </project>

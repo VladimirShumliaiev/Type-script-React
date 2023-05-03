@@ -46,7 +46,7 @@ const UseStateLessons: FC = () => {
             <button onClick={minusHandler}>- Minus</button>
             <button onClick={resetsHandler}>Resets</button>
             <button onClick={plusHandler}>Plus +</button>
-
+            <hr/>
             <h3>second example:</h3>
             <Todo/>
         </div>

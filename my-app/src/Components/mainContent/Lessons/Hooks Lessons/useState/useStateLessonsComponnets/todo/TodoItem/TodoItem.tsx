@@ -1,5 +1,6 @@
 import React, {FC} from 'react';
-
+import style from './TodoItem.module.css'
+import buttonImg from '../../../../../../../../assets/img/delete-svgrepo-com.svg'
 
 type TodoItemProps = {
     id: number
@@ -14,9 +15,9 @@ const TodoItem: FC<TodoItemProps> = ({id, removeTodo, toggleTodo, completed, tit
 
     return (
         <div>
-            <input type="checkbox" checked={completed} onChange={() => toggleTodo(id)}/>
+            <input className={style.todoItem} type="checkbox" checked={completed} onChange={() => toggleTodo(id)}/>
             {title}
-            <button onClick={() => removeTodo(id)}>delete</button>
+            <button className={style.todoItem} onClick={() => removeTodo(id)}><img src={buttonImg} alt=""/></button>
         </div>
     );
 };

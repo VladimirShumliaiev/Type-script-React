@@ -10,13 +10,16 @@ const Todo: FC = () => {
     const dispatch = useAppDispatch()
 
     const addTask = () => {
-        dispatch(addTodo(title))
-        setTitle('')
+        if (title) {
+            dispatch(addTodo(title))
+            setTitle('')
+        }
+
     }
 
     useEffect(() => {
         dispatch(fetchTodo())
-    },[])
+    }, [])
 
     return (
         <div>

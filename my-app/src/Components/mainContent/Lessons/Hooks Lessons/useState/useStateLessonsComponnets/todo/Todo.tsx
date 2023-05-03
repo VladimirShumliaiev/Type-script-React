@@ -1,5 +1,5 @@
 import React, {FC, useState} from 'react';
-import TodoInput from "./TodoInput";
+import TodoInput from "./TodoInput/TodoInput";
 import TodoList from "./TodoList";
 
 type Todo = {

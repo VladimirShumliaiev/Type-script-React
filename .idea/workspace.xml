@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="04.05.2023 +++">
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/ExampleComponents/NavLinkExample/NavLinkExamples.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/ExampleComponents/NavLinkExample/NavLinkExamples.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/Examples.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/Examples.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/ExampleComponents/ExampleFunctions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/ExampleComponents/ExampleArrays.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/ExampleComponents/ExampleArrays.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/ExampleComponents/ExampleFunctions.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/ExampleComponents/ExampleObjects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/ExampleComponents/ExampleObjects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/Hooks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/HooksLessons/Hooks.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,14 +163,7 @@
       <workItem from="1683107608055" duration="773000" />
       <workItem from="1683108402653" duration="848000" />
       <workItem from="1683109272237" duration="1943000" />
-      <workItem from="1683184764628" duration="9237000" />
-    </task>
-    <task id="LOCAL-00019" summary="+++add 20.02.2023 21:10">
-      <created>1676897723277</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1676897723277</updated>
+      <workItem from="1683184764628" duration="10204000" />
     </task>
     <task id="LOCAL-00020" summary="+++add 21.02.2023 21:10">
       <created>1677010297440</created>
@@ -505,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683194692956</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="04.05.2023 +++">
+      <created>1683194888543</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1683194888543</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

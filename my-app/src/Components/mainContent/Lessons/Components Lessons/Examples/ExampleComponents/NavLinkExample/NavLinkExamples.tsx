@@ -9,7 +9,7 @@ const NavLinkExamples = () => {
 
     const isActive = ({isActive}:IsActive) => isActive ? 'active-examples' : ''
     return (
-        <div>
+        <div className={'hr'}>
             {'|'}
             <NavLink className={isActive} to={'examplesObject'}> Object </NavLink>
             {'|'}

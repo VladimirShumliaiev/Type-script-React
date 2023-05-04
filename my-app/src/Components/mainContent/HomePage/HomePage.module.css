@@ -1,0 +1,12 @@
+.item {
+    background: #0206ff;
+    color: white;
+}
+
+
+.item img{
+    width: 1300px;
+    height: 500px;
+    /*text-align: center;*/
+
+}

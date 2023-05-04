@@ -1,6 +1,6 @@
 import React, {FC} from 'react';
 import style from './TodoItem.module.css'
-import buttonImg from '../../../../../../../../assets/img/delete-svgrepo-com.svg'
+import buttonImg from '../../../../../../../../../assets/img/delete-svgrepo-com.svg'
 
 type TodoItemProps = {
     id: number

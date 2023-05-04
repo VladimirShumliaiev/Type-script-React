@@ -1,0 +1,22 @@
+.itemExamples {
+    display: grid;
+    /*grid-template-columns: 1fr 11fr ;*/
+    grid-template-rows: 25px 12fr;
+    grid-gap: 5px;
+}
+
+.itemExamplesUp {
+    background: #746fb4;
+}
+
+.itemExamplesDawn {
+    /*background: #ff0015;*/
+}
+
+.itemExamplesUp a {
+    color: white;
+}
+
+a.active-examples {
+    color: #fce602;
+}

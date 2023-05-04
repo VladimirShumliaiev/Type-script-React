@@ -11,10 +11,13 @@ const MyNavLink = () => {
     return (
         <div>
             <div>
-                <NavLink className={isActive} to={'/'}>Todos</NavLink>
+                <NavLink className={isActive} to={'/'}>Home</NavLink>
             </div>
             <div>
-                <NavLink className={isActive} to={'homeWork'}>HomeWork</NavLink>
+                <NavLink className={isActive} to={'todo'}>Todos</NavLink>
+            </div>
+            <div>
+                <NavLink className={isActive} to={'homeWork'}>Homework</NavLink>
             </div>
             <div>
                 <NavLink className={isActive} to={'lessons'}>Lessons</NavLink>

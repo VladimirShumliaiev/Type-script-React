@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Quiz = () => {
+const ExampleArrays = () => {
     return (
         <div>
-            
+            Arrays
         </div>
     );
 };
 
-export default Quiz;
+export default ExampleArrays;

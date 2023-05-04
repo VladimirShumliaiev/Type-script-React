@@ -1,6 +1,6 @@
 import React, {FC, useEffect, useRef} from 'react';
 import style from './TodoInput.module.css';
-import svg from '../../../../../../../../assets/img/add-svgrepo-com.svg'
+import svg from '../../../../../../../../../assets/img/add-svgrepo-com.svg'
 
 type TodoInputProps = {
     value: string

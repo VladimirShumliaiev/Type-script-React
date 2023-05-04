@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Game = () => {
+const ExampleObjects = () => {
     return (
         <div>
-            
+            Objects
         </div>
     );
 };
 
-export default Game;
+export default ExampleObjects;

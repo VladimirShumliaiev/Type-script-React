@@ -1,30 +1,26 @@
-import React, {FC, useState} from 'react';
-import Count from "./Count";
-import Quiz from "./Quiz/Quiz";
-import Input from "./Input/Input";
+import React, {FC} from 'react';
+import './Examples.css'
+import NavLinkExamples from "./ExampleComponents/NavLinkExample/NavLinkExamples";
+import RoutingExamples from "./ExampleComponents/RoutingExample/RoutingExamples";
 
 const Examples: FC = () => {
-    const [count, setCount] = useState(0)
-    const [title, setTitle] = useState('')
-    // let a = 1 + 2;
-    // let b = a + 3;
-    //
-    // let c = {
-    //     apple: a,
-    //     banana: b,
-    // }
-    //
-    // let d = c.banana * 4
-
 
     return (
-        <div>
-            <Count count={count} setCount={setCount}/>
-            <hr/>
-            <Input title={title} setTitle={setTitle}/>
-            <Quiz/>
+        <div className={'itemExamples'}>
+            <div className={'itemExamplesUp'}>
+                <div>
+                    <NavLinkExamples/>
+                    <hr/>
+                </div>
+            </div>
+            <div className={'itemExamplesDawn'}>
+                <div>
+                   <RoutingExamples/>
+                </div>
+
+            </div>
         </div>
     );
 };
 
-export default Examples
+export default Examples;

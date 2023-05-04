@@ -4,6 +4,7 @@ import HomeWork from "../mainContent/HomeWork/HomeWork"
 import Todo from "../mainContent/Todo/Todo"
 import Layout from "../../Layout/Layout";
 import LessonsTypeScript from "../mainContent/Lessons/LessonsTypeScript";
+import HomePage from "../mainContent/HomePage/HomePage";
 
 
 const LayoutCell = () => {
@@ -11,7 +12,8 @@ const LayoutCell = () => {
         <>
             <Routes>
                 <Route path={'/'} element={<Layout/>}>
-                    <Route index element={<Todo/>}/>
+                    <Route index element={<HomePage/>}/>
+                    <Route path={'todo'} element={<Todo/>}/>
                     <Route path={'homeWork/*'} element={<HomeWork/>}/>
                     <Route path={'lessons/*'} element={<LessonsTypeScript/>}/>
                 </Route>

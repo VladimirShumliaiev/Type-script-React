@@ -1,21 +1,11 @@
 import React, {FC, useState} from 'react';
-import Todo from "./useStateLessonsComponnets/todo/Todo";
+import Todo from "./Todo/Todo";
 
 
 const initialState = 0
 
 const UseStateLessons: FC = () => {
     const [count, setCount] = useState(initialState)
-
-    const str = 'aaa ' +
-        'bbb ' +
-        'ccc' +
-        ' dddd'
-
-    const str2 = `aaa 
-    bbb 
-    ccc 
-    ddd`
 
     const minusHandler = () => {
         setCount(count - 1)

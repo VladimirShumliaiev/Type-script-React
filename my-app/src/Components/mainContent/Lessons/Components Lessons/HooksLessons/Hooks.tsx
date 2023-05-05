@@ -6,10 +6,10 @@ import HooksRouting from "./Hooks Routing/HooksRouting";
 const Hooks: FC = () => {
     return (
         <div className={'item'}>
-            <div className={'NavLink'}>
+            <div>
                 <HooksNavLink/>
             </div>
-            <div className={'Routing'}>
+            <div>
                 <HooksRouting/>
             </div>
 

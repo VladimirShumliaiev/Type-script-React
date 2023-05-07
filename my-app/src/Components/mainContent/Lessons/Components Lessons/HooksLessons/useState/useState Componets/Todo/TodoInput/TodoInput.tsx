@@ -27,7 +27,7 @@ const TodoInput: FC<TodoInput> = ({value, setValue, addTodo}) => {
     }, [])
     return (
         <div>
-            <input type="text" value={value} onChange={onChangeHandler} onKeyDown={onKeyDownHandler} ref={inputRef}/>
+            <input type="text" value={value} onChange={onChangeHandler} onKeyDown={onKeyDownHandler} ref={inputRef} placeholder={'add text...'}/>
             <button onClick={addTodo}>add</button>
         </div>
     );

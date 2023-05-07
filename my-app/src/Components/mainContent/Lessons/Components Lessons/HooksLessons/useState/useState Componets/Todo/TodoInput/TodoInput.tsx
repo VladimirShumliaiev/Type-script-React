@@ -1,34 +1,40 @@
 import React, {FC, useEffect, useRef} from 'react';
 
-type TodoInput = {
-    value: string
-    setValue: (str: string) => void
-    addTodo: () => void
+type TodoInputProps = {
+    title: string
+    setTitle: (str: string) => void
+    addTask: () => void
 }
-
-const TodoInput: FC<TodoInput> = ({value, setValue, addTodo}) => {
-
+const TodoInput: FC<TodoInputProps> = ({title, setTitle, addTask}) => {
     const inputRef = useRef<HTMLInputElement>(null)
-
-    const onChangeHandler: React.ChangeEventHandler<HTMLInputElement> = (e) => {
-        setValue(e.target.value)
-    }
-
-    const onKeyDownHandler: React.KeyboardEventHandler<HTMLInputElement> = (e) => {
-        if (e.key === 'Enter') {
-            addTodo()
-        }
-    }
 
     useEffect(() => {
         if (inputRef.current) {
             inputRef.current.focus()
         }
-    }, [])
+    },[])
+
+    const onChangeHandler: React.ChangeEventHandler<HTMLInputElement> = (e) => {
+        setTitle(e.target.value)
+    }
+
+    const onKeyDownHandler: React.KeyboardEventHandler<HTMLInputElement> = (e) => {
+        if (e.key === 'Enter') {
+            addTask()
+        }
+    }
+
     return (
         <div>
-            <input type="text" value={value} onChange={onChangeHandler} onKeyDown={onKeyDownHandler} ref={inputRef} placeholder={'add text...'}/>
-            <button onClick={addTodo}>add</button>
+            <input
+                type="text"
+                value={title}
+                onChange={onChangeHandler}
+                ref={inputRef}
+                onKeyDown={onKeyDownHandler}
+                placeholder={'add text...'}
+            />
+            <button onClick={addTask}>add</button>
         </div>
     );
 };

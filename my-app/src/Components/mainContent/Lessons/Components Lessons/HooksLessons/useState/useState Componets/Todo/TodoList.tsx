@@ -17,7 +17,7 @@ const TodoList: FC<TodoListProps> = ({todoList, removeTodo, toggleTodo}) => {
     return (
         <div>
             {
-                todoList.map(e => <TodoItem removeTodo={removeTodo} toggleTodo={toggleTodo}{...e}/>)
+                todoList.map(e => <TodoItem toggleTodo={toggleTodo} removeTodo={removeTodo} key={e.id} {...e}/>)
             }
         </div>
     );

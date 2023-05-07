@@ -1,14 +1,13 @@
 import React, {FC, useEffect, useRef} from 'react';
-import style from './TodoInput.module.css';
-import svg from '../../../../../../../../../assets/img/add-svgrepo-com.svg'
 
-type TodoInputProps = {
+type TodoInput = {
     value: string
-    setValue: (e: string) => void
+    setValue: (str: string) => void
     addTodo: () => void
 }
 
-const TodoInput: FC<TodoInputProps> = ({value, setValue, addTodo}) => {
+const TodoInput: FC<TodoInput> = ({value, setValue, addTodo}) => {
+
     const inputRef = useRef<HTMLInputElement>(null)
 
     const onChangeHandler: React.ChangeEventHandler<HTMLInputElement> = (e) => {
@@ -27,9 +26,9 @@ const TodoInput: FC<TodoInputProps> = ({value, setValue, addTodo}) => {
         }
     }, [])
     return (
-        <div className={style.item}>
-            <input type="text" value={value} onChange={onChangeHandler} placeholder={'add todo...'} ref={inputRef} onKeyDown={onKeyDownHandler}/>
-            <button className={style.itemButton} onClick={addTodo}><img src={svg} alt=""/></button>
+        <div>
+            <input type="text" value={value} onChange={onChangeHandler} onKeyDown={onKeyDownHandler} ref={inputRef}/>
+            <button onClick={addTodo}>add</button>
         </div>
     );
 };

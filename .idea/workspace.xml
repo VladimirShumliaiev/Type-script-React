@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="04.05.2023 +++">
+    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="05.05.2023 +++">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/ExampleComponents/ExampleFunctions.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/ExampleComponents/ExampleFunctions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Hooks Lessons/Hooks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/HooksLessons/Hooks.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/HooksLessons/useState/useState Componets/Todo/Todo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/HooksLessons/useState/useState Componets/Todo/Todo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/HooksLessons/useState/useState Componets/Todo/TodoInput/TodoInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/HooksLessons/useState/useState Componets/Todo/TodoInput/TodoInput.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/HooksLessons/useState/useState Componets/Todo/TodoItem/TodoItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/HooksLessons/useState/useState Componets/Todo/TodoItem/TodoItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/HooksLessons/useState/useState Componets/Todo/TodoList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/HooksLessons/useState/useState Componets/Todo/TodoList.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,14 +163,8 @@
       <workItem from="1683108402653" duration="848000" />
       <workItem from="1683109272237" duration="1943000" />
       <workItem from="1683184764628" duration="10443000" />
-      <workItem from="1683311937333" duration="601000" />
-    </task>
-    <task id="LOCAL-00021" summary="+++add 22.02.2023 21:10">
-      <created>1677069099458</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1677069099458</updated>
+      <workItem from="1683311937333" duration="778000" />
+      <workItem from="1683465958665" duration="1828000" />
     </task>
     <task id="LOCAL-00022" summary="+++add 5.02.2023 21:10">
       <created>1677335358185</created>
@@ -506,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683196049379</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="05.05.2023 +++">
+      <created>1683312714807</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1683312714807</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -544,7 +547,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="12.03.2023 12:39" />
     <MESSAGE value="17.03.2023 11:15" />
     <MESSAGE value="17.03.2023 11:45" />
     <MESSAGE value="17.03.2023 12:15" />
@@ -569,6 +571,7 @@
     <MESSAGE value="02.05.2023 rtk" />
     <MESSAGE value="03.05.2023" />
     <MESSAGE value="04.05.2023 +++" />
-    <option name="LAST_COMMIT_MESSAGE" value="04.05.2023 +++" />
+    <MESSAGE value="05.05.2023 +++" />
+    <option name="LAST_COMMIT_MESSAGE" value="05.05.2023 +++" />
   </component>
 </project>

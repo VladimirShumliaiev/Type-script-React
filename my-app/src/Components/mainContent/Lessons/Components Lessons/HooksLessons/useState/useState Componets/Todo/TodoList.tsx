@@ -1,6 +1,4 @@
 import React, {FC} from 'react';
-import TodoItem from "./TodoItem/TodoItem";
-
 
 type Todo = {
     id: number
@@ -10,19 +8,15 @@ type Todo = {
 
 type TodoListProps = {
     todoList: Todo[]
-    removeTodo: (id: number) => void
     toggleTodo: (id: number) => void
+    removeTodo: (id: number) => void
 }
 
 const TodoList: FC<TodoListProps> = ({todoList, removeTodo, toggleTodo}) => {
-
     return (
         <div>
             {
-                todoList.map(e => <TodoItem
-                    removeTodo={removeTodo}
-                    toggleTodo={toggleTodo}
-                    key={e.id} {...e}/>)
+                todoList.map(e =>)
             }
         </div>
     );

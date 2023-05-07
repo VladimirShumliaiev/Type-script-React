@@ -33,11 +33,11 @@ const Todo = () => {
     }
 
     const toggleTodo = (id: number): void => {
-        setTodos(todos.map(e => {
-            if (e.id !== id) return e
+        setTodos(todos.map(toggle => {
+            if (toggle.id !== id) return toggle
                 return {
-                    ...e,
-                    completed: !e.completed
+                    ...toggle,
+                    completed: !toggle.completed
                 }
         }))
     }

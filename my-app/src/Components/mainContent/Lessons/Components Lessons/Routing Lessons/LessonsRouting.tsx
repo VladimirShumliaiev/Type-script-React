@@ -6,6 +6,8 @@ import Functions from "../Functions/Function";
 import AboutTypes from "../About Types/AboutTypes";
 import Users from "../LessonsObjects/Users";
 import Hooks from "../HooksLessons/Hooks";
+import ReduxToolkitExample from "../Redux-toolkit/ReduxToolkitExample";
+
 
 
 const LessonsRouting: FC = () => {
@@ -17,6 +19,7 @@ const LessonsRouting: FC = () => {
                 <Route path={'functions'} element={<Functions/>}/>
                 <Route path={'objects'} element={<Users/>}/>
                 <Route path={'hooks/*'} element={<Hooks/>}/>
+                <Route path={'rtk'} element={<ReduxToolkitExample/>}/>
             </Routes>
         </div>
 

@@ -1,6 +1,6 @@
 import React, {FC} from 'react';
 import {useAppSelector} from "../../../../../hooks/hooks";
-import UsersItem from "./UsersItem";
+import UsersItemExample from "./UsersItem";
 
 type UserListProps = {
     users: string,
@@ -12,7 +12,7 @@ const UsersList: FC<UserListProps> = () => {
     return (
         <ol>
             {
-                list.map((e, index ) => <UsersItem key={index} {...e}/>)
+                list.map((e, index ) => <UsersItemExample key={index} {...e}/>)
             }
         </ol>
     );

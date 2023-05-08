@@ -1,6 +1,6 @@
 import React, {FC} from 'react';
 import {useAppDispatch} from "../../../../../../hooks/hooks";
-import {deleteUser} from "../../../../../../redux/Slices/userSlice";
+import {deleteUserExample} from "../../../../../../redux/Slices/userSlice";
 
 type UserItemPops = {
     id: string
@@ -25,7 +25,7 @@ type UserItemPops = {
     }
 }
 
-const UserItem: FC<UserItemPops> = ({id, username, company: {name, bs, catchPhrase},
+const UserItemExample: FC<UserItemPops> = ({id, username, company: {name, bs, catchPhrase},
                                         address: {street, geo: {lat, ing}, zipcode, suite, city},
                                         website,
                                         phone,
@@ -35,7 +35,7 @@ const UserItem: FC<UserItemPops> = ({id, username, company: {name, bs, catchPhra
 
     const buttonDeleteHandler = () => {
         if (window.confirm('delete user'))
-        dispatch(deleteUser(id))
+        dispatch(deleteUserExample(id))
     }
 
     return (
@@ -99,4 +99,4 @@ const UserItem: FC<UserItemPops> = ({id, username, company: {name, bs, catchPhra
     );
 };
 
-export default UserItem;
+export default UserItemExample;

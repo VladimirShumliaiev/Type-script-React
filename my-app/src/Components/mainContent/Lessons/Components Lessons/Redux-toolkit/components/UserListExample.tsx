@@ -1,16 +1,17 @@
 import React, {FC} from 'react';
 import {useAppSelector} from "../../../../../../hooks/hooks";
-import UserItem from "./UserItem";
+import UserItemExample from "./UserItemExample";
 
-const UserList: FC = () => {
+
+const UserListExample: FC = () => {
     const userList = useAppSelector(state => state.userSlice.users)
     return (
         <div>
             {
-                userList.map(e => <UserItem key={e.id} {...e}/>)
+                userList.map(e => <UserItemExample key={e.id} {...e}/>)
             }
         </div>
     );
 };
 
-export default UserList;
+export default UserListExample;

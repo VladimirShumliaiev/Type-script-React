@@ -35,12 +35,11 @@ const initialState: UserState = {
     pending: false,
 }
 
-export const fetchUsers = createAsyncThunk<Users[], undefined, { rejectValue: string }>(
+export const fetchUsersExample = createAsyncThunk<Users[], undefined, { rejectValue: string }>(
     'Users/fetchUsers',
     async (_, {rejectWithValue}) => {
-        const response = await fetch('https://jsonplaceholder.typicode.com/users', {
-            method: 'PATCH'
-        })
+        const response = await fetch('https://jsonplaceholder.typicode.com/users')
+
         if (!response.ok) {
             return rejectWithValue('error fetch users')
         }
@@ -48,7 +47,7 @@ export const fetchUsers = createAsyncThunk<Users[], undefined, { rejectValue: st
     }
 )
 
-export const deleteUser = createAsyncThunk<string, string, { rejectValue: string }>(
+export const deleteUserExample = createAsyncThunk<string, string, { rejectValue: string }>(
     'Users/deleteUser',
     async (id, {rejectWithValue}) => {
         const response = await fetch(`https://jsonplaceholder.typicode.com/users/${id}`, {
@@ -68,15 +67,15 @@ const userSlice = createSlice({
     reducers: {},
     extraReducers: (builder) => {
         builder
-            .addCase(fetchUsers.pending , (state) => {
+            .addCase(fetchUsersExample.pending , (state) => {
                 state.pending = true
                 state.error = null
             })
-            .addCase(fetchUsers.fulfilled, (state, action) => {
+            .addCase(fetchUsersExample.fulfilled, (state, action) => {
                 state.users = action.payload
                 state.pending = false
             })
-            .addCase(deleteUser.fulfilled, (state, action) => {
+            .addCase(deleteUserExample.fulfilled, (state, action) => {
                state.users = state.users.filter(e => e.id !== action.payload)
             })
 

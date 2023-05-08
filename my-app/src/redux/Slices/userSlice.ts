@@ -1,4 +1,4 @@
-import {createAsyncThunk, createSlice} from "@reduxjs/toolkit";
+import {AnyAction, createAsyncThunk, createSlice, PayloadAction} from "@reduxjs/toolkit";
 
 type Users = {
     id: string
@@ -78,8 +78,15 @@ const userSlice = createSlice({
             .addCase(deleteUserExample.fulfilled, (state, action) => {
                state.users = state.users.filter(e => e.id !== action.payload)
             })
+            .addMatcher(isError, (state, action: PayloadAction<string>) => {
+                state.error = action.payload
+                state.pending = false
+            })
 
     }
 })
+const isError = (action: AnyAction) => {
+    return action.type.endsWith('rejected')
+}
 
 export default userSlice.reducer

@@ -34,7 +34,7 @@ const UserItemExample: FC<UserItemPops> = ({id, username, company: {name, bs, ca
     const dispatch = useAppDispatch()
 
     const buttonDeleteHandler = () => {
-        if (window.confirm('delete user'))
+        if (window.confirm(`delete user ${username}`))
         dispatch(deleteUserExample(id))
     }
 

@@ -25,17 +25,20 @@ type UserItemPops = {
     }
 }
 
-const UserItemExample: FC<UserItemPops> = ({id, username, company: {name, bs, catchPhrase},
-                                        address: {street, geo: {lat, ing}, zipcode, suite, city},
-                                        website,
-                                        phone,
-                                        email
-                                    }) => {
+const UserItemExample: FC<UserItemPops> = ({
+                                               id,
+                                               username,
+                                               company,
+                                               address,
+                                               website,
+                                               phone,
+                                               email
+                                           }) => {
     const dispatch = useAppDispatch()
 
     const buttonDeleteHandler = () => {
         if (window.confirm(`delete user ${username}`))
-        dispatch(deleteUserExample(id))
+            dispatch(deleteUserExample(id))
     }
 
     return (
@@ -53,24 +56,24 @@ const UserItemExample: FC<UserItemPops> = ({id, username, company: {name, bs, ca
             <div>
                 address:
                 <div>
-                    street: {street}
+                    street: {address.street}
                 </div>
                 <div>
-                    suite: {suite}
+                    suite: {address.suite}
                 </div>
                 <div>
-                    city: {city}
+                    city: {address.city}
                 </div>
                 <div>
-                    zipcode: {zipcode}
+                    zipcode: {address.zipcode}
                 </div>
                 <div>
                     geo:
                     <div>
-                        lat: {lat}
+                        lat: {address.geo.lat}
                     </div>
                     <div>
-                        ing: {ing}
+                        ing: {address.geo.ing}
                     </div>
                 </div>
             </div>
@@ -83,14 +86,13 @@ const UserItemExample: FC<UserItemPops> = ({id, username, company: {name, bs, ca
             <div>
                 company:
                 <div>
-                    name: {name}
+                    name: {company.name}
                 </div>
                 <div>
-                    catchPhrase: {catchPhrase}
+                    catchPhrase: {company.catchPhrase}
                 </div>
                 <div>
-                    bs: {bs}
-
+                    bs: {company.bs}
                 </div>
             </div>
             <button onClick={buttonDeleteHandler}>delete</button>

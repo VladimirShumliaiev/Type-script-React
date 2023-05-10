@@ -1,6 +1,6 @@
 import {AnyAction, createAsyncThunk, createSlice, PayloadAction} from "@reduxjs/toolkit";
 
-type Users = {
+type UsersExample = {
     id: string
     username: string
     email: string
@@ -24,18 +24,18 @@ type Users = {
 }
 
 type UserState = {
-    users: Users[]
+    usersExample: UsersExample[]
     error: string | null
     pending: boolean
 }
 
 const initialState: UserState = {
-    users: [],
+    usersExample: [],
     error: null,
     pending: false,
 }
 
-export const fetchUsersExample = createAsyncThunk<Users[], undefined, { rejectValue: string }>(
+export const fetchUsersExample = createAsyncThunk<UsersExample[], undefined, { rejectValue: string }>(
     'Users/fetchUsers',
     async (_, {rejectWithValue}) => {
         const response = await fetch('https://jsonplaceholder.typicode.com/users')
@@ -72,11 +72,11 @@ const userSlice = createSlice({
                 state.error = null
             })
             .addCase(fetchUsersExample.fulfilled, (state, action) => {
-                state.users = action.payload
+                state.usersExample = action.payload
                 state.pending = false
             })
             .addCase(deleteUserExample.fulfilled, (state, action) => {
-               state.users = state.users.filter(e => e.id !== action.payload)
+               state.usersExample = state.usersExample.filter(e => e.id !== action.payload)
             })
             .addMatcher(isError, (state, action: PayloadAction<string>) => {
                 state.error = action.payload

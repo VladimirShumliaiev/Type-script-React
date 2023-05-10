@@ -1,19 +1,17 @@
 import React, {FC} from 'react';
 import style from './TodoItem.module.css'
-import onClickButton from '../../../../../../../../../assets/img/delete-svgrepo-com.svg'
+import deleteTodoImg from '../../../../../../../../../assets/img/delete-svgrepo-com.svg'
 
 type TodoItemProps = {
     id: number
     title: string
     completed: boolean
-    removeTodo: (id: number) => void
     toggleTodo: (id: number) => void
+    removeTodo: (id: number) => void
 }
 
 const TodoItem: FC<TodoItemProps> = (props) => {
-    const {id, removeTodo, toggleTodo, completed, title} = props
-
-
+    const {id, title, completed, toggleTodo, removeTodo} = props
     return (
         <div>
             <input
@@ -22,9 +20,7 @@ const TodoItem: FC<TodoItemProps> = (props) => {
                 onChange={() => toggleTodo(id)}
             />
             {title}
-            <button className={style.todoItem} onClick={() => removeTodo(id)}>
-                <img src={onClickButton} alt=''/>
-            </button>
+            <button className={style.todoItem} onClick={() => removeTodo(id)}><img src={deleteTodoImg} alt=""/></button>
         </div>
     );
 };

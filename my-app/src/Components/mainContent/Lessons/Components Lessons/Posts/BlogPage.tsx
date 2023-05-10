@@ -1,22 +1,28 @@
 import React, {useEffect, useState} from 'react';
 import {Link} from "react-router-dom";
+import styles from './Posts.module.css'
+
+type Post = {
+    id: number
+    title: string
+}
 
 const BlogPage = () => {
-    const [post, setPost] = useState([])
+    const [posts, setPosts] = useState<Post[]>([])
 
     useEffect(() => {
         fetch('https://jsonplaceholder.typicode.com/posts')
             .then(res => res.json())
-            .then(data => setPost(data))
-    },[])
+            .then(date => setPosts(date))
+    })
     return (
-        <div>
-            <h1>Our news</h1>
+        <div className={styles.item}>
             {
-                post.map(post => (
-                    <Link key={post.id} to={`/lessons/posts/${post.id}`}>
+                posts.map(post => (
+                  <Link to={`/lessons/posts/${post.id}`}>
                         <li>{post.title}</li>
-                    </Link>
+                      <pre/>
+                  </Link>
                 ))
             }
         </div>

@@ -1,25 +1,29 @@
 import React, {useEffect, useState} from 'react';
 import {useParams} from "react-router-dom";
 
-
+type Post = {
+    title: string
+    body: string
+}
 
 const SinglePage = () => {
     const {id} = useParams()
-    const [post, setPost] = useState(null)
+    const [posts, setPosts] = useState<Post>()
 
     useEffect(() => {
         fetch(`https://jsonplaceholder.typicode.com/posts/${id}`)
             .then(res => res.json())
-            .then(data => setPost(data))
-    },[id])
+            .then(date => setPosts(date))
+    }, [id])
     return (
         <div>
-            {post && (
+            {posts && (
                 <>
-                    <h1>{post.title}</h1>
-                    <p>{post.body}</p>
+                    <h3>{posts.title}</h3>
+                    <p>{posts.body}</p>
                 </>
             )}
+
         </div>
     );
 };

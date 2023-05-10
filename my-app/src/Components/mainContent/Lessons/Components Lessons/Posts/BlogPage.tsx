@@ -19,7 +19,7 @@ const BlogPage = () => {
         <div className={styles.item}>
             {
                 posts.map(post => (
-                  <Link to={`/lessons/posts/${post.id}`}>
+                  <Link key={post.id} to={`/lessons/posts/${post.id}`}>
                         <li>{post.title}</li>
                       <pre/>
                   </Link>

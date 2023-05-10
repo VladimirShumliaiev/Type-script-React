@@ -7,6 +7,8 @@ import AboutTypes from "../About Types/AboutTypes";
 import Users from "../LessonsObjects/Users";
 import Hooks from "../HooksLessons/Hooks";
 import ReduxToolkitExample from "../Redux-toolkit/ReduxToolkitExample";
+import BlogPage from "../Posts/BlogPage";
+import SinglePage from "../Posts/SinglePage";
 
 
 
@@ -20,6 +22,8 @@ const LessonsRouting: FC = () => {
                 <Route path={'objects'} element={<Users/>}/>
                 <Route path={'hooks/*'} element={<Hooks/>}/>
                 <Route path={'rtk'} element={<ReduxToolkitExample/>}/>
+                <Route path={'posts'} element={<BlogPage/>}/>
+                <Route path={'posts/:id'} element={<SinglePage/>}/>
             </Routes>
         </div>
 

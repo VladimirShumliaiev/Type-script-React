@@ -16,6 +16,7 @@ const LessonsNavLink = () => {
             <NavLink className={isActive} to={'objects'}> Objects </NavLink>{'|'}
             <NavLink className={isActive} to={'hooks'}> Hooks </NavLink>{'|'}
             <NavLink className={isActive} to={'rtk'}> Redux toolkit </NavLink>{'|'}
+            <NavLink className={isActive} to={'posts'}> Posts </NavLink>{'|'}
         </div>
     );
 };

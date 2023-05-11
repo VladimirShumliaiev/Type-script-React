@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {Link, Route, Routes, useParams} from "react-router-dom";
-import BlogPage from "./BlogPage";
+import { useParams} from "react-router-dom";
 import styles from './Posts.module.css'
 
 
@@ -26,15 +25,9 @@ const SinglePage = () => {
                     <h3>{posts.title}</h3>
                     <p>{posts.body}</p>
 
-                    <Link to={'posts'}>
+                    <a href={`/lessons/posts`}>
                         back to page
-                    </Link>
-
-                    <div className={styles.itemBackToPage}>
-                        <Routes>
-                            <Route path={'posts'} element={<BlogPage/>}/>
-                        </Routes>
-                    </div>
+                    </a>
                 </>
             )}
         </div>

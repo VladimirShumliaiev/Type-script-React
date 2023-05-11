@@ -23,7 +23,7 @@ const LessonsRouting: FC = () => {
                 <Route path={'hooks/*'} element={<Hooks/>}/>
                 <Route path={'rtk'} element={<ReduxToolkitExample/>}/>
                 <Route path={'posts'} element={<BlogPage/>}/>
-                <Route path={'posts/:id/*'} element={<SinglePage/>}/>
+                <Route path={'posts/:id'} element={<SinglePage/>}/>
             </Routes>
         </div>
 

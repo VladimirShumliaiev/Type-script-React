@@ -2,37 +2,41 @@ import React from 'react';
 
 const ExampleFunctions = () => {
 
-    // const fnWithError = () => {
-    //     throw new Error('ERROR ERROR')
-    // }
-    //
-    // try {
-    //     fnWithError()
-    // } catch (error) {
-    //     console.error(error)
-    //     console.log(error.message)
-    // }
+        // const lordify = (regularPerson) => {
+        //     console.log(`${regularPerson.firstName} of Canterbury`)
+        // }
 
-    const age = 66
-
-
-
-    if (age > 65) {
-        console.log('mnogo')
+    const lordify = ( {spouse: {firstName} } ) => {
+        console.log(`${firstName} of Canterbury`)
     }
 
-    if (age <= 65 && age >=18) {
-        console.log('normalno')
-    }
+        const regularPerson = {
+            firstName: 'Bill',
+            lastName: 'Wilson',
+            spouse: {
+                firstName: 'Mike',
+                lastName: 'Wilson',
+            }
+        }
 
-    if (age < 12) {
-        console.log('malo')
-    }
+        lordify(regularPerson)
 
-    // console.log('Continue')
+    const name = 'Mike'
+    const elevation = 9738
+
+    const obj = {name, elevation}
+
+    console.log(obj)
+
+    const array = ['1', '2']
+    const array2 = ['3', '4']
+
+    const arrayAll = [...array, ...array2]
+
+    console.log(arrayAll.map(e => e))
     return (
         <div>
-            Functions
+           function
         </div>
     );
 };

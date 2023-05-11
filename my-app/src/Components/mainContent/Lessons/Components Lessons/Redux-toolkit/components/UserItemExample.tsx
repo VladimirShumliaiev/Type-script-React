@@ -25,15 +25,15 @@ type UserItemPops = {
     }
 }
 
-const UserItemExample: FC<UserItemPops> = ({
-                                               id,
-                                               username,
-                                               company,
-                                               address,
-                                               website,
-                                               phone,
-                                               email
-                                           }) => {
+const UserItemExample: FC<UserItemPops> = (props) => {
+    const {
+        id, username, company: {name, catchPhrase, bs},
+        address: {
+            street, zipcode, city, suite,
+            geo: {lat, ing}
+        }, website, phone, email
+    } = props
+
     const dispatch = useAppDispatch()
 
     const buttonDeleteHandler = () => {
@@ -56,24 +56,24 @@ const UserItemExample: FC<UserItemPops> = ({
             <div>
                 address:
                 <div>
-                    street: {address.street}
+                    street: {street}
                 </div>
                 <div>
-                    suite: {address.suite}
+                    suite: {suite}
                 </div>
                 <div>
-                    city: {address.city}
+                    city: {city}
                 </div>
                 <div>
-                    zipcode: {address.zipcode}
+                    zipcode: {zipcode}
                 </div>
                 <div>
                     geo:
                     <div>
-                        lat: {address.geo.lat}
+                        lat: {lat}
                     </div>
                     <div>
-                        ing: {address.geo.ing}
+                        ing: {ing}
                     </div>
                 </div>
             </div>
@@ -86,13 +86,13 @@ const UserItemExample: FC<UserItemPops> = ({
             <div>
                 company:
                 <div>
-                    name: {company.name}
+                    name: {name}
                 </div>
                 <div>
-                    catchPhrase: {company.catchPhrase}
+                    catchPhrase: {catchPhrase}
                 </div>
                 <div>
-                    bs: {company.bs}
+                    bs: {bs}
                 </div>
             </div>
             <button onClick={buttonDeleteHandler}>delete</button>

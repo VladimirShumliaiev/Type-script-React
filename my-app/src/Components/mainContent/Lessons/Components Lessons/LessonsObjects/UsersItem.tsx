@@ -25,11 +25,12 @@ type UsersItemProps = {
     }
 }
 
-const UsersItem: FC<UsersItemProps> = ({
-                                           id, username, website, phone, email,
-                                           address: {street, suite, city, zipcode, geo: {lat, lng}}
-                                           , company: {name, bs, catchPhrase}
-                                       }) => {
+const UsersItem: FC<UsersItemProps> = (props) => {
+    const {
+        id, username, website, phone, email,
+        address: {street, suite, city, zipcode, geo: {lat, lng}}
+        , company: {name, bs, catchPhrase}
+    } = props
     const dispatch = useAppDispatch()
 
     const deleteHandler = () => {

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ExampleFunctions = () => {
-
+        //
         // const lordify = (regularPerson) => {
         //     console.log(`${regularPerson.firstName} of Canterbury`)
         // }
@@ -34,12 +34,19 @@ const ExampleFunctions = () => {
 
     console.log(obj)
 
-    const array = ['1', '2']
-    const array2 = ['3', '4']
+    const array = [['1', '2']]
+    const array2 = [['3', '4']]
 
     const arrayAll = [...array, ...array2, {...test},name]
 
     console.log(arrayAll.map(e => e))
+
+
+
+    const str = 'Restaurants in Hanalei'
+    const urlFriendly = str.replace('-')
+
+    console.log(urlFriendly)
     return (
         <div>
            function

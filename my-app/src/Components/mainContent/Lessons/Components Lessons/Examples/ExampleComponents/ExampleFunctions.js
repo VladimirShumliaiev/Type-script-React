@@ -26,12 +26,18 @@ const ExampleFunctions = () => {
 
     const obj = {name, elevation}
 
+    const test = {
+        id: 1,
+        title: 'abc',
+        completed: true
+    }
+
     console.log(obj)
 
     const array = ['1', '2']
     const array2 = ['3', '4']
 
-    const arrayAll = [...array, ...array2]
+    const arrayAll = [...array, ...array2, {...test},name]
 
     console.log(arrayAll.map(e => e))
     return (

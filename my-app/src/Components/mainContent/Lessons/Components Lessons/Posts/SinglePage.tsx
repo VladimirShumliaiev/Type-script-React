@@ -4,6 +4,7 @@ import {useParams} from "react-router-dom";
 type Post = {
     title: string
     body: string
+    userId: number
 }
 
 const SinglePage = () => {
@@ -19,6 +20,7 @@ const SinglePage = () => {
         <div>
             {posts && (
                 <>
+                    <p>UserId: {posts.userId}</p>
                     <h3>{posts.title}</h3>
                     <p>{posts.body}</p>
                 </>

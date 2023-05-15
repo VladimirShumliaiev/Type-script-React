@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="12.05.2023 +++">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/ExampleComponents/ExampleArrays.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/ExampleComponents/ExampleArrays.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/ExampleComponents/ExampleFunctions.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/ExampleComponents/ExampleFunctions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/ExampleComponents/ExampleObjects.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/ExampleComponents/ExampleObjects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Posts/BlogPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Posts/BlogPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Posts/SinglePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Posts/SinglePage.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="12.05.2023 +++" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -179,14 +172,7 @@
       <workItem from="1683788205680" duration="4391000" />
       <workItem from="1683797772880" duration="3247000" />
       <workItem from="1683834332362" duration="207000" />
-      <workItem from="1683878176331" duration="4102000" />
-    </task>
-    <task id="LOCAL-00038" summary="02.04.2023 12:58">
-      <created>1680429499094</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1680429499094</updated>
+      <workItem from="1683878176331" duration="4400000" />
     </task>
     <task id="LOCAL-00039" summary="11.04.2023 11:35">
       <created>1681202168228</created>
@@ -524,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683878410956</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="12.05.2023 +++">
+      <created>1683883029596</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1683883029596</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

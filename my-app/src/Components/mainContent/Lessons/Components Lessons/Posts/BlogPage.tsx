@@ -13,15 +13,14 @@ const BlogPage = () => {
         fetch('https://jsonplaceholder.typicode.com/posts')
             .then(res => res.json())
             .then(date => setPosts(date))
-
-    }, [])
+    },[])
 
     return (
         <div>
             {
-                posts.map(post => (
-                    <Link key={post.id} to={`/lessons/posts/${post.id}`}>
-                        <li>{post.title}</li>
+                posts.map(e => (
+                    <Link key={e.id} to={`/lessons/posts/${e.id}`}>
+                        <li>{e.title}</li>
                     </Link>
                 ))
             }

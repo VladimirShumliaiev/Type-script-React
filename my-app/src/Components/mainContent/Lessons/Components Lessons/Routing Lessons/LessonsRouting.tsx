@@ -9,6 +9,7 @@ import Hooks from "../HooksLessons/Hooks";
 import ReduxToolkitExample from "../Redux-toolkit/ReduxToolkitExample";
 import BlogPage from "../Posts/BlogPage";
 import SinglePage from "../Posts/SinglePage";
+import Board from "../TticTacToe/Board";
 
 
 
@@ -24,6 +25,7 @@ const LessonsRouting: FC = () => {
                 <Route path={'rtk'} element={<ReduxToolkitExample/>}/>
                 <Route path={'posts'} element={<BlogPage/>}/>
                 <Route path={'posts/:id'} element={<SinglePage/>}/>
+                <Route path={'ticTacToe'} element={<Board/>}/>
             </Routes>
         </div>
 

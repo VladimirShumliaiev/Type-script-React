@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="16.05.2023 +++">
+    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="17.05.2023 +++">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/redux/Slices/todoSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/redux/Slices/todoSlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Posts/BlogPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Posts/BlogPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Posts/SinglePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Posts/SinglePage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,14 +186,7 @@
       <workItem from="1684176107642" duration="221000" />
       <workItem from="1684213615048" duration="968000" />
       <workItem from="1684254514242" duration="3686000" />
-      <workItem from="1684302467338" duration="3419000" />
-    </task>
-    <task id="LOCAL-00042" summary="13.04.2023">
-      <created>1681373598377</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1681373598377</updated>
+      <workItem from="1684302467338" duration="4672000" />
     </task>
     <task id="LOCAL-00043" summary="13.04.2023 13:21">
       <created>1681381306303</created>
@@ -530,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684258188060</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="17.05.2023 +++">
+      <created>1684305924205</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1684305924206</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -561,7 +562,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="30.03.2023 12:39" />
     <MESSAGE value="02.04.2023 12:58" />
     <MESSAGE value="11.04.2023 11:35" />
     <MESSAGE value="12.04.2023 12:08" />
@@ -586,6 +586,7 @@
     <MESSAGE value="11.05.2023 +++" />
     <MESSAGE value="12.05.2023 +++" />
     <MESSAGE value="16.05.2023 +++" />
-    <option name="LAST_COMMIT_MESSAGE" value="16.05.2023 +++" />
+    <MESSAGE value="17.05.2023 +++" />
+    <option name="LAST_COMMIT_MESSAGE" value="17.05.2023 +++" />
   </component>
 </project>

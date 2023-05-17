@@ -1,13 +1,13 @@
 import React, {useEffect, useState} from 'react';
 import {Link} from "react-router-dom";
 
-type Post = {
+type Posts = {
     id: number
     title: string
 }
 
 const BlogPage = () => {
-    const [posts, setPosts] = useState<Post[]>([])
+    const [posts, setPosts] = useState<Posts[]>([])
 
     useEffect(() => {
         fetch('https://jsonplaceholder.typicode.com/posts')
@@ -18,11 +18,11 @@ const BlogPage = () => {
     return (
         <div>
             {
-                posts.map(e => (
-                    <Link key={e.id} to={`/lessons/posts/${e.id}`}>
-                        <li>{e.title}</li>
+                posts.map(post => [
+                    <Link key={post.id} to={`/lessons/posts/${post.id}`}>
+                        <li>{post.title}</li>
                     </Link>
-                ))
+                ])
             }
         </div>
     );

@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="17.05.2023 +++">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/TticTacToe/Board.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/TticTacToe/Board.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/TodoList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/TodoList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/redux/Slices/todoSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/redux/Slices/todoSlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/redux/Store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/redux/Store/store.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,6 +190,7 @@
       <workItem from="1684302467338" duration="4804000" />
       <workItem from="1684310128855" duration="5506000" />
       <workItem from="1684316922234" duration="599000" />
+      <workItem from="1684388091222" duration="3040000" />
     </task>
     <task id="LOCAL-00045" summary="21.04.2023">
       <created>1682065253090</created>

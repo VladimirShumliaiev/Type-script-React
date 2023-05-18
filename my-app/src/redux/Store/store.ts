@@ -11,7 +11,7 @@ export const store = configureStore({
         todo: todoSlice,
         examples: examplesSlice,
         usersObject: lessonsObjectSlice,
-        userSlice,
+        users: userSlice,
         photos: photosSlice,
     }
 })

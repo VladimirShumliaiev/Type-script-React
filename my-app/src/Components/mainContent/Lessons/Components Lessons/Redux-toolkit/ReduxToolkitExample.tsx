@@ -6,7 +6,7 @@ import UserListExample from "./components/UserListExample";
 
 const ReduxToolkitExample: FC = () => {
     const dispatch = useAppDispatch()
-    const {error, pending} = useAppSelector(state => state.userSlice)
+    const {error, pending} = useAppSelector(state => state.users)
 
     useEffect(() => {
         dispatch(fetchUsersExample())

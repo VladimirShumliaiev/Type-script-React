@@ -4,7 +4,7 @@ import UserItemExample from "./UserItemExample";
 
 
 const UserListExample: FC = () => {
-    const userList = useAppSelector(state => state.userSlice.usersExample)
+    const userList = useAppSelector(state => state.users.usersExample)
     return (
         <div>
             {

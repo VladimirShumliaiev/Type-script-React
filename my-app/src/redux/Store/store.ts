@@ -3,6 +3,7 @@ import todoSlice from "../Slices/todoSlice";
 import examplesSlice from "../Slices/examplesSlice";
 import lessonsObjectSlice from "../Slices/lessonsObjectSlice";
 import userSlice from "../Slices/userSlice";
+import photosSlice from "../Slices/photosSlice";
 
 
 export const store = configureStore({
@@ -11,6 +12,7 @@ export const store = configureStore({
         examples: examplesSlice,
         usersObject: lessonsObjectSlice,
         userSlice,
+        photos: photosSlice,
     }
 })
 

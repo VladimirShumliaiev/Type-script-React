@@ -1,7 +1,7 @@
 import React, {FC} from 'react';
 import styles from './LessonsTypeScrypt.module.css'
-import LessonsNavLink from "./Components Lessons/LessonsNavLink/LessonsNavLink";
-import LessonsRouting from "./Components Lessons/Routing Lessons/LessonsRouting";
+import LessonsNavLink from "./Components Lessons/Lessons NavLink & Routing/LessonsNavLink/LessonsNavLink";
+import LessonsRouting from "./Components Lessons/Lessons NavLink & Routing/Routing Lessons/LessonsRouting";
 
 const LessonsTypeScript: FC = () => {
     return (

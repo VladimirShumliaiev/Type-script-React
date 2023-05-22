@@ -60,7 +60,7 @@ export const addTodo = createAsyncThunk<Todo, string, { rejectValue: string }>(
         const todo = {
             id: Date.now(),
             title: title,
-            completed: false,
+            completed: true,
         }
 
         const response = await fetch('https://jsonplaceholder.typicode.com/todos', {

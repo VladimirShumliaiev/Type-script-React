@@ -13,10 +13,11 @@ const Layout = () => {
 
             <div className={'NavBar'}>
                 <NavBar/>
+
             </div>
 
             <div className={'Main'}>
-                <Outlet/>
+            <Outlet/>
             </div>
 
             <div className={'Footer'}>

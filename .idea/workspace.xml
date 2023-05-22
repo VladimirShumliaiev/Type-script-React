@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="22.05.2023 +++">
-      <change beforePath="$PROJECT_DIR$/my-app/src/redux/Slices/todoSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/redux/Slices/todoSlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/HomeWork/HomeWork.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/HomeWork/HomeWork.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Layout/Layout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,21 +194,8 @@
       <workItem from="1684394231962" duration="60000" />
       <workItem from="1684396733384" duration="1187000" />
       <workItem from="1684572479681" duration="2471000" />
-      <workItem from="1684785098044" duration="1126000" />
-    </task>
-    <task id="LOCAL-00052" summary="25.04.2023 hooks">
-      <created>1682419414145</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1682419414145</updated>
-    </task>
-    <task id="LOCAL-00053" summary="25.04.2023 hooks">
-      <created>1682500926434</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1682500926435</updated>
+      <workItem from="1684785098044" duration="1170000" />
+      <workItem from="1684786469839" duration="319000" />
     </task>
     <task id="LOCAL-00054" summary="26.04.2023 hooks">
       <created>1682517146142</created>
@@ -537,7 +526,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684785831249</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="22.05.2023 +++">
+      <created>1684786248529</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1684786248529</updated>
+    </task>
+    <task id="LOCAL-00102" summary="22.05.2023 +++">
+      <created>1684786270714</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1684786270714</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

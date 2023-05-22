@@ -18,9 +18,9 @@ const initialState: TodoState = {
     error: null,
 }
 
-export const fetchTodo = createAsyncThunk<Todo[], undefined, {rejectValue: string}>(
+export const fetchTodo = createAsyncThunk<Todo[], undefined, { rejectValue: string }>(
     'Todo/fetchTodo',
-    async (_,{rejectWithValue}) => {
+    async (_, {rejectWithValue}) => {
         const response = await fetch('https://jsonplaceholder.typicode.com/todos')
 
         if (!response.ok) {
@@ -30,7 +30,7 @@ export const fetchTodo = createAsyncThunk<Todo[], undefined, {rejectValue: strin
     }
 )
 
-export const toggleTodo = createAsyncThunk<Todo, string, {rejectValue: string, state: {todo: TodoState}}>(
+export const toggleTodo = createAsyncThunk<Todo, string, { rejectValue: string, state: { todo: TodoState } }>(
     'Todo/toggleTodo',
     async (id, {rejectWithValue, getState}) => {
         const todo = getState().todo.list.find(e => e.id === id)
@@ -38,14 +38,14 @@ export const toggleTodo = createAsyncThunk<Todo, string, {rejectValue: string, s
         if (todo) {
             const response = await fetch(`https://jsonplaceholder.typicode.com/todos/${id}`, {
                 method: 'PATCH',
-                headers: {'Content-Type':'application/json'},
+                headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify({
                     completed: !todo.completed
                 })
             })
 
             if (!response.ok) {
-                return rejectWithValue('error toggle')
+                return rejectWithValue('Error toggle todo')
             }
             return await response.json() as Todo
         }
@@ -53,9 +53,10 @@ export const toggleTodo = createAsyncThunk<Todo, string, {rejectValue: string, s
     }
 )
 
-export const addTodo = createAsyncThunk<Todo, string, {rejectValue: string}>(
+
+export const addTodo = createAsyncThunk<Todo, string, { rejectValue: string }>(
     'Todo/addTodo',
-    async (title,{rejectWithValue}) => {
+    async (title, {rejectWithValue}) => {
         const todo = {
             id: Date.now(),
             title: title,
@@ -64,7 +65,7 @@ export const addTodo = createAsyncThunk<Todo, string, {rejectValue: string}>(
 
         const response = await fetch('https://jsonplaceholder.typicode.com/todos', {
             method: 'POST',
-            headers: {'Content-Type':'application/json'},
+            headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(todo)
         })
 
@@ -76,7 +77,7 @@ export const addTodo = createAsyncThunk<Todo, string, {rejectValue: string}>(
     }
 )
 
-export const removeTodo = createAsyncThunk<string, string, {rejectValue: string}>(
+export const removeTodo = createAsyncThunk<string, string, { rejectValue: string }>(
     'Todo/removeTodo',
     async (id, {rejectWithValue}) => {
         const response = await fetch(`https://jsonplaceholder.typicode.com/todos/${id}`, {

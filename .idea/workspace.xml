@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="22.05.2023 +++">
-      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Quiz/Game.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Quiz/Quiz.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Quiz/Result.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Quiz/questionList.ts" afterDir="false" />
+    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="23.05.2023 +++">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Lessons NavLink &amp; Routing/LessonsNavLink/LessonsNavLink.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Lessons NavLink &amp; Routing/LessonsNavLink/LessonsNavLink.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Lessons NavLink &amp; Routing/Routing Lessons/LessonsRouting.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Lessons NavLink &amp; Routing/Routing Lessons/LessonsRouting.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Quiz/Game.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Quiz/Game.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Quiz/Quiz.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Quiz/Quiz.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Quiz/Result.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Quiz/Result.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,28 +197,7 @@
       <workItem from="1684572479681" duration="2471000" />
       <workItem from="1684785098044" duration="1170000" />
       <workItem from="1684786469839" duration="410000" />
-      <workItem from="1684822416073" duration="3807000" />
-    </task>
-    <task id="LOCAL-00055" summary="27.04.2023 hooks">
-      <created>1682585460872</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1682585460872</updated>
-    </task>
-    <task id="LOCAL-00056" summary="27.04.2023 hooks">
-      <created>1682587853162</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1682587853162</updated>
-    </task>
-    <task id="LOCAL-00057" summary="28.04.2023 hooks">
-      <created>1682592076998</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1682592076998</updated>
+      <workItem from="1684822416073" duration="5814000" />
     </task>
     <task id="LOCAL-00058" summary="28.04.2023 hooks">
       <created>1682592379045</created>
@@ -545,7 +521,28 @@
       <option name="project" value="LOCAL" />
       <updated>1684786871842</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="23.05.2023 +++">
+      <created>1684826275559</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1684826275559</updated>
+    </task>
+    <task id="LOCAL-00105" summary="23.05.2023 +++">
+      <created>1684826414268</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1684826414269</updated>
+    </task>
+    <task id="LOCAL-00106" summary="23.05.2023 +++">
+      <created>1684826422899</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1684826422899</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -576,7 +573,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="12.04.2023 12:08" />
     <MESSAGE value="13.04.2023" />
     <MESSAGE value="13.04.2023 13:21" />
     <MESSAGE value="21.04.2023" />
@@ -601,6 +597,7 @@
     <MESSAGE value="17.05.2023 +++" />
     <MESSAGE value="18.05.2023 +++" />
     <MESSAGE value="22.05.2023 +++" />
-    <option name="LAST_COMMIT_MESSAGE" value="22.05.2023 +++" />
+    <MESSAGE value="23.05.2023 +++" />
+    <option name="LAST_COMMIT_MESSAGE" value="23.05.2023 +++" />
   </component>
 </project>

@@ -19,6 +19,7 @@ const LessonsNavLink = () => {
             <NavLink className={isActive} to={'posts'}> Posts </NavLink>{'|'}
             <NavLink className={isActive} to={'ticTacToe'}> Tic Tac Toe </NavLink>{'|'}
             <NavLink className={isActive} to={'photos'}> Photos </NavLink>{'|'}
+            <NavLink className={isActive} to={'quiz'}> Quiz </NavLink>{'|'}
         </div>
     );
 };

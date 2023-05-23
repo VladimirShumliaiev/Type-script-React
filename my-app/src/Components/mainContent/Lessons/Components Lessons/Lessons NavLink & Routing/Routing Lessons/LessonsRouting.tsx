@@ -11,6 +11,7 @@ import BlogPage from "../../Posts/BlogPage";
 import SinglePage from "../../Posts/SinglePage";
 import Board from "../../TticTacToe/Board";
 import Photos from "../../Photos/Photos";
+import Quiz from "../../Quiz/Quiz";
 
 
 
@@ -28,6 +29,7 @@ const LessonsRouting: FC = () => {
                 <Route path={'posts/:id'} element={<SinglePage/>}/>
                 <Route path={'ticTacToe'} element={<Board/>}/>
                 <Route path={'photos'} element={<Photos/>}/>
+                <Route path={'quiz'} element={<Quiz/>}/>
             </Routes>
         </div>
 

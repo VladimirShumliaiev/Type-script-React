@@ -10,7 +10,7 @@ const Result: FC<ResultProps> = ({correct}) => {
         <div>
             <img src="https://www.invictory.org/articles/wp-content/uploads/sites/3/2017/11/say-yes-to-the-live-2121044_1920-715x400.jpg" alt=""/>
             <div>
-                <h3>you answered {correct} of {questionList.length} answer</h3>
+                <h3>you answered {correct} of {questionList.length} answers</h3>
             </div>
             <div>
                 <h3><a href="/lessons/quiz">new game</a></h3>

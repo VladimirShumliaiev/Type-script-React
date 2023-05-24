@@ -1,6 +1,6 @@
 import React, {FC} from 'react';
 
-type questionProps = {
+type QuestionProps = {
     id: number
     title: string
     variants: string[]
@@ -8,18 +8,23 @@ type questionProps = {
 }
 
 type GameProps = {
-    question: questionProps,
+    question: QuestionProps
     onClickVariants: (index: number) => void
 }
 
 const Game: FC<GameProps> = ({question, onClickVariants}) => {
     return (
-        <div>
+        <>
             <div>
                 {question.title}
             </div>
-            {question.variants.map((e, index) => <li key={index} onClick={() => onClickVariants(index)}><button>{e}</button></li>)}
-        </div>
+            <div>
+                {question.variants.map((e, index) =>
+                    <li key={index} onClick={() => onClickVariants(index)}>
+                        <button>{e}</button>
+                    </li>)}
+            </div>
+        </>
     );
 };
 

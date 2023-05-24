@@ -1,44 +1,40 @@
-import React, {FC, useEffect, useRef, useState} from 'react';
+import React, {FC, useEffect, useRef} from 'react';
 
-type TodoInputProps = {
-    addTodo: (value: string) => void
+type TodoInput = {
+    value: string
+    setValue: (str: string) => void
+    addTodo: () => void
 }
 
-const TodoInput: FC<TodoInputProps> = ({addTodo}) => {
-    const [value, setValue] = useState('')
+const TodoInput: FC<TodoInput> = ({value, setValue, addTodo}) => {
     const inputRef = useRef<HTMLInputElement>(null)
 
-    const onChangeHandler: React.ChangeEventHandler<HTMLInputElement> = (e) => {
-        setValue(e.target.value)
-    }
-
-    const onClickHandler: React.MouseEventHandler<HTMLButtonElement> = () => {
-        addTodo(value)
+    const onSubmitHandle: React.FormEventHandler<HTMLFormElement>  = (e) => {
+        e.preventDefault()
+        addTodo()
         setValue('')
     }
 
-    const onkeydownHandler: React.KeyboardEventHandler<HTMLInputElement> = (e) => {
-       if (e.key === 'Enter') {
-           addTodo(value)
-           setValue('')
-       }
+    const onChangeHandle: React.ChangeEventHandler<HTMLInputElement> = (e) => {
+        setValue(e.target.value)
     }
 
     useEffect(() => {
         if (inputRef.current) {
             inputRef.current.focus()
         }
-    }, [])
+    },[])
     return (
         <div>
-            <input type="text"
-                   value={value}
-                   onChange={onChangeHandler}
-                   onKeyDown={onkeydownHandler}
-                   ref={inputRef}
-                   placeholder={'text...'}
-            />
-            <button onClick={onClickHandler}>+</button>
+            <form onSubmit={onSubmitHandle}>
+                <input
+                    value={value}
+                    onChange={onChangeHandle}
+                    ref={inputRef}
+                    placeholder={'Text...'}
+                />
+                <button>+</button>
+            </form>
         </div>
     );
 };

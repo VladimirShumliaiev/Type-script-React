@@ -9,13 +9,12 @@ type Todo = {
 
 type TodoListProps = {
     todos: Todo[]
-    toggleTodo: (id: number) => void
     removeTodo: (id: number) => void
+    toggleTodo: (id: number) => void
 }
 
 const TodoList: FC<TodoListProps> = (props) => {
-    const {removeTodo, toggleTodo, todos} = props
-
+    const {todos, removeTodo, toggleTodo} = props
     return (
         <div>
             {

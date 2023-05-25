@@ -1,30 +1,28 @@
 import React, {FC} from 'react';
 
-type QuestionProps = {
-    id: number
-    title: string
-    variants: string[]
+type Question = {
+    id: number,
+    title: string,
+    variants: string[],
     correct: number
 }
 
 type GameProps = {
-    question: QuestionProps
+    question: Question
     onClickVariants: (index: number) => void
 }
 
-const Game: FC<GameProps> = ({question, onClickVariants}) => {
+const Game: FC<GameProps> = (props) => {
+    const {question, onClickVariants} = props
     return (
-        <>
+        <div>
             <div>
                 {question.title}
             </div>
-            <div>
-                {question.variants.map((e, index) =>
-                    <li key={index} onClick={() => onClickVariants(index)}>
-                        <button>{e}</button>
-                    </li>)}
-            </div>
-        </>
+            {
+                question.variants.map((e, index) => <li key={index} onClick={() => onClickVariants(index)}><button>{e}</button></li>)
+            }
+        </div>
     );
 };
 

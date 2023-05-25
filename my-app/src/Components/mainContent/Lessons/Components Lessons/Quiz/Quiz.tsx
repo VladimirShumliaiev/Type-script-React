@@ -19,8 +19,7 @@ const Quiz = () => {
     return (
         <div>
             {step !== questionList.length ?
-                <Game question={question} onClickVariants={onClickVariants}/>
-                : <Result correct={correct}/>}
+                <Game onClickVariants={onClickVariants} question={question}/> : <Result correct={correct}/>}
         </div>
     );
 };

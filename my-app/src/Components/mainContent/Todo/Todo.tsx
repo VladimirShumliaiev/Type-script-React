@@ -1,26 +1,22 @@
-import React, {FC, useEffect, useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {useAppDispatch, useAppSelector} from "../../../hooks/hooks";
 import {addTodo, fetchTodo} from "../../../redux/Slices/todoSlice";
 import TodoInput from "./TodoInput";
 import TodoList from "./TodoList";
 
 
-const Todo: FC = () => {
+const Todo = () => {
     const [title, setTitle] = useState('')
-    const {error, pending} = useAppSelector(state => state.todo)
     const dispatch = useAppDispatch()
+    const {error, pending} = useAppSelector(state => state.todo)
 
     const addTask = () => {
-        if (title) {
-            dispatch(addTodo(title))
-            setTitle('')
-        }
-
+        dispatch(addTodo(title))
     }
 
     useEffect(() => {
         dispatch(fetchTodo())
-    }, [])
+    },[dispatch])
 
     return (
         <div>

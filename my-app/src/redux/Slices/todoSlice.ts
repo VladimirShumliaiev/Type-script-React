@@ -7,62 +7,37 @@ type Todo = {
 }
 
 type TodoState = {
-    list: Todo[]
-    error: null | string
+    todoList: Todo[]
     pending: boolean
+    error: null | string
 }
 
 const initialState: TodoState = {
-    list: [],
+    todoList: [],
     pending: false,
-    error: null,
+    error: null
 }
 
 export const fetchTodo = createAsyncThunk<Todo[], undefined, { rejectValue: string }>(
     'Todo/fetchTodo',
     async (_, {rejectWithValue}) => {
-        const response = await fetch('https://jsonplaceholder.typicode.com/todos')
+        const response = await fetch('https://jsonplaceholder.typicode.com/todos/?_limit=15')
 
         if (!response.ok) {
-            return rejectWithValue('error fetch todo')
+            return rejectWithValue('Error fetch todo')
         }
         return await response.json()
     }
 )
 
-export const toggleTodo = createAsyncThunk<Todo, string, { rejectValue: string, state: { todo: TodoState } }>(
-    'Todo/toggleTodo',
-    async (id, {rejectWithValue, getState}) => {
-        const todo = getState().todo.list.find(e => e.id === id)
-
-        if (todo) {
-            const response = await fetch(`https://jsonplaceholder.typicode.com/todos/${id}`, {
-                method: 'PATCH',
-                headers: {'Content-Type': 'application/json'},
-                body: JSON.stringify({
-                    completed: !todo.completed
-                })
-            })
-
-            if (!response.ok) {
-                return rejectWithValue('Error toggle todo')
-            }
-            return await response.json() as Todo
-        }
-        return rejectWithValue('Error Error Error')
-    }
-)
-
-
 export const addTodo = createAsyncThunk<Todo, string, { rejectValue: string }>(
     'Todo/addTodo',
     async (title, {rejectWithValue}) => {
         const todo = {
-            id: Date.now(),
+            id: 2,
             title: title,
-            completed: false,
+            completed: false
         }
-
         const response = await fetch('https://jsonplaceholder.typicode.com/todos', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
@@ -72,8 +47,30 @@ export const addTodo = createAsyncThunk<Todo, string, { rejectValue: string }>(
         if (!response.ok) {
             return rejectWithValue('Error add todo')
         }
-
         return await response.json() as Todo
+    }
+)
+
+export const toggleTodo = createAsyncThunk<Todo, string, { rejectValue: string, state: { todo: TodoState } }>(
+    'Todo/toggleTodo',
+    async (id, {rejectWithValue, getState}) => {
+        const toggle = getState().todo.todoList.find(e => e.id === id)
+
+        if (toggle) {
+            const response = await fetch(`https://jsonplaceholder.typicode.com/todos/${id}`, {
+                method: 'PATCH',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({
+                    completed: !toggle.completed
+                })
+            })
+
+            if (!response.ok) {
+                return rejectWithValue('Error toggle todo')
+            }
+            return await response.json() as Todo
+        }
+        return rejectWithValue('General error in the switch')
     }
 )
 
@@ -81,11 +78,10 @@ export const removeTodo = createAsyncThunk<string, string, { rejectValue: string
     'Todo/removeTodo',
     async (id, {rejectWithValue}) => {
         const response = await fetch(`https://jsonplaceholder.typicode.com/todos/${id}`, {
-            method: 'DELETE'
+            method: 'DELETE',
         })
-
         if (!response.ok) {
-            return rejectWithValue('Error delete todo')
+            return rejectWithValue('Error remove todo')
         }
         return id
     }
@@ -95,37 +91,37 @@ const todoSlice = createSlice({
     name: 'Todo',
     initialState,
     reducers: {},
-    extraReducers: (builder) => {
+    extraReducers: (builder) =>
         builder
             .addCase(fetchTodo.pending, (state) => {
                 state.pending = true
                 state.error = null
             })
             .addCase(fetchTodo.fulfilled, (state, action) => {
-                state.list = action.payload
+                state.todoList = action.payload
                 state.pending = false
             })
             .addCase(addTodo.pending, (state) => {
                 state.error = null
             })
             .addCase(addTodo.fulfilled, (state, action) => {
-                state.list.push(action.payload)
+                state.todoList.push(action.payload)
                 state.error = null
             })
             .addCase(toggleTodo.fulfilled, (state, action) => {
-                const toggle = state.list.find(e => e.id === action.payload.id)
+                const toggle = state.todoList.find(e => e.id === action.payload.id)
                 if (toggle) {
                     toggle.completed = !toggle.completed
                 }
             })
             .addCase(removeTodo.fulfilled, (state, action) => {
-                state.list = state.list.filter(e => e.id !== action.payload)
+                state.todoList = state.todoList.filter(e => e.id !== action.payload)
             })
             .addMatcher(isError, (state, action: PayloadAction<string>) => {
                 state.error = action.payload
                 state.pending = false
             })
-    }
+
 })
 
 const isError = (action: AnyAction) => {

@@ -36,23 +36,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "F:/React/Project/React.JS/Type-script-React/my-app/src/Components/mainContent/Lessons/Components Lessons/HooksLessons/useState/useState Componets/Todo/TodoList.tsx",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.javascript.linters.tslint",
-    "ts.external.directory.path": "F:\\React\\Project\\React.JS\\Type-script-React\\my-app\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/React/Project/React.JS/Type-script-React/my-app/src/Components/mainContent/Lessons/Components Lessons/HooksLessons/useState/useState Componets/Todo/TodoList.tsx&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.tslint&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;F:\\React\\Project\\React.JS\\Type-script-React\\my-app\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\React\Project\React.JS\Type-script-React\my-app\src\assets\img" />
@@ -199,14 +199,8 @@
       <workItem from="1684785098044" duration="1170000" />
       <workItem from="1684786469839" duration="410000" />
       <workItem from="1684822416073" duration="7806000" />
-      <workItem from="1684910522008" duration="3411000" />
-    </task>
-    <task id="LOCAL-00060" summary="28.04.2023 hooks">
-      <created>1682700115290</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1682700115290</updated>
+      <workItem from="1684910522008" duration="4045000" />
+      <workItem from="1684993317057" duration="1693000" />
     </task>
     <task id="LOCAL-00061" summary="29.04.2023 rtk">
       <created>1682791862439</created>
@@ -544,7 +538,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684911360257</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="24.05.2023 +++">
+      <created>1684914140049</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1684914140049</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

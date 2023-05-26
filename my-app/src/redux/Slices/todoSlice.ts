@@ -38,7 +38,7 @@ export const addTodo = createAsyncThunk<Todo, string, { rejectValue: string }>(
             title: title,
             completed: false
         }
-        const response = await fetch('https://jsonplaceholder.typicode.com/todo', {
+        const response = await fetch('https://jsonplaceholder.typicode.com/todos', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(todo)

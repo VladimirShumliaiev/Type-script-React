@@ -77,7 +77,7 @@ export const toggleTodo = createAsyncThunk<Todo, string, { rejectValue: string, 
 export const removeTodo = createAsyncThunk<string, string, { rejectValue: string }>(
     'Todo/removeTodo',
     async (id, {rejectWithValue}) => {
-        const response = await fetch(`https://jsonplaceholder.typicode.com/todo/${id}`, {
+        const response = await fetch(`https://jsonplaceholder.typicode.com/todos/${id}`, {
             method: 'DELETE',
         })
         if (!response.ok) {

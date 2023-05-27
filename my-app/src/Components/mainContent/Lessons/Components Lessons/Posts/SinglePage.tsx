@@ -16,7 +16,7 @@ const SinglePage = () => {
         fetch(`https://jsonplaceholder.typicode.com/photos/${id}`)
             .then(res => res.json())
             .then(date => setPost(date))
-    },[])
+    },[id])
 
     return (
         <div>

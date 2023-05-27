@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="25.05.2023 +++">
+    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="26.05.2023 +++">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Posts/BlogPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Posts/BlogPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Posts/SinglePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Posts/SinglePage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,28 +197,7 @@
       <workItem from="1684822416073" duration="7806000" />
       <workItem from="1684910522008" duration="4045000" />
       <workItem from="1684993317057" duration="8150000" />
-      <workItem from="1685164718989" duration="1377000" />
-    </task>
-    <task id="LOCAL-00064" summary="02.05.2023 rtk">
-      <created>1683052909584</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1683052909585</updated>
-    </task>
-    <task id="LOCAL-00065" summary="03.05.2023">
-      <created>1683104764167</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1683104764168</updated>
-    </task>
-    <task id="LOCAL-00066" summary="03.05.2023">
-      <created>1683109457708</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1683109457708</updated>
+      <workItem from="1685164718989" duration="1752000" />
     </task>
     <task id="LOCAL-00067" summary="04.05.2023 +++">
       <created>1683194692955</created>
@@ -544,7 +521,28 @@
       <option name="project" value="LOCAL" />
       <updated>1685001536479</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="26.05.2023 +++">
+      <created>1685166351290</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1685166351290</updated>
+    </task>
+    <task id="LOCAL-00114" summary="26.05.2023 +++">
+      <created>1685166411100</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1685166411100</updated>
+    </task>
+    <task id="LOCAL-00115" summary="26.05.2023 +++">
+      <created>1685166422011</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1685166422011</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -575,7 +573,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="21.04.2023" />
     <MESSAGE value="22.04.2023" />
     <MESSAGE value="25.04.2023" />
     <MESSAGE value="25.04.2023 hooks" />
@@ -600,6 +597,7 @@
     <MESSAGE value="23.05.2023 +++" />
     <MESSAGE value="24.05.2023 +++" />
     <MESSAGE value="25.05.2023 +++" />
-    <option name="LAST_COMMIT_MESSAGE" value="25.05.2023 +++" />
+    <MESSAGE value="26.05.2023 +++" />
+    <option name="LAST_COMMIT_MESSAGE" value="26.05.2023 +++" />
   </component>
 </project>

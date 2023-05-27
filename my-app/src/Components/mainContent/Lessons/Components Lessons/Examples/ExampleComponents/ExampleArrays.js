@@ -43,11 +43,13 @@ const ExampleArrays = () => {
             title: 'red red',
             rating: 3
         },
-        { id: 'jbwsof',
+        {
+            id: 'jbwsof',
             title: 'blue blue',
             rating: 2
         },
-        { id: 'prigbj',
+        {
+            id: 'prigbj',
             title: 'grizzly grey',
             rating: 5
         }
@@ -56,23 +58,24 @@ const ExampleArrays = () => {
     const hashColors = colors.reduce((hash, {id, title, rating}) => {
         hash[id] = {title, rating};
         return hash;
-    },{})
+    }, {})
 
     console.log(hashColors)
 
+    const manAge = [12, 34, 32, 23, 43, 56, 67]
 
-    const manAges = [5,34,52,12,67,43,12,]
-
-    const maxManAges = manAges.reduce((max, age) => {
+    const maxManAge = manAge.reduce((max, age) => {
         if (age > max) {
             return age
         }
+
         if (age < max) {
             return max
         }
-    },0)
+    }, 0)
 
-    const maxManAges2 = manAges.reduce((max, age) => (age > max ? age : max),0)
+    const maxManAgeTwo = manAge.reduce((max, age) => (age > max ? age : max), 0)
+
 
     return (
         <div>
@@ -84,8 +87,8 @@ const ExampleArrays = () => {
             <hr/>
             {maxAge2}
             <hr/>
-            {maxManAges}
-            {maxManAges2}
+            {maxManAge}
+            {maxManAgeTwo}
         </div>
     );
 };

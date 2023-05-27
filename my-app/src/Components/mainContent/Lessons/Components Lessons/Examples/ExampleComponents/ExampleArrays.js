@@ -15,11 +15,21 @@ const ExampleArrays = () => {
 
     const array = [15, 14, 13, 12, 11]
 
+    const array2 = ['a', 'b', 'c', 255]
+
+    array2.push('aaaa5555')
+    array2.unshift('xxxx5555')
+
+    const array3 = [
+        ...array,
+        ...array2
+    ]
+
 
     return (
         <div>
             Arrays
-            {array.reverse().map((e,index) => <li key={index}>{e}</li>)}
+            {array3.reverse().map((e,index) => <li key={index}>{e}</li>)}
         </div>
     );
 };

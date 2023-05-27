@@ -25,11 +25,28 @@ const ExampleArrays = () => {
         ...array2
     ]
 
+    const ages = [21, 24, 18, 14, 35, 54, 64]
+
+    const maxAge = ages.reduce((max, age) => {
+        if (age > max) {
+            return age
+        } else {
+            return max
+        }
+    },0)
+
+    const maxAge2 = ages.reduce((max, age) => (age > max ? age : max), 75)
+
 
     return (
         <div>
             Arrays
+            <hr/>
             {array3.reverse().map((e,index) => <li key={index}>{e}</li>)}
+            <hr/>
+            {maxAge}
+            <hr/>
+            {maxAge2}
         </div>
     );
 };

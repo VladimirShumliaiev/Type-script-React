@@ -1,28 +1,30 @@
 import React, {useEffect, useState} from 'react';
 import {Link} from "react-router-dom";
 
-type Posts = {
+type Post = {
     id: number
     title: string
 }
 
 const BlogPage = () => {
-    const [posts, setPosts] = useState<Posts[]>([])
+    const [post, setPost] = useState<Post[]>([])
 
     useEffect(() => {
-        fetch('https://jsonplaceholder.typicode.com/posts')
+        fetch(`https://jsonplaceholder.typicode.com/photos/?_limit=100`)
             .then(res => res.json())
-            .then(date => setPosts(date))
-    },[])
+            .then(date => setPost(date))
+    }, [])
 
     return (
         <div>
             {
-                posts.map(post => [
+                post.map(post => (
                     <Link key={post.id} to={`/lessons/posts/${post.id}`}>
-                        <li>{post.title}</li>
+                        <div>
+                            {post.title}
+                        </div>
                     </Link>
-                ])
+                ))
             }
         </div>
     );

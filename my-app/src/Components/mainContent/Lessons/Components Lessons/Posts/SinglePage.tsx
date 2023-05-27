@@ -4,27 +4,35 @@ import {useParams} from "react-router-dom";
 type Post = {
     id: number
     title: string
-    body: string
+    url: string
+    thumbnailUrl: string
 }
 
 const SinglePage = () => {
     const {id} = useParams()
-    const [posts, setPosts] = useState<Post>()
+    const [post, setPost] = useState<Post>()
 
     useEffect(() => {
-        fetch(`https://jsonplaceholder.typicode.com/posts/${id}`)
+        fetch(`https://jsonplaceholder.typicode.com/photos/${id}`)
             .then(res => res.json())
-            .then(date => setPosts(date))
+            .then(date => setPost(date))
     },[id])
+
     return (
         <div>
-            {posts && (
+            {post && (
                 <>
-                    <a href="/lessons/posts">back menu</a>
-                    <h3>{posts.title} </h3>
-                    <p>{posts.body}</p>
+                    <h3>{post.title}</h3>
+                    <div>
+                        <img src={post.url} alt=""/>
+                    </div>
+                    <div>
+                        <img src={post.thumbnailUrl} alt=""/>
+                    </div>
                 </>
-            )}
+            )
+            }
+
         </div>
     );
 };

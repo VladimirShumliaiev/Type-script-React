@@ -62,19 +62,19 @@ const ExampleArrays = () => {
 
     console.log(hashColors)
 
-    const manAge = [12, 34, 32, 23, 43, 56, 67]
+    const manAge = [32,33,46,65,54,46,78,85,56,23,12,14]
 
     const maxManAge = manAge.reduce((max, age) => {
         if (age > max) {
             return age
-        }
-
-        if (age < max) {
+        }else {
             return max
         }
-    }, 0)
+    },0)
 
-    const maxManAgeTwo = manAge.reduce((max, age) => (age > max ? age : max), 0)
+    const maxManAgeTwo = manAge.reduce((max, age) => (age > max ? age : max),0)
+
+
 
 
     return (

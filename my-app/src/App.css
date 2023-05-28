@@ -4,7 +4,7 @@
           'header header'
           'navBar main'
           'footer footer';
-    grid-template-columns:  220px;
+    grid-template-columns:  220px 1340px;
     grid-template-rows: 60px;
     width: 1560px;
     margin: 5px auto;

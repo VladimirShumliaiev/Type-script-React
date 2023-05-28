@@ -16,13 +16,15 @@ const SinglePage = () => {
         fetch(`https://jsonplaceholder.typicode.com/photos/${id}`)
             .then(res => res.json())
             .then(date => setPost(date))
-    },[id])
-
+    }, [id])
     return (
-        <div>
+        <>
             {post && (
                 <>
-                    <h3>{post.title}</h3>
+                    <div>
+                        {post.title}
+                    </div>
+
                     <div>
                         <img src={post.url} alt=""/>
                     </div>
@@ -30,10 +32,9 @@ const SinglePage = () => {
                         <img src={post.thumbnailUrl} alt=""/>
                     </div>
                 </>
-            )
-            }
 
-        </div>
+            )}
+        </>
     );
 };
 

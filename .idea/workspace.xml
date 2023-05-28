@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="27.05.2023 +++">
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/ExampleComponents/ExampleArrays.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/ExampleComponents/ExampleArrays.js" afterDir="false" />
+    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="28.05.2023 +++">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Posts/BlogPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Posts/BlogPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Posts/SinglePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Posts/SinglePage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,13 +201,7 @@
       <workItem from="1684993317057" duration="8150000" />
       <workItem from="1685164718989" duration="1752000" />
       <workItem from="1685174038968" duration="3980000" />
-    </task>
-    <task id="LOCAL-00072" summary="05.05.2023 +++">
-      <created>1683468661375</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1683468661375</updated>
+      <workItem from="1685253897888" duration="1584000" />
     </task>
     <task id="LOCAL-00073" summary="05.05.2023 +++">
       <created>1683491606763</created>
@@ -543,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685180459048</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="28.05.2023 +++">
+      <created>1685254146052</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1685254146053</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -574,7 +577,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="25.04.2023" />
     <MESSAGE value="25.04.2023 hooks" />
     <MESSAGE value="26.04.2023 hooks" />
     <MESSAGE value="27.04.2023 hooks" />
@@ -599,6 +601,7 @@
     <MESSAGE value="25.05.2023 +++" />
     <MESSAGE value="26.05.2023 +++" />
     <MESSAGE value="27.05.2023 +++" />
-    <option name="LAST_COMMIT_MESSAGE" value="27.05.2023 +++" />
+    <MESSAGE value="28.05.2023 +++" />
+    <option name="LAST_COMMIT_MESSAGE" value="28.05.2023 +++" />
   </component>
 </project>

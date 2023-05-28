@@ -7,22 +7,22 @@ type Post = {
 }
 
 const BlogPage = () => {
-    const [post, setPost] = useState<Post[]>([])
+    const [posts, setPosts] = useState<Post[]>([])
 
     useEffect(() => {
-        fetch(`https://jsonplaceholder.typicode.com/photos/?_limit=100`)
+        fetch('https://jsonplaceholder.typicode.com/photos')
             .then(res => res.json())
-            .then(date => setPost(date))
-    }, [])
+            .then(date => setPosts(date))
+    },[])
 
     return (
         <div>
             {
-                post.map(post => (
+                posts.map(post => (
                     <Link key={post.id} to={`/lessons/posts/${post.id}`}>
-                        <div>
+                        <li>
                             {post.title}
-                        </div>
+                        </li>
                     </Link>
                 ))
             }

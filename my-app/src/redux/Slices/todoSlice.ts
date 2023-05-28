@@ -90,7 +90,20 @@ export const removeTodo = createAsyncThunk<string, string, { rejectValue: string
 const todoSlice = createSlice({
     name: 'Todo',
     initialState,
-    reducers: {},
+    reducers: {
+        addTask(state, action){
+            state.todoList.push(action.payload)
+        },
+        removeTask(state, action){
+            state.todoList = state.todoList.filter(e => e.id !== action.payload)
+        },
+        toggleTask(state, action){
+            const toggle = state.todoList.find(e => e.id === action.payload)
+            if (toggle)
+            toggle.completed = !toggle.completed
+        },
+
+    },
     extraReducers: (builder) =>
         builder
             .addCase(fetchTodo.pending, (state) => {
@@ -127,5 +140,5 @@ const todoSlice = createSlice({
 const isError = (action: AnyAction) => {
     return action.type.endsWith('rejected')
 }
-
+// export  const {addTask, removeTask, toggleTask} = todoSlice.actions
 export default todoSlice.reducer

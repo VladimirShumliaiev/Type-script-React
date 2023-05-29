@@ -31,6 +31,7 @@ const LessonsRouting: FC = () => {
                 <Route path={'ticTacToe'} element={<Board/>}/>
                 <Route path={'photos'} element={<Photos/>}/>
                 <Route path={'quiz'} element={<Quiz/>}/>
+                {/*<Route path={'select'} element={<SelectLessons/>}/>*/}
                 <Route path={'select'} element={<SelectLessons/>}/>
             </Routes>
         </div>

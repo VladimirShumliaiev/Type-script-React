@@ -1,7 +1,6 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
 
-
 interface IsActiveProps {
     isActive: boolean
 }
@@ -22,6 +21,7 @@ const MyNavLink = () => {
             <div>
                 <NavLink className={isActive} to={'lessons'}>Lessons</NavLink>
             </div>
+
         </div>
     );
 };

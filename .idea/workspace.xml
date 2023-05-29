@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="29.05.2023 +++">
-      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Select Menu/Select Components/OneSelect.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Select Menu/Select Components/ThreeSelect.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Select Menu/Select Components/TwoSelect.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Select Menu/SelectLessons.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Select Menu/SelectLessons.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Select Lessons/SelectLessons.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/NavLink/MyNavLink.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/NavLink/MyNavLink.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/Routers/LayoutCell.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/Routers/LayoutCell.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Lessons NavLink &amp; Routing/LessonsNavLink/LessonsNavLink.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Lessons NavLink &amp; Routing/LessonsNavLink/LessonsNavLink.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Lessons NavLink &amp; Routing/Routing Lessons/LessonsRouting.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Lessons NavLink &amp; Routing/Routing Lessons/LessonsRouting.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Select Menu/SelectLessons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Select Menu/SelectLessons.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,14 +209,7 @@
       <workItem from="1685253897888" duration="3658000" />
       <workItem from="1685263839550" duration="3872000" />
       <workItem from="1685348842376" duration="4530000" />
-      <workItem from="1685368938086" duration="1076000" />
-    </task>
-    <task id="LOCAL-00078" summary="10.05.2023 +++">
-      <created>1683712671630</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1683712671630</updated>
+      <workItem from="1685368938086" duration="2350000" />
     </task>
     <task id="LOCAL-00079" summary="10.05.2023 +++">
       <created>1683727879357</created>
@@ -553,7 +547,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685352804060</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="29.05.2023 +++">
+      <created>1685370029894</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1685370029894</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

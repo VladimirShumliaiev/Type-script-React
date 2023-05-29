@@ -20,9 +20,7 @@ const BlogPage = () => {
             {
                 posts.map(post => (
                     <Link key={post.id} to={`/lessons/posts/${post.id}`}>
-                        <li>
-                            {post.title}
-                        </li>
+                        <li>{post.title}</li>
                     </Link>
                 ))
             }

@@ -9,29 +9,27 @@ type Post = {
 }
 
 const SinglePage = () => {
+    const [posts, setPosts] = useState<Post>()
     const {id} = useParams()
-    const [post, setPost] = useState<Post>()
 
     useEffect(() => {
         fetch(`https://jsonplaceholder.typicode.com/photos/${id}`)
             .then(res => res.json())
-            .then(date => setPost(date))
+            .then(date => setPosts(date))
     }, [id])
     return (
         <>
-            {post && (
-                <>
-                    <div>
-                        {post.title}
-                    </div>
 
+            {posts && (
+                <div>
+                    {posts.title}
                     <div>
-                        <img src={post.url} alt=""/>
+                        <img src={posts.url} alt=""/>
                     </div>
                     <div>
-                        <img src={post.thumbnailUrl} alt=""/>
+                        <img src={posts.thumbnailUrl} alt=""/>
                     </div>
-                </>
+                </div>
 
             )}
         </>

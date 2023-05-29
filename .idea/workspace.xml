@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="28.05.2023 +++">
+    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="29.05.2023 +++">
+      <change afterPath="$PROJECT_DIR$/my-app/src/types/typeUsers.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Posts/BlogPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Posts/BlogPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Posts/SinglePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Posts/SinglePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Redux-toolkit/ReduxToolkitExample.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Redux-toolkit/ReduxToolkitExample.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Redux-toolkit/components/UserItemExample.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Redux-toolkit/components/UserItemExample.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Redux-toolkit/components/UserListExample.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Redux-toolkit/components/UserListExample.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/redux/Slices/userSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/redux/Slices/userSlice.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,14 +206,7 @@
       <workItem from="1685174038968" duration="3980000" />
       <workItem from="1685253897888" duration="3658000" />
       <workItem from="1685263839550" duration="3872000" />
-      <workItem from="1685348842376" duration="895000" />
-    </task>
-    <task id="LOCAL-00076" summary="08.05.2023 +++">
-      <created>1683540862019</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1683540862019</updated>
+      <workItem from="1685348842376" duration="3919000" />
     </task>
     <task id="LOCAL-00077" summary="08.05.2023 +++">
       <created>1683541293716</created>
@@ -548,7 +544,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685267777542</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="29.05.2023 +++">
+      <created>1685349753436</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1685349753436</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -579,7 +582,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="25.04.2023 hooks" />
     <MESSAGE value="26.04.2023 hooks" />
     <MESSAGE value="27.04.2023 hooks" />
     <MESSAGE value="28.04.2023 hooks" />
@@ -604,6 +606,7 @@
     <MESSAGE value="26.05.2023 +++" />
     <MESSAGE value="27.05.2023 +++" />
     <MESSAGE value="28.05.2023 +++" />
-    <option name="LAST_COMMIT_MESSAGE" value="28.05.2023 +++" />
+    <MESSAGE value="29.05.2023 +++" />
+    <option name="LAST_COMMIT_MESSAGE" value="29.05.2023 +++" />
   </component>
 </project>

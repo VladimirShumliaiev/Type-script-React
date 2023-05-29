@@ -1,61 +1,41 @@
 import {AnyAction, createAsyncThunk, createSlice, PayloadAction} from "@reduxjs/toolkit";
+import TypeUsers from "../../types/typeUsers";
 
-type UsersExample = {
-    id: string
-    username: string
-    email: string
-    address: {
-        street: string
-        suite: string
-        city: string
-        zipcode: string
-        geo: {
-            lat: string
-            ing: string
-        }
-    }
-    phone: string
-    website: string
-    company: {
-        name: string
-        catchPhrase: string
-        bs: string
-    }
-}
+type Users = TypeUsers
 
-type UserState = {
-    usersExample: UsersExample[]
+type UsersState = {
+    userList: Users[]
     error: string | null
     pending: boolean
 }
 
-const initialState: UserState = {
-    usersExample: [],
+const initialState: UsersState = {
+    userList: [],
     error: null,
-    pending: false,
+    pending: false
 }
 
-export const fetchUsersExample = createAsyncThunk<UsersExample[], undefined, { rejectValue: string }>(
+export const fetchUsers = createAsyncThunk<Users[], undefined, {rejectValue: string}>(
     'Users/fetchUsers',
-    async (_, {rejectWithValue}) => {
+    async (_,{rejectWithValue}) => {
         const response = await fetch('https://jsonplaceholder.typicode.com/users')
 
         if (!response.ok) {
-            return rejectWithValue('error fetch users')
+            return rejectWithValue('Error fetch users!!!')
         }
         return await response.json()
     }
 )
 
-export const deleteUserExample = createAsyncThunk<string, string, { rejectValue: string }>(
-    'Users/deleteUser',
+export const removeUser = createAsyncThunk<string, string, {rejectValue: string}>(
+    'Users/removeUser',
     async (id, {rejectWithValue}) => {
         const response = await fetch(`https://jsonplaceholder.typicode.com/users/${id}`, {
             method: 'DELETE'
         })
 
         if (!response.ok) {
-            return rejectWithValue('Error Delete User')
+            return rejectWithValue('Error remove todo!!!')
         }
         return id
     }
@@ -67,24 +47,27 @@ const userSlice = createSlice({
     reducers: {},
     extraReducers: (builder) => {
         builder
-            .addCase(fetchUsersExample.pending , (state) => {
+            .addCase(fetchUsers.pending, (state) => {
                 state.pending = true
                 state.error = null
             })
-            .addCase(fetchUsersExample.fulfilled, (state, action) => {
-                state.usersExample = action.payload
+            .addCase(fetchUsers.fulfilled, (state, action) => {
+                state.userList = action.payload
                 state.pending = false
             })
-            .addCase(deleteUserExample.fulfilled, (state, action) => {
-               state.usersExample = state.usersExample.filter(e => e.id !== action.payload)
+            .addCase(removeUser.fulfilled, (state, action) => {
+                if (window.confirm('delete todo?')) {
+                    state.userList = state.userList.filter(e => e.id !== action.payload)
+                }
             })
             .addMatcher(isError, (state, action: PayloadAction<string>) => {
                 state.error = action.payload
                 state.pending = false
-            })
 
+            })
     }
 })
+
 const isError = (action: AnyAction) => {
     return action.type.endsWith('rejected')
 }

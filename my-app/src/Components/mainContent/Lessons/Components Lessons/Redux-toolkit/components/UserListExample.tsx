@@ -1,14 +1,13 @@
-import React, {FC} from 'react';
+import React from 'react';
 import {useAppSelector} from "../../../../../../hooks/hooks";
 import UserItemExample from "./UserItemExample";
 
-
-const UserListExample: FC = () => {
-    const userList = useAppSelector(state => state.users.usersExample)
+const UserListExample = () => {
+    const userSelector = useAppSelector(state => state.users.userList)
     return (
         <div>
             {
-                userList.map(e => <UserItemExample key={e.id} {...e}/>)
+                userSelector.map(user => <UserItemExample key={user.id} {...user}/>)
             }
         </div>
     );

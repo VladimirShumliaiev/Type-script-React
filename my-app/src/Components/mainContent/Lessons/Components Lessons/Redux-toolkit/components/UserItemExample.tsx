@@ -1,103 +1,55 @@
 import React, {FC} from 'react';
+import Users from "../../../../../../types/typeUsers";
 import {useAppDispatch} from "../../../../../../hooks/hooks";
-import {deleteUserExample} from "../../../../../../redux/Slices/userSlice";
+import {removeUser} from "../../../../../../redux/Slices/userSlice";
 
-type UserItemPops = {
-    id: string
-    username: string
-    email: string
-    address: {
-        street: string
-        suite: string
-        city: string
-        zipcode: string
-        geo: {
-            lat: string
-            ing: string
-        }
-    }
-    phone: string
-    website: string
-    company: {
-        name: string
-        catchPhrase: string
-        bs: string
-    }
-}
+type UserItemExampleProps = Users
 
-const UserItemExample: FC<UserItemPops> = (props) => {
-    const {
-        id, username, company: {name, catchPhrase, bs},
-        address: {
-            street, zipcode, city, suite,
-            geo: {lat, ing}
-        }, website, phone, email
-    } = props
-
+const UserItemExample: FC<UserItemExampleProps> = (props) => {
+    const {company: {name, catchPhrase, bs}, email, id, userName, website, phone, address: {street, suite, city, geo: {lat, lng}}} = props
     const dispatch = useAppDispatch()
-
-    const buttonDeleteHandler = () => {
-        if (window.confirm(`delete user ${username}`))
-            dispatch(deleteUserExample(id))
+    const onclickHandle = () => {
+        dispatch(removeUser(id))
     }
-
     return (
-        <div>
-            <h3>user: {id}</h3>
+        <>
             <div>
-                id: {id}
+                user Id: {id}
             </div>
             <div>
-                username: {username}
+                user Name: {userName}
             </div>
             <div>
-                email: {email}
+                user email: {email}
             </div>
             <div>
-                address:
                 <div>
-                    street: {street}
+                    user address:
                 </div>
-                <div>
-                    suite: {suite}
-                </div>
-                <div>
-                    city: {city}
-                </div>
-                <div>
-                    zipcode: {zipcode}
-                </div>
-                <div>
-                    geo:
-                    <div>
-                        lat: {lat}
-                    </div>
-                    <div>
-                        ing: {ing}
-                    </div>
-                </div>
+                street: {street},
+                suite: {suite},
+                city: {city},
+                  geo:
+                lat:{lat},
+                lng:{lng},
             </div>
             <div>
-                phone: {phone}
+               user phone: {phone}
             </div>
             <div>
                 website: {website}
             </div>
             <div>
-                company:
                 <div>
-                    name: {name}
+                    company:
                 </div>
-                <div>
-                    catchPhrase: {catchPhrase}
-                </div>
-                <div>
-                    bs: {bs}
-                </div>
+                company name: {name},
+                catchPhrase: {catchPhrase},
+                bs: {bs}
             </div>
-            <button onClick={buttonDeleteHandler}>delete</button>
-            <hr/>
-        </div>
+            <button onClick={onclickHandle}>Delete user</button>
+        <hr/>
+        </>
     );
 };
 

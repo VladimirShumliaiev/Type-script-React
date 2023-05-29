@@ -1,15 +1,14 @@
-import React, {FC, useEffect} from 'react';
+import React, {useEffect} from 'react';
 import {useAppDispatch, useAppSelector} from "../../../../../hooks/hooks";
-import {fetchUsersExample} from "../../../../../redux/Slices/userSlice";
+import {fetchUsers} from "../../../../../redux/Slices/userSlice";
 import UserListExample from "./components/UserListExample";
 
-
-const ReduxToolkitExample: FC = () => {
+const ReduxToolkitExample = () => {
     const dispatch = useAppDispatch()
     const {error, pending} = useAppSelector(state => state.users)
 
     useEffect(() => {
-        dispatch(fetchUsersExample())
+        dispatch(fetchUsers())
     },[])
     return (
         <div>

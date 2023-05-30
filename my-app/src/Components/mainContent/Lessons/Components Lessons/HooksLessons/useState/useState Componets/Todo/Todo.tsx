@@ -11,43 +11,40 @@ type Todo = {
 const initialState = [
     {
         id: 1,
-        title: 'React',
-        completed: true
-    },
-    {
-        id: 2,
         title: 'TypeScript',
-        completed: true
+        completed: true,
     }
 ]
+
+
 
 const Todo = () => {
     const [todos, setTodos] = useState<Todo[]>(initialState)
     const [value, setValue] = useState('')
 
-    const addTodo = () => {
-        setTodos([...todos, {id: Date.now(), title: value, completed: false}])
+    const addTask = () => {
+        setTodos([...todos,{id: Date.now(), title: value, completed: false}])
     }
 
-    const toggleTodo = (id: number): void => {
-        setTodos(todos.map(e => {
-            if (e.id !== id) return e
-            return {
-                ...e,
-                completed: !e.completed
-            }
-        }))
+    const toggleTodo = (id: number):void => {
+            setTodos(todos.map(e => {
+                if (e.id !== id) return e
+                return {
+                    ...e,
+                    completed: !e.completed
+                }
+            }))
     }
 
-    const removeTodo = (id: number): void => {
-        if (window.confirm('delete todo?')) {
+    const removeTodo = (id: number):void => {
+        if (window.confirm('Delete todo?')) {
             setTodos(todos.filter(e => e.id !== id))
         }
     }
     return (
         <div>
-            <TodoInput addTodo={addTodo} value={value} setValue={setValue}/>
-            <TodoList toggleTodo={toggleTodo} removeTodo={removeTodo} todos={todos}/>
+            <TodoInput addTodo={addTask} value={value} setValue={setValue}/>
+            <TodoList todos={todos} removeTodo={removeTodo} toggleTodo={toggleTodo}/>
         </div>
     );
 };

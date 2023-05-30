@@ -6,24 +6,24 @@ type Todo = {
     title: string
     completed: boolean
 }
+
 type TodoListProps = {
     todos: Todo[]
-    toggleTodo: (id: number) => void
     removeTodo: (id: number) => void
+    toggleTodo: (id: number) => void
 }
-
 
 const TodoList: FC<TodoListProps> = (props) => {
     const {todos, removeTodo, toggleTodo} = props
     return (
         <div>
             {
-                todos.map(e => <TodoItem
-                    key={e.id}
-                    toggleTodo={toggleTodo}
-                    removeTodo={removeTodo}
-                    {...e}
-                />)
+               todos.map(todo => <TodoItem
+                   key={todo.id}
+                   removeTodo={removeTodo}
+                   toggleTodo={toggleTodo}
+                   {...todo}
+               />)
             }
         </div>
     );

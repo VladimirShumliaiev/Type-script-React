@@ -2,12 +2,13 @@ import React, {FC, useEffect, useRef} from 'react';
 
 type TodoInputProps = {
     value: string
-    setValue: (title: string) => void
+    setValue: (text: string) => void
     addTodo: () => void
 }
 
 const TodoInput: FC<TodoInputProps> = (props) => {
     const {value, setValue, addTodo} = props
+
     const inputRef = useRef<HTMLInputElement>(null)
 
     const onSubmitHandle: React.FormEventHandler<HTMLFormElement> = (event) => {
@@ -32,7 +33,7 @@ const TodoInput: FC<TodoInputProps> = (props) => {
                     value={value}
                     onChange={onChangeHandle}
                     ref={inputRef}
-                    placeholder={'add text...'}
+                    placeholder={'add task...'}
                 />
                 <button>+</button>
             </form>

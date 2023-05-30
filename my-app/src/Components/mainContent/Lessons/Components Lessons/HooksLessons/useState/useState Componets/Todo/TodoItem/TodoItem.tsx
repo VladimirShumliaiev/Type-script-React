@@ -12,12 +12,13 @@ const TodoItem: FC<TodoItemProps> = (props) => {
     const {id, removeTodo, toggleTodo, title, completed} = props
     return (
         <div>
-            <input type="checkbox"
-                   checked={completed}
-                   onChange={() => toggleTodo(id)}
+            <input
+                type="checkbox"
+                checked={completed}
+                onChange={() => toggleTodo(id)}
             />
             {title}
-            <button onClick={() => removeTodo(id)}>x</button>
+            <button onClick={() => removeTodo(id)}>X</button>
         </div>
     );
 };

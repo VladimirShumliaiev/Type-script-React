@@ -13,6 +13,11 @@ const initialState = [
         id: 1,
         title: 'TypeScript',
         completed: true,
+    },
+    {
+        id: 2,
+        title: 'React',
+        completed: true,
     }
 ]
 

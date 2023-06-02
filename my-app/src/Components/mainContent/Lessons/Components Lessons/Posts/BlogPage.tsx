@@ -12,7 +12,7 @@ const BlogPage = () => {
     useEffect(() => {
         fetch('https://jsonplaceholder.typicode.com/photos')
             .then(res => res.json())
-            .then(date => setPosts(date))
+            .then(data => setPosts(data))
     },[])
 
     return (

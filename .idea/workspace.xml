@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="30.05.2023 +++" />
+    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="31.05.2023 +++">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +38,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/React/Project/React.JS/Type-script-React/my-app/src/Components/mainContent/Lessons/Components Lessons/HooksLessons/useState/useState Componets/Todo/TodoList.tsx&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/React/Project/React.JS/paginate-react-Material-UI&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -202,20 +204,11 @@
       <workItem from="1685348842376" duration="4530000" />
       <workItem from="1685368938086" duration="5294000" />
       <workItem from="1685427198455" duration="1880000" />
-    </task>
-    <task id="LOCAL-00083" summary="11.05.2023 +++">
-      <created>1683791730860</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1683791730860</updated>
-    </task>
-    <task id="LOCAL-00084" summary="11.05.2023 +++">
-      <created>1683801160368</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1683801160369</updated>
+      <workItem from="1685556558210" duration="94000" />
+      <workItem from="1685604826378" duration="528000" />
+      <workItem from="1685626518459" duration="638000" />
+      <workItem from="1685652393247" duration="108000" />
+      <workItem from="1685691994563" duration="47000" />
     </task>
     <task id="LOCAL-00085" summary="11.05.2023 +++">
       <created>1683834532627</created>
@@ -546,7 +539,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685429070719</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="31.05.2023 +++">
+      <created>1685556601974</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1685556601974</updated>
+    </task>
+    <task id="LOCAL-00133" summary="31.05.2023 +++">
+      <created>1685556607310</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1685556607310</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -577,7 +584,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="27.04.2023 hooks" />
     <MESSAGE value="28.04.2023 hooks" />
     <MESSAGE value="29.04.2023 rtk" />
     <MESSAGE value="30.04.2023 rtk" />
@@ -602,6 +608,7 @@
     <MESSAGE value="28.05.2023 +++" />
     <MESSAGE value="29.05.2023 +++" />
     <MESSAGE value="30.05.2023 +++" />
-    <option name="LAST_COMMIT_MESSAGE" value="30.05.2023 +++" />
+    <MESSAGE value="31.05.2023 +++" />
+    <option name="LAST_COMMIT_MESSAGE" value="31.05.2023 +++" />
   </component>
 </project>

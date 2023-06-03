@@ -22,7 +22,7 @@ const UseEffectLessons: FC = () => {
 
     useEffect(() => {
         console.log(checked ? 'Yes, checked' : 'No, not checked')
-    },[checked])
+    },[])
 
 
     return (

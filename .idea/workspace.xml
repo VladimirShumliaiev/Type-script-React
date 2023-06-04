@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="03.06.2023 +++">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Photos/Photos.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Photos/Photos.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Photos/PhotosList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Photos/PhotosList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/redux/Slices/photosSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/redux/Slices/photosSlice.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,6 +214,7 @@
       <workItem from="1685746553086" duration="21000" />
       <workItem from="1685814255261" duration="1695000" />
       <workItem from="1685871427854" duration="2558000" />
+      <workItem from="1685877315758" duration="1279000" />
     </task>
     <task id="LOCAL-00088" summary="12.05.2023 +++">
       <created>1684176322340</created>

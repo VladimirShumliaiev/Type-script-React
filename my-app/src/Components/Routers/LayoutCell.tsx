@@ -6,7 +6,6 @@ import Layout from "../../Layout/Layout";
 import LessonsTypeScript from "../mainContent/Lessons/LessonsTypeScript";
 import HomePage from "../mainContent/HomePage/HomePage";
 
-
 const LayoutCell = () => {
     return (
         <>

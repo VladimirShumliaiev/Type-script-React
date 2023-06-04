@@ -47,7 +47,6 @@ const photosSlice = createSlice({
                 state.photosList = action.payload
             })
     }
-
 })
 
 export default photosSlice.reducer

@@ -3,6 +3,7 @@ import {useAppDispatch, useAppSelector} from "../../../hooks/hooks";
 import {addTodo, fetchTodo} from "../../../redux/Slices/todoSlice";
 import TodoInput from "./TodoInput";
 import TodoList from "./TodoList";
+import style from "./Todo.module.css";
 
 
 
@@ -12,7 +13,9 @@ const Todo = () => {
     const {error, pending} = useAppSelector(state => state.todo)
 
     const addTask = () => {
-        dispatch(addTodo(title))
+        if (title) {
+            dispatch(addTodo(title))
+        }
     }
 
     useEffect(() => {
@@ -20,7 +23,7 @@ const Todo = () => {
     },[dispatch])
 
     return (
-        <div>
+        <div className={style.item}>
             <TodoInput title={title} setTitle={setTitle} addTodo={addTask}/>
             {pending && <h3>Loading...</h3>}
             {error && <h3>{error}</h3>}

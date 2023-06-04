@@ -13,6 +13,7 @@
     padding: 0 4px 0 16px;
     border-right: none;
 }
+
 .inputHeader img {
     width: 10px;
     height: 10px;
@@ -32,4 +33,10 @@
     height: 14px;
     width: 14px;
 }
+
+.themeButton {
+  margin-left: 45px;
+}
+
+
 

@@ -31,7 +31,7 @@ const TodoListItem: FC<TodoListProps> = (props) => {
                 onChange={onChangeHandle}
             />
             {title}
-            <span className={style.item} onClick={onclickHandle}><img src={buttonImg} alt=""/></span>
+            <span className={style.itemButton} onClick={onclickHandle}><img src={buttonImg} alt=""/></span>
         </div>
     );
 };

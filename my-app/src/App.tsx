@@ -5,9 +5,10 @@ import LayoutCell from "./Components/Routers/LayoutCell";
 
 
 function App() {
+
     return (
         <div>
-          <LayoutCell/>
+          <LayoutCell />
         </div>
     );
 }

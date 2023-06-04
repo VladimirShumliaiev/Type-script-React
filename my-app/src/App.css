@@ -43,3 +43,12 @@
     grid-area: footer;
     background: cornflowerblue;
 }
+
+body[theme-data='light'] {
+    background: white;
+}
+
+body[theme-data='dark'] {
+    background: black;
+    color: white;
+}

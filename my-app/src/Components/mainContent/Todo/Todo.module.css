@@ -1,7 +1,10 @@
 .item {
+  color: black;
+}
+
+.itemButton {
     cursor: pointer;
-    background: #fdfbfb;
-    color: #0c0303;
+    color: #030c05;
 }
 
 .item img {

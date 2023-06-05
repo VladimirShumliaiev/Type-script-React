@@ -1,4 +1,5 @@
 import {AnyAction, createAsyncThunk, createSlice, PayloadAction} from "@reduxjs/toolkit";
+import axios from "axios";
 
 type Todo = {
     id: string
@@ -21,12 +22,12 @@ const initialState: TodoState = {
 export const fetchTodo = createAsyncThunk<Todo[], undefined, { rejectValue: string }>(
     'Todo/fetchTodo',
     async (_, {rejectWithValue}) => {
-        const response = await fetch('https://jsonplaceholder.typicode.com/todos/?_limit=15')
+        const response = await axios.get('https://jsonplaceholder.typicode.com/todos/?_limit=15')
 
-        if (!response.ok) {
+        if (!response) {
             return rejectWithValue('Error fetch todo')
         }
-        return await response.json()
+        return await response.data
     }
 )
 
@@ -51,13 +52,14 @@ export const addTodo = createAsyncThunk<Todo, string, { rejectValue: string }>(
     }
 )
 
+
 export const toggleTodo = createAsyncThunk<Todo, string, { rejectValue: string, state: { todo: TodoState } }>(
     'Todo/toggleTodo',
     async (id, {rejectWithValue, getState}) => {
         const toggle = getState().todo.todoList.find(e => e.id === id)
 
         if (toggle) {
-            const response = await fetch(`https://jsonplaceholder.typicode.com/todos/${id}`, {
+            const response = await axios.patch(`https://jsonplaceholder.typicode.com/todos/${id}`, {
                 method: 'PATCH',
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify({
@@ -65,10 +67,10 @@ export const toggleTodo = createAsyncThunk<Todo, string, { rejectValue: string, 
                 })
             })
 
-            if (!response.ok) {
+            if (!response) {
                 return rejectWithValue('Error toggle todo')
             }
-            return await response.json() as Todo
+            return await response.data as Todo
         }
         return rejectWithValue('General error in the switch')
     }
@@ -77,10 +79,10 @@ export const toggleTodo = createAsyncThunk<Todo, string, { rejectValue: string, 
 export const removeTodo = createAsyncThunk<string, string, { rejectValue: string }>(
     'Todo/removeTodo',
     async (id, {rejectWithValue}) => {
-        const response = await fetch(`https://jsonplaceholder.typicode.com/todos/${id}`, {
+        const response = await axios.delete(`https://jsonplaceholder.typicode.com/todos/${id}`, {
             method: 'DELETE',
         })
-        if (!response.ok) {
+        if (!response) {
             return rejectWithValue('Error remove todo')
         }
         return id

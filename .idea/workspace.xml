@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="05.06.2023 +++">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/HooksLessons/useEffect/UseEffectLessons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/HooksLessons/useEffect/UseEffectLessons.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/redux/Slices/todoSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/redux/Slices/todoSlice.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,14 +218,8 @@
       <workItem from="1685880932756" duration="4121000" />
       <workItem from="1685885126218" duration="303000" />
       <workItem from="1685954311672" duration="4474000" />
-      <workItem from="1685958859096" duration="979000" />
-    </task>
-    <task id="LOCAL-00094" summary="18.05.2023 +++">
-      <created>1684391252947</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1684391252947</updated>
+      <workItem from="1685958859096" duration="1049000" />
+      <workItem from="1685973537756" duration="1422000" />
     </task>
     <task id="LOCAL-00095" summary="18.05.2023 +++">
       <created>1684391457452</created>
@@ -563,7 +557,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685958751069</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <task id="LOCAL-00143" summary="05.06.2023 +++">
+      <created>1685959910641</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1685959910641</updated>
+    </task>
+    <option name="localTasksCounter" value="144" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

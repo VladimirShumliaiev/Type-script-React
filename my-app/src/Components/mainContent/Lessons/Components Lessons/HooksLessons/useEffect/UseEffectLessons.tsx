@@ -1,4 +1,5 @@
 import React, {FC, useEffect, useState} from 'react';
+import axios from "axios";
 
 type Comments = {
     userId: string
@@ -8,22 +9,20 @@ type Comments = {
 }
 
 const UseEffectLessons: FC = () => {
-    const [value, setValue] = useState<Comments[]>([{id: '150', body: '155', name: 'asdasd', userId: '12323'}])
+    const [value, setValue] = useState<Comments[]>([])
     const [checked, setChecked] = useState(false)
     useEffect(() => {
-        fetch('https://jsonplaceholder.typicode.com/comments/?_limit=5')
-            .then(res => res.json())
-            .then(date => setValue(date))
+        axios.get('https://jsonplaceholder.typicode.com/comments/?_limit=5')
+            .then(res => setValue(res.data))
     }, [])
 
     useEffect(() => {
-        alert(`checked: ${checked.toString()}`)
-    }, [])
+        console.log(checked ? 'yes checked': 'no checked')
+    },[checked])
 
     useEffect(() => {
-        console.log(checked ? 'Yes, checked' : 'No, not checked')
+        alert(`checked ${checked.toString()}`)
     },[])
-
 
     return (
         <div>
@@ -38,12 +37,11 @@ const UseEffectLessons: FC = () => {
             ))}
 
             <div>
-                <input
-                    type="checkbox"
-                    checked={checked}
-                    onChange={() => setChecked(checked => !checked)}
+                <input type="checkbox"
+                       checked={checked}
+                       onChange={() => setChecked(checked => !checked)}
                 />
-                {checked ? 'checked' : 'not checked'}
+                {checked ? 'yes, checked': 'no, checked'}
             </div>
         </div>
     );

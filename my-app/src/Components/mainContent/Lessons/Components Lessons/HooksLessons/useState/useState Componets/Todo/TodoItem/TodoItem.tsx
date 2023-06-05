@@ -1,4 +1,6 @@
 import React, {FC} from 'react';
+import style from './TodoItem.module.css'
+import imgButton from '../../../../../../../../../assets/img/delete-svgrepo-com.svg'
 
 type TodoItemProps = {
     id: number
@@ -10,6 +12,7 @@ type TodoItemProps = {
 
 const TodoItem: FC<TodoItemProps> = (props) => {
     const {id, removeTodo, toggleTodo, title, completed} = props
+
     return (
         <div>
             <input
@@ -18,7 +21,7 @@ const TodoItem: FC<TodoItemProps> = (props) => {
                 onChange={() => toggleTodo(id)}
             />
             {title}
-            <button onClick={() => removeTodo(id)}>X</button>
+            <button className={style.todoItem} onClick={() => removeTodo(id)}><img src={imgButton} alt=""/></button>
         </div>
     );
 };

@@ -8,22 +8,20 @@ type Todo = {
 }
 
 type TodoListProps = {
-    todos: Todo[]
+    todo: Todo[]
     removeTodo: (id: number) => void
     toggleTodo: (id: number) => void
 }
 
 const TodoList: FC<TodoListProps> = (props) => {
-    const {todos, removeTodo, toggleTodo} = props
+    const {todo, removeTodo, toggleTodo} = props
     return (
         <div>
             {
-               todos.map(todo => <TodoItem
-                   key={todo.id}
-                   removeTodo={removeTodo}
-                   toggleTodo={toggleTodo}
-                   {...todo}
-               />)
+                todo.map(todo => <TodoItem
+                    removeTodo={removeTodo}
+                    toggleTodo={toggleTodo}
+                    key={todo.id} {...todo}/>)
             }
         </div>
     );

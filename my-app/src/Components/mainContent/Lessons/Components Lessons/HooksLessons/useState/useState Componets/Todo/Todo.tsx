@@ -1,6 +1,8 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
+import axios from "axios";
 import TodoInput from "./TodoInput/TodoInput";
 import TodoList from "./TodoList";
+import style from './Todo.module.css'
 
 type Todo = {
     id: number
@@ -8,48 +10,48 @@ type Todo = {
     completed: boolean
 }
 
-const initialState = [
-    {
-        id: 1,
-        title: 'TypeScript',
-        completed: true,
-    },
-    {
-        id: 2,
-        title: 'React',
-        completed: true,
-    }
-]
-
-
-
 const Todo = () => {
-    const [todos, setTodos] = useState<Todo[]>(initialState)
-    const [value, setValue] = useState('')
+    const [todo, setTodo] = useState<Todo[]>([])
+    const [inputValue, setInputValue] = useState('')
+
+    useEffect(() => {
+        axios.get('https://jsonplaceholder.typicode.com/todos')
+            .then(res => setTodo(res.data))
+    }, [])
 
     const addTask = () => {
-        setTodos([...todos,{id: Date.now(), title: value, completed: false}])
+        setTodo([...todo, {id: 1, title: 'React', completed: false}])
     }
 
-    const toggleTodo = (id: number):void => {
-            setTodos(todos.map(e => {
-                if (e.id !== id) return e
-                return {
-                    ...e,
-                    completed: !e.completed
-                }
-            }))
+    const toggleTodo = (id: number) => {
+        setTodo(todo.map(todo => {
+            if (id !== todo.id) return todo
+            return {
+                ...todo,
+                completed: !todo.completed
+            }
+        }))
     }
-
-    const removeTodo = (id: number):void => {
-        if (window.confirm('Delete todo?')) {
-            setTodos(todos.filter(e => e.id !== id))
+    const removeTodo = (id: number): void => {
+        if (window.confirm('remove todo?')) {
+            setTodo(todo.filter(e => e.id !== id))
         }
     }
     return (
         <div>
-            <TodoInput addTodo={addTask} value={value} setValue={setValue}/>
-            <TodoList todos={todos} removeTodo={removeTodo} toggleTodo={toggleTodo}/>
+            <TodoInput
+                inputValue={inputValue}
+                setInputValue={setInputValue}
+                addTodo={addTask}
+            />
+            <div className={style.item}>
+                <TodoList
+                    todo={todo}
+                    removeTodo={removeTodo}
+                    toggleTodo={toggleTodo}
+                />
+            </div>
+
         </div>
     );
 };

@@ -1,9 +1,9 @@
 import React, {FC} from 'react';
 
 type Question = {
-    id: number,
-    title: string,
-    variants: string[],
+    id: number
+    title: string
+    variants: string[]
     correct: number
 }
 
@@ -12,15 +12,15 @@ type GameProps = {
     onClickVariants: (index: number) => void
 }
 
-const Game: FC<GameProps> = (props) => {
-    const {question, onClickVariants} = props
+const Game: FC<GameProps> = ({question, onClickVariants}) => {
+
     return (
         <div>
-            <div>
+            <h3>
                 {question.title}
-            </div>
+            </h3>
             {
-                question.variants.map((e, index) => <li key={index} onClick={() => onClickVariants(index)}><button>{e}</button></li>)
+                question.variants.map((e, index) => <li key={index}><button onClick={() => onClickVariants(index)}>{e}</button></li>)
             }
         </div>
     );

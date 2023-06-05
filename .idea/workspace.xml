@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="04.06.2023 +++">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Quiz/Game.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Quiz/Game.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Quiz/Quiz.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Quiz/Quiz.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Quiz/Result.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Quiz/Result.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="05.06.2023 +++" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -219,14 +214,7 @@
       <workItem from="1685877315758" duration="1449000" />
       <workItem from="1685880932756" duration="4121000" />
       <workItem from="1685885126218" duration="303000" />
-      <workItem from="1685954311672" duration="1198000" />
-    </task>
-    <task id="LOCAL-00091" summary="17.05.2023 +++">
-      <created>1684305924205</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1684305924206</updated>
+      <workItem from="1685954311672" duration="1602000" />
     </task>
     <task id="LOCAL-00092" summary="17.05.2023 +++">
       <created>1684307627046</created>
@@ -564,7 +552,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685885425699</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="05.06.2023 +++">
+      <created>1685955599897</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1685955599897</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -595,7 +590,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="30.04.2023 rtk" />
     <MESSAGE value="01.05.2023 rtk" />
     <MESSAGE value="02.05.2023 rtk" />
     <MESSAGE value="03.05.2023" />
@@ -620,6 +614,7 @@
     <MESSAGE value="31.05.2023 +++" />
     <MESSAGE value="03.06.2023 +++" />
     <MESSAGE value="04.06.2023 +++" />
-    <option name="LAST_COMMIT_MESSAGE" value="04.06.2023 +++" />
+    <MESSAGE value="05.06.2023 +++" />
+    <option name="LAST_COMMIT_MESSAGE" value="05.06.2023 +++" />
   </component>
 </project>

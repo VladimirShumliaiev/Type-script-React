@@ -37,18 +37,23 @@ export const addTodo = createAsyncThunk<Todo, string, { rejectValue: string }>(
         const todo = {
             id: 2,
             title: title,
-            completed: false
+            completed: true
         }
-        const response = await fetch('https://jsonplaceholder.typicode.com/todos', {
-            method: 'POST',
-            headers: {'Content-Type': 'application/json'},
-            body: JSON.stringify(todo)
-        })
+        const response = await axios.post(`https://jsonplaceholder.typicode.com/todos`,
+            {
+                id: 2,
+                title: title,
+                completed: true
+            }, {
+                // method: 'POST',
+                // headers: {'Content-Type': 'application/json'},
+                // body: JSON.stringify(todo)
+            })
 
-        if (!response.ok) {
+        if (!response) {
             return rejectWithValue('Error add todo')
         }
-        return await response.json() as Todo
+        return await response.data as Todo
     }
 )
 
@@ -60,11 +65,11 @@ export const toggleTodo = createAsyncThunk<Todo, string, { rejectValue: string, 
 
         if (toggle) {
             const response = await axios.patch(`https://jsonplaceholder.typicode.com/todos/${id}`, {
-                method: 'PATCH',
-                headers: {'Content-Type': 'application/json'},
-                body: JSON.stringify({
-                    completed: !toggle.completed
-                })
+                // method: 'PATCH',
+                // headers: {'Content-Type': 'application/json'},
+                // body: JSON.stringify({
+                //     completed: !toggle.completed
+                // })
             })
 
             if (!response) {
@@ -80,7 +85,7 @@ export const removeTodo = createAsyncThunk<string, string, { rejectValue: string
     'Todo/removeTodo',
     async (id, {rejectWithValue}) => {
         const response = await axios.delete(`https://jsonplaceholder.typicode.com/todos/${id}`, {
-            method: 'DELETE',
+            // method: 'DELETE',
         })
         if (!response) {
             return rejectWithValue('Error remove todo')
@@ -93,16 +98,16 @@ const todoSlice = createSlice({
     name: 'Todo',
     initialState,
     reducers: {
-        addTask(state, action){
+        addTask(state, action) {
             state.todoList.push(action.payload)
         },
-        removeTask(state, action){
+        removeTask(state, action) {
             state.todoList = state.todoList.filter(e => e.id !== action.payload)
         },
-        toggleTask(state, action){
+        toggleTask(state, action) {
             const toggle = state.todoList.find(e => e.id === action.payload)
             if (toggle)
-            toggle.completed = !toggle.completed
+                toggle.completed = !toggle.completed
         },
 
     },
@@ -142,5 +147,5 @@ const todoSlice = createSlice({
 const isError = (action: AnyAction) => {
     return action.type.endsWith('rejected')
 }
-// export  const {addTask, removeTask, toggleTask} = todoSlice.actions
+export const {addTask, removeTask, toggleTask} = todoSlice.actions
 export default todoSlice.reducer

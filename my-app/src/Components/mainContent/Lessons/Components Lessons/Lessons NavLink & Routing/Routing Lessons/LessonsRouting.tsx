@@ -13,6 +13,7 @@ import Board from "../../TticTacToe/Board";
 import Photos from "../../Photos/Photos";
 import Quiz from "../../Quiz/Quiz";
 import SelectLessons from "../../Select Menu/SelectLessons";
+import Pagination from "../../Pagination/Pagination";
 
 
 
@@ -33,6 +34,7 @@ const LessonsRouting: FC = () => {
                 <Route path={'quiz'} element={<Quiz/>}/>
                 {/*<Route path={'select'} element={<SelectLessons/>}/>*/}
                 <Route path={'select'} element={<SelectLessons/>}/>
+                <Route path={'countries'} element={<Pagination/>}/>
             </Routes>
         </div>
 

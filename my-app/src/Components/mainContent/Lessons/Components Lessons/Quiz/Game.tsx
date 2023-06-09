@@ -12,15 +12,14 @@ type GameProps = {
     onClickVariants: (index: number) => void
 }
 
-const Game: FC<GameProps> = ({question, onClickVariants}) => {
+const Game:FC<GameProps> = (props) => {
+    const {question, onClickVariants} = props
 
     return (
         <div>
-            <h3>
-                {question.title}
-            </h3>
+            <h3>{question.title}</h3>
             {
-                question.variants.map((e, index) => <li key={index}><button onClick={() => onClickVariants(index)}>{e}</button></li>)
+                question.variants.map((e,index) => <li key={e}><button onClick={() => onClickVariants(index)}>{e}</button></li>)
             }
         </div>
     );

@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="05.06.2023 +++">
+    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="09.06.2023 +++">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Quiz/Game.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Quiz/Game.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Quiz/Quiz.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Quiz/Quiz.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Quiz/Result.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Quiz/Result.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,23 +32,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "F:/React/Project/React.JS/Type-script-React",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.javascript.linters.tslint",
-    "ts.external.directory.path": "F:\\React\\Project\\React.JS\\Type-script-React\\my-app\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/React/Type-script-React&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.tslint&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;F:\\React\\Type-script-React\\my-app\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\React\Project\React.JS\Type-script-React\my-app\src\assets\img" />
@@ -226,28 +223,12 @@
       <workItem from="1686044757369" duration="670000" />
       <workItem from="1686053400682" duration="5230000" />
       <workItem from="1686125167293" duration="15000" />
-      <workItem from="1686321143668" duration="1166000" />
-    </task>
-    <task id="LOCAL-00101" summary="22.05.2023 +++">
-      <created>1684786248529</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1684786248529</updated>
-    </task>
-    <task id="LOCAL-00102" summary="22.05.2023 +++">
-      <created>1684786270714</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1684786270714</updated>
-    </task>
-    <task id="LOCAL-00103" summary="22.05.2023 +++">
-      <created>1684786871841</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1684786871842</updated>
+      <workItem from="1686321143668" duration="1365000" />
+      <workItem from="1686379254938" duration="403000" />
+      <workItem from="1686379899174" duration="79000" />
+      <workItem from="1686382358744" duration="1249000" />
+      <workItem from="1686384963561" duration="167000" />
+      <workItem from="1686565112267" duration="645000" />
     </task>
     <task id="LOCAL-00104" summary="23.05.2023 +++">
       <created>1684826275559</created>
@@ -571,7 +552,28 @@
       <option name="project" value="LOCAL" />
       <updated>1686058672122</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <task id="LOCAL-00150" summary="09.06.2023 +++">
+      <created>1686322401026</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1686322401027</updated>
+    </task>
+    <task id="LOCAL-00151" summary="09.06.2023 +++">
+      <created>1686322503018</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1686322503019</updated>
+    </task>
+    <task id="LOCAL-00152" summary="09.06.2023 +++">
+      <created>1686322514690</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1686322514690</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -602,7 +604,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="01.05.2023 rtk" />
     <MESSAGE value="02.05.2023 rtk" />
     <MESSAGE value="03.05.2023" />
     <MESSAGE value="04.05.2023 +++" />
@@ -627,6 +628,7 @@
     <MESSAGE value="03.06.2023 +++" />
     <MESSAGE value="04.06.2023 +++" />
     <MESSAGE value="05.06.2023 +++" />
-    <option name="LAST_COMMIT_MESSAGE" value="05.06.2023 +++" />
+    <MESSAGE value="09.06.2023 +++" />
+    <option name="LAST_COMMIT_MESSAGE" value="09.06.2023 +++" />
   </component>
 </project>

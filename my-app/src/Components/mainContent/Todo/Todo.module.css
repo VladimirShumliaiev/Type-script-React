@@ -11,3 +11,25 @@
     width: 15px;
     height: 15px;
 }
+
+.Pagination{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-size: 1.5rem;
+
+}
+
+.pageNum {
+    padding: 8px 10px;
+    border-radius: 3px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+a.active {
+    background-color: crimson;
+    color: white;
+    border-radius: 5px;
+}

@@ -2,33 +2,42 @@ import React, {useState} from 'react';
 import Todo from "./Todo/Todo";
 
 
-const initialState = 0
+
 
 const UseStateLessons = () => {
-    const [count, setCount] = useState(initialState)
+    const [count, setCount] = useState(0)
 
-    const minusHandle = () => {
+    const handleMinus = () => {
         setCount(count - 1)
+
         if (count <= -5) {
-            alert('Minimum -5')
-            if (window.confirm('Reset?')) {
-                setCount(0)
-            } else return setCount(count)
+                if (window.confirm('Minimum -5 reset?')){
+                    return setCount(0)
+                } else {
+                    return setCount(count)
+                }
+        }
+
+    }
+
+    const handlePlus = () => {
+        setCount(count + 1)
+
+        if (count > 5) {
+            if(window.confirm('Maximum 5')){
+                return setCount(0)
+            } else {
+                return setCount(count)
+            }
         }
     }
-    const resetHandle = () => {
+
+    const handleReset = () => {
         setCount(0)
     }
-    const plusHandle = () => {
-        setCount(count + 1)
-        if (count >= 5) {
-            alert('Maximum 5')
-            if (window.confirm('Reset?')) {
-                setCount(0)
-            } else return setCount(count)
 
-        }
-    }
+
+
     return (
         <div>
             <h3>first example:</h3>
@@ -37,9 +46,9 @@ const UseStateLessons = () => {
                     {count}
                 </h3>
             </div>
-            <button onClick={minusHandle}>-Minus</button>
-            <button onClick={resetHandle}>Reset</button>
-            <button onClick={plusHandle}>Plus+</button>
+            <button onClick={handleMinus}>-Minus</button>
+            <button onClick={handleReset}>Reset</button>
+            <button onClick={handlePlus}>Plus+</button>
             <hr/>
             <h3>second example:</h3>
             <Todo/>

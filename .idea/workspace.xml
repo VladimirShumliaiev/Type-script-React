@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="09.06.2023 +++">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/Todo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/Todo.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/TodoList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/TodoList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/HooksLessons/useState/useState Componets/Todo/Todo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/HooksLessons/useState/useState Componets/Todo/Todo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/HooksLessons/useState/useState Componets/useStateLessons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/HooksLessons/useState/useState Componets/useStateLessons.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,13 +232,8 @@
       <workItem from="1686384963561" duration="167000" />
       <workItem from="1686565112267" duration="9355000" />
       <workItem from="1687026631007" duration="560000" />
-    </task>
-    <task id="LOCAL-00107" summary="23.05.2023 +++">
-      <created>1684832740266</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1684832740266</updated>
+      <workItem from="1687027210362" duration="281000" />
+      <workItem from="1687116549268" duration="1014000" />
     </task>
     <task id="LOCAL-00108" summary="24.05.2023 +++">
       <created>1684911360256</created>
@@ -576,7 +571,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686574455113</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary="09.06.2023 +++">
+      <created>1687027486174</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1687027486175</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

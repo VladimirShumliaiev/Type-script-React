@@ -1,3 +1,31 @@
 .Users {
     text-align: left;
 }
+
+.Pagination {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-size: 1.5rem;
+}
+
+.pageNum {
+    padding: 5px 10px;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 2px;
+    border: 1px solid;
+}
+
+.active-paginate{
+
+}
+
+a.active {
+    background-color: #ffea00;
+    color: white;
+    /*border-radius: 5px;*/
+    border-radius: 2px;
+    border: 1px black;
+}

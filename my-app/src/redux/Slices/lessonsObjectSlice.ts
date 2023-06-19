@@ -1,4 +1,5 @@
 import {AnyAction, createAsyncThunk, createSlice, PayloadAction} from "@reduxjs/toolkit";
+import axios from "axios";
 
 type Users = {
     id: string,
@@ -39,22 +40,20 @@ const initialState: UsersState = {
 export const fetchUsers = createAsyncThunk<Users[], undefined, {rejectValue: string}>(
     'Users/fetchUsers',
     async (_, {rejectWithValue}) => {
-        const response = await fetch('https://jsonplaceholder.typicode.com/users')
+        const response = await axios.get('https://jsonplaceholder.typicode.com/users')
 
-        if(!response.ok) {
+        if(!response) {
             return rejectWithValue('Error fetch users')
         }
-        return await response.json()
+        return await response.data
     }
 )
 
 export const deleteUser = createAsyncThunk<string, string, {rejectValue: string}>(
     'Users/deleteUser',
     async (id, {rejectWithValue}) => {
-        const response = await fetch(`https://jsonplaceholder.typicode.com/users/${id}`, {
-            method: 'DELETE',
-        })
-        if (!response.ok) {
+        const response = axios.delete(`https://jsonplaceholder.typicode.com/users/${id}`)
+        if (!response) {
             return rejectWithValue('Error delete')
         }
         return id

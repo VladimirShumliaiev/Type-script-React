@@ -21,10 +21,10 @@
 }
 
 .pageNum {
-    padding: 5px 12px;
+    padding: 5px 10px;
     font-weight: 400;
     cursor: pointer;
-    border-radius: 100px;
+    border-radius: 2px;
     border: 1px solid;
 }
 
@@ -32,6 +32,6 @@ a.active {
     background-color: #002aff;
     color: white;
     /*border-radius: 5px;*/
-    border-radius: 100px;
+    border-radius: 2px;
     border: 1px black;
 }

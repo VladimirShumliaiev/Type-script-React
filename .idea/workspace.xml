@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="18.06.2023 +++">
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/NavLink/MyNavLink.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/NavLink/MyNavLink.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="18.06.2023 +++" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -234,14 +232,7 @@
       <workItem from="1687116549268" duration="1251000" />
       <workItem from="1687168292276" duration="1999000" />
       <workItem from="1687170335524" duration="769000" />
-      <workItem from="1687171134661" duration="761000" />
-    </task>
-    <task id="LOCAL-00113" summary="26.05.2023 +++">
-      <created>1685166351290</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1685166351290</updated>
+      <workItem from="1687171134661" duration="1604000" />
     </task>
     <task id="LOCAL-00114" summary="26.05.2023 +++">
       <created>1685166411100</created>
@@ -579,7 +570,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687171593644</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="18.06.2023 +++">
+      <created>1687172149661</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1687172149661</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

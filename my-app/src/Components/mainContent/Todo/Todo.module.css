@@ -18,20 +18,20 @@
     justify-content: center;
     gap: 5px;
     font-size: 1.5rem;
-
-
 }
 
 .pageNum {
-    padding: 8px 10px;
-    border-radius: 3px;
+    padding: 5px 12px;
     font-weight: 400;
     cursor: pointer;
+    border-radius: 100px;
     border: 1px solid;
 }
 
 a.active {
-    background-color: crimson;
+    background-color: #002aff;
     color: white;
-    border-radius: 5px;
+    /*border-radius: 5px;*/
+    border-radius: 100px;
+    border: 1px black;
 }

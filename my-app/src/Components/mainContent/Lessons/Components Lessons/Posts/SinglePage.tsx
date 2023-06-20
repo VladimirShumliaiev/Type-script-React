@@ -13,6 +13,8 @@ const SinglePage = () => {
     const [posts, setPosts] = useState<Posts>()
     const {id} = useParams()
 
+
+
     useEffect(() => {
        axios.get(`https://jsonplaceholder.typicode.com/photos/${id}`).then
        (({data}) => setPosts(data))

@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import axios from "axios";
 import TodoInput from "./TodoInput/TodoInput";
-import TodoList from "./TodoList";
+import TodoList from "./TodoList/TodoList";
 
 type Todo = {
     id: number
@@ -36,6 +36,7 @@ const Todo = () => {
     const removeTodo = (id: number) => {
        setTodos(todos.filter(e => e.id !== id))
     }
+
 
     return (
         <div>

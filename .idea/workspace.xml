@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="20.06.2023 +++" />
+    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="20.06.2023 +++">
+      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/HooksLessons/useState/useState Componets/Todo/Modal/Modal.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/HooksLessons/useState/useState Componets/Todo/Modal/Modal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/HooksLessons/useState/useState Componets/Todo/Todo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/HooksLessons/useState/useState Componets/Todo/Todo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/HooksLessons/useState/useState Componets/Todo/TodoItem/TodoItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/HooksLessons/useState/useState Componets/Todo/TodoItem/TodoItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/HooksLessons/useState/useState Componets/Todo/TodoList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/HooksLessons/useState/useState Componets/Todo/TodoList/TodoList.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,11 +59,11 @@
       <recent name="F:\React\Project\React.JS\Type-script-React\my-app\src\assets\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\React\Type-script-React\my-app\src\Components\mainContent\Lessons\Components Lessons\HooksLessons\useState\useState Componets\Todo\Modal" />
+      <recent name="F:\React\Type-script-React\my-app\src\Components\mainContent\Lessons\Components Lessons\HooksLessons\useState\useState Componets\Todo\TodoList" />
       <recent name="F:\React\Project\React.JS\Type-script-React\my-app\src\Components\mainContent\Lessons\Components Lessons\Lessons NavLink &amp; Routing" />
       <recent name="F:\React\Project\React.JS\Type-script-React\my-app\src\Components\mainContent\Lessons\Components Lessons\TticTacToe\Square" />
       <recent name="F:\React\Project\React.JS\Type-script-React\my-app\src\Components\mainContent\Lessons\Components Lessons\Examples\ExampleComponents\RoutingExample" />
-      <recent name="F:\React\Project\React.JS\Type-script-React\my-app\src\Components\mainContent\Lessons\Components Lessons\Examples\ExampleComponents" />
-      <recent name="F:\React\Project\React.JS\Type-script-React\my-app\src\Components\mainContent\Lessons\Components Lessons\Examples\Counts" />
     </key>
   </component>
   <component name="RunManager">
@@ -235,14 +242,8 @@
       <workItem from="1687171134661" duration="1613000" />
       <workItem from="1687237998694" duration="3005000" />
       <workItem from="1687326160697" duration="4518000" />
-      <workItem from="1687331287212" duration="424000" />
-    </task>
-    <task id="LOCAL-00119" summary="27.05.2023 +++">
-      <created>1685176795010</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1685176795010</updated>
+      <workItem from="1687331287212" duration="1817000" />
+      <workItem from="1687333134961" duration="10960000" />
     </task>
     <task id="LOCAL-00120" summary="27.05.2023 +++">
       <created>1685180459048</created>
@@ -580,7 +581,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687331362106</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <task id="LOCAL-00168" summary="20.06.2023 +++">
+      <created>1687331735966</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1687331735966</updated>
+    </task>
+    <option name="localTasksCounter" value="169" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

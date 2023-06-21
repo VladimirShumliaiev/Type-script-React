@@ -1,13 +1,15 @@
 import React, {FC, useEffect, useState} from 'react';
-import TodoItem from "./TodoItem/TodoItem";
+import TodoItem from "../TodoItem/TodoItem";
 import ReactPaginate from "react-paginate";
-import style from './Todo.module.css'
+import style from '../Todo.module.css'
+import Modal from "../Modal/Modal";
 
 type Todo = {
     id: number
     title: string
     completed: boolean
 }
+
 type TodoListProps = {
     todos: Todo[]
     toggleTodo: (id: number) => void
@@ -15,16 +17,15 @@ type TodoListProps = {
 }
 
 const TodoList: FC<TodoListProps> = (props) => {
-    const {todos, toggleTodo, removeTodo} = props
-
-    const [currentItems,setCurrentItems] = useState<Todo[]>([])
+    const {todos, toggleTodo} = props
+    const [showModal, setShowModal] = useState<boolean>(false)
+    const [currentItems, setCurrentItems] = useState<Todo[]>([])
     const [itemOffset, setItemOffset] = useState(0);
     const [pageCount, setPageCount] = useState(0)
     const itemsPerPage = 10
 
     useEffect(() => {
         const endOffset = itemOffset + itemsPerPage;
-        console.log(`Loading items from ${itemOffset} to ${endOffset}`);
         setCurrentItems(todos.slice(itemOffset, endOffset));
         setPageCount(Math.ceil(todos.length / itemsPerPage));
     }, [itemOffset, itemsPerPage, todos]);
@@ -33,10 +34,17 @@ const TodoList: FC<TodoListProps> = (props) => {
         setItemOffset(newOffset);
     };
 
+    const closeModal = () => {
+        setShowModal(false)
+    }
+
     return (
         <div>
             {
-                currentItems.map(todo => <TodoItem toggleTodo={toggleTodo} removeTodo={removeTodo} key={todo.id} {...todo}/>)
+                currentItems.map(todo => <TodoItem
+                    setShowModal={setShowModal}
+                    toggleTodo={toggleTodo}
+                    key={todo.id} {...todo}/>)
             }
             <ReactPaginate
                 breakLabel="..."
@@ -52,6 +60,7 @@ const TodoList: FC<TodoListProps> = (props) => {
                 nextLinkClassName={style.pageNum}
                 activeLinkClassName={style.active}
             />
+            {showModal && (<Modal closeModal={closeModal}/>)}
         </div>
     );
 };

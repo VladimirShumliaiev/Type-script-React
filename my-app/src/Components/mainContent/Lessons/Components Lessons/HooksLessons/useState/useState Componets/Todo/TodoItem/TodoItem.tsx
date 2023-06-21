@@ -5,12 +5,12 @@ type TodoItemProps = {
     id: number
     title: string
     completed: boolean
+    setShowModal: (e: boolean) => void
     toggleTodo: (id: number) => void
-    removeTodo: (id: number) => void
 }
 
 const TodoItem: FC<TodoItemProps> = (props) => {
-    const {id, removeTodo, toggleTodo, title, completed} = props
+    const {id, toggleTodo, title, completed, setShowModal} = props
     return (
         <div>
             <input
@@ -19,7 +19,7 @@ const TodoItem: FC<TodoItemProps> = (props) => {
                 onChange={() => toggleTodo(id)}
             />
             {title}
-            <span className={style.todoItem} onClick={() => removeTodo(id)}>&times;</span>
+            <button className={style.todoItem} onClick={() => setShowModal(true)}>[X]</button>
         </div>
     );
 };

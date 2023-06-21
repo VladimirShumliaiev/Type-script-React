@@ -3,3 +3,27 @@
     background: white;
     padding: 10px 0 0 10px;
 }
+
+.pagination {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    font-size: 1.2rem;
+    gap: 5px;
+
+}
+
+.pageNum {
+    padding: 8px 15px;
+    border-radius: 3px;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+
+
+a.active{
+    background-color: #06c2e5;
+}

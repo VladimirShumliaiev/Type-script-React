@@ -1,4 +1,5 @@
 import React, {FC} from 'react';
+import style from './TodoItem.module.css'
 
 type TodoItemProps = {
     id: number
@@ -18,7 +19,7 @@ const TodoItem: FC<TodoItemProps> = (props) => {
                 onChange={() => toggleTodo(id)}
             />
             {title}
-            <button onClick={() => removeTodo(id)}>&times;</button>
+            <span className={style.todoItem} onClick={() => removeTodo(id)}>&times;</span>
         </div>
     );
 };

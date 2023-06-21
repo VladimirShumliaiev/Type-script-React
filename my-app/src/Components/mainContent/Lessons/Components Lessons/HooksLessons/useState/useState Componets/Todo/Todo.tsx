@@ -2,7 +2,6 @@ import React, {useEffect, useState} from 'react';
 import axios from "axios";
 import TodoInput from "./TodoInput/TodoInput";
 import TodoList from "./TodoList";
-import style from './Todo.module.css'
 
 type Todo = {
     id: number
@@ -11,47 +10,37 @@ type Todo = {
 }
 
 const Todo = () => {
-    const [todo, setTodo] = useState<Todo[]>([])
-    const [inputValue, setInputValue] = useState('')
+    const [todos, setTodos] = useState<Todo[]>([])
+    const [title, setTitle] = useState('')
 
     useEffect(() => {
-        axios.get('https://jsonplaceholder.typicode.com/todos')
-            .then(res => setTodo(res.data))
-    }, [])
+        axios.get('https://jsonplaceholder.typicode.com/todos').then
+        (({data}) => setTodos(data))
+    },[])
 
     const addTask = () => {
-        setTodo([...todo, {id: 1, title: 'React', completed: false}])
+        setTodos([...todos,{id: 203, title: title, completed: false}])
     }
 
     const toggleTodo = (id: number) => {
-        setTodo(todo.map(todo => {
+        setTodos(todos.map(todo => {
             if (id !== todo.id) return todo
+
             return {
                 ...todo,
                 completed: !todo.completed
             }
         }))
     }
-    const removeTodo = (id: number): void => {
-        if (window.confirm('remove todo?')) {
-            setTodo(todo.filter(e => e.id !== id))
-        }
+
+    const removeTodo = (id: number) => {
+       setTodos(todos.filter(e => e.id !== id))
     }
+
     return (
         <div>
-            <TodoInput
-                inputValue={inputValue}
-                setInputValue={setInputValue}
-                addTodo={addTask}
-            />
-            <div className={style.item}>
-                <TodoList
-                    todo={todo}
-                    removeTodo={removeTodo}
-                    toggleTodo={toggleTodo}
-                />
-            </div>
-
+            <TodoInput title={title} setTitle={setTitle} addTodo={addTask}/>
+            <TodoList todos={todos} toggleTodo={toggleTodo} removeTodo={removeTodo}/>
         </div>
     );
 };

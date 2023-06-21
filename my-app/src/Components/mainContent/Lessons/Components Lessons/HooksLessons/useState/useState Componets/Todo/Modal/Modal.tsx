@@ -7,12 +7,6 @@ type ModalProps = {
 
 const Modal: FC<ModalProps> = ({closeModal}) => {
 
-
-    // const handleOnSubmit = () => {
-    //     setShowModal(false)
-    //
-    // }
-
     return (
         <div className={style.modal} onClick={closeModal}>
             <div className={style.modal__content} onClick={event => event.stopPropagation()}>

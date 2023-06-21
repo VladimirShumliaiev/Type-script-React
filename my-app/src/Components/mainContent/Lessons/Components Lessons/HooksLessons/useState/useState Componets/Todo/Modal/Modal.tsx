@@ -2,12 +2,16 @@ import React, {FC} from 'react';
 import style from './Modal.module.css'
 
 type ModalProps = {
-    // active: boolean
-    // onSubmit: () => void
     closeModal: () => void
 }
 
 const Modal: FC<ModalProps> = ({closeModal}) => {
+
+
+    // const handleOnSubmit = () => {
+    //     setShowModal(false)
+    //
+    // }
 
     return (
         <div className={style.modal} onClick={closeModal}>

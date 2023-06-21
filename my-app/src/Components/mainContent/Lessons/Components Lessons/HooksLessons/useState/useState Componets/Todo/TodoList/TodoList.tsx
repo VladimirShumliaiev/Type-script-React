@@ -17,7 +17,7 @@ type TodoListProps = {
 }
 
 const TodoList: FC<TodoListProps> = (props) => {
-    const {todos, toggleTodo} = props
+    const {todos, toggleTodo, removeTodo} = props
     const [showModal, setShowModal] = useState<boolean>(false)
     const [currentItems, setCurrentItems] = useState<Todo[]>([])
     const [itemOffset, setItemOffset] = useState(0);

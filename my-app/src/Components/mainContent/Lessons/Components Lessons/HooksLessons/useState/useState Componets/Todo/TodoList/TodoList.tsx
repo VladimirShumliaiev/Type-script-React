@@ -28,6 +28,7 @@ const TodoList: FC<TodoListProps> = (props) => {
         setCurrentItems(todos.slice(itemOffset, endOffset));
         setPageCount(Math.ceil(todos.length / itemsPerPage));
     }, [itemOffset, itemsPerPage, todos]);
+
     const handlePageClick = (event: any) => {
         const newOffset = (event.selected * itemsPerPage) % todos.length;
         setItemOffset(newOffset);
@@ -37,6 +38,7 @@ const TodoList: FC<TodoListProps> = (props) => {
 
     return (
         <div>
+
             {
                 currentItems.map(todo => <TodoItem
                     showModal={showModal}
@@ -45,6 +47,7 @@ const TodoList: FC<TodoListProps> = (props) => {
                     toggleTodo={toggleTodo}
                     key={todo.id} {...todo}/>)
             }
+
             <ReactPaginate
                 breakLabel="..."
                 nextLabel="next >"

@@ -16,10 +16,10 @@ const Todo = () => {
     useEffect(() => {
         axios.get('https://jsonplaceholder.typicode.com/todos').then
         (({data}) => setTodos(data))
-    },[])
+    }, [])
 
     const addTask = () => {
-        setTodos([...todos,{id: 203, title: title, completed: false}])
+        setTodos([...todos, {id: 203, title: title, completed: false}])
     }
 
     const toggleTodo = (id: number) => {
@@ -34,7 +34,7 @@ const Todo = () => {
     }
 
     const removeTodo = (id: number) => {
-       setTodos(todos.filter(e => e.id !== id))
+            setTodos(todos.filter(e => e.id !== id))
     }
 
 

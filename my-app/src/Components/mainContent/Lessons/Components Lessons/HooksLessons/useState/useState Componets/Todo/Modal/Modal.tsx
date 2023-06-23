@@ -4,6 +4,7 @@ import style from './Modal.module.css'
 type ModalProps = {
     closeModal: () => void
     handleDeleteTodo: () => void
+    id: number
 }
 
 const Modal: FC<ModalProps> = ({closeModal, handleDeleteTodo}) => {

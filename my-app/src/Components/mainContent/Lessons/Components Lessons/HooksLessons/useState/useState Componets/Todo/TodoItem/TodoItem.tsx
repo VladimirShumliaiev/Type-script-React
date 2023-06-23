@@ -20,8 +20,8 @@ const TodoItem: FC<TodoItemProps> = (props) => {
     }
 
     const handleDeleteTodo = () => {
-        removeTodo(id)
         setShowModal(false)
+        removeTodo(id)
     }
 
 
@@ -34,7 +34,7 @@ const TodoItem: FC<TodoItemProps> = (props) => {
             />
             {title}
             <button className={style.todoItem} onClick={() => setShowModal(true)}>[X]</button>
-            {showModal && (<Modal handleDeleteTodo={handleDeleteTodo} closeModal={closeModal}/>)}
+            {showModal && (<Modal id={id}  handleDeleteTodo={handleDeleteTodo} closeModal={closeModal}/>)}
         </div>
     );
 };

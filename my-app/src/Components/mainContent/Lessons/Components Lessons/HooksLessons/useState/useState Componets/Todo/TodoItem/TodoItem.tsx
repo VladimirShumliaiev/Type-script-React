@@ -1,16 +1,30 @@
 import React, {FC} from 'react';
 import style from './TodoItem.module.css'
+import Modal from "../Modal/Modal";
 
 type TodoItemProps = {
     id: number
     title: string
     completed: boolean
+    showModal: boolean
+    removeTodo: (id: number) => void
     setShowModal: (e: boolean) => void
     toggleTodo: (id: number) => void
 }
 
 const TodoItem: FC<TodoItemProps> = (props) => {
-    const {id, toggleTodo, title, completed, setShowModal} = props
+    const {id, toggleTodo, title, completed, setShowModal, showModal, removeTodo} = props
+
+    const closeModal = () => {
+        setShowModal(false)
+    }
+
+    const handleDeleteTodo = () => {
+        removeTodo(id)
+        setShowModal(false)
+    }
+
+
     return (
         <div>
             <input
@@ -20,6 +34,7 @@ const TodoItem: FC<TodoItemProps> = (props) => {
             />
             {title}
             <button className={style.todoItem} onClick={() => setShowModal(true)}>[X]</button>
+            {showModal && (<Modal handleDeleteTodo={handleDeleteTodo} closeModal={closeModal}/>)}
         </div>
     );
 };

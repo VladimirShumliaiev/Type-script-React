@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="20.06.2023 +++">
+    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="23.06.2023 +++">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/HooksLessons/useState/useState Componets/Todo/Modal/Modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/HooksLessons/useState/useState Componets/Todo/Modal/Modal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/HooksLessons/useState/useState Componets/Todo/Todo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/HooksLessons/useState/useState Componets/Todo/Todo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/HooksLessons/useState/useState Componets/Todo/TodoItem/TodoItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/HooksLessons/useState/useState Componets/Todo/TodoItem/TodoItem.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/HooksLessons/useState/useState Componets/Todo/TodoList/TodoList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/HooksLessons/useState/useState Componets/Todo/TodoList/TodoList.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -244,14 +244,7 @@
       <workItem from="1687333134961" duration="10960000" />
       <workItem from="1687345679748" duration="2743000" />
       <workItem from="1687353510709" duration="4291000" />
-      <workItem from="1687526532259" duration="728000" />
-    </task>
-    <task id="LOCAL-00123" summary="28.05.2023 +++">
-      <created>1685256985516</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1685256985516</updated>
+      <workItem from="1687526532259" duration="2089000" />
     </task>
     <task id="LOCAL-00124" summary="28.05.2023 +++">
       <created>1685267777542</created>
@@ -589,7 +582,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687357834946</updated>
     </task>
-    <option name="localTasksCounter" value="172" />
+    <task id="LOCAL-00172" summary="23.06.2023 +++">
+      <created>1687527508562</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1687527508563</updated>
+    </task>
+    <option name="localTasksCounter" value="173" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -620,7 +620,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="04.05.2023 +++" />
     <MESSAGE value="05.05.2023 +++" />
     <MESSAGE value="08.05.2023 +++" />
     <MESSAGE value="10.05.2023 +++" />
@@ -645,7 +644,8 @@
     <MESSAGE value="09.06.2023 +++" />
     <MESSAGE value="18.06.2023 +++" />
     <MESSAGE value="20.06.2023 +++" />
-    <option name="LAST_COMMIT_MESSAGE" value="20.06.2023 +++" />
+    <MESSAGE value="23.06.2023 +++" />
+    <option name="LAST_COMMIT_MESSAGE" value="23.06.2023 +++" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

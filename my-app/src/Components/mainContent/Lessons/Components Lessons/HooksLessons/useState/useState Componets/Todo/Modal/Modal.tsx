@@ -3,16 +3,17 @@ import style from './Modal.module.css'
 
 type ModalProps = {
     closeModal: () => void
+    handleDeleteTodo: () => void
 }
 
-const Modal: FC<ModalProps> = ({closeModal}) => {
+const Modal: FC<ModalProps> = ({closeModal, handleDeleteTodo}) => {
 
     return (
         <div className={style.modal} onClick={closeModal}>
             <div className={style.modal__content} onClick={event => event.stopPropagation()}>
                 <div className={style.modal__header}>
                     <div className={style.modal__title}>
-                        <h3>Delete</h3>
+                        <h3> Delete </h3>
                     </div>
                 </div>
                 <div className={style.modal__body}>
@@ -21,7 +22,7 @@ const Modal: FC<ModalProps> = ({closeModal}) => {
                 </div>
 
                 <div className={style.modal__footer}>
-                    <button>confirm</button>
+                    <button onClick={handleDeleteTodo}>confirm</button>
                     <button onClick={closeModal}>
                         cancellation
                     </button>

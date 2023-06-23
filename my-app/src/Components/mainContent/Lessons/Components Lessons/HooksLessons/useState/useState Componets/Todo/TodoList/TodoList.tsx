@@ -2,7 +2,6 @@ import React, {FC, useEffect, useState} from 'react';
 import TodoItem from "../TodoItem/TodoItem";
 import ReactPaginate from "react-paginate";
 import style from '../Todo.module.css'
-import Modal from "../Modal/Modal";
 
 type Todo = {
     id: number
@@ -17,7 +16,7 @@ type TodoListProps = {
 }
 
 const TodoList: FC<TodoListProps> = (props) => {
-    const {todos, toggleTodo} = props
+    const {todos, toggleTodo, removeTodo} = props
     const [showModal, setShowModal] = useState<boolean>(false)
     const [currentItems, setCurrentItems] = useState<Todo[]>([])
     const [itemOffset, setItemOffset] = useState(0);
@@ -34,15 +33,15 @@ const TodoList: FC<TodoListProps> = (props) => {
         setItemOffset(newOffset);
     };
 
-    const closeModal = () => {
-        setShowModal(false)
-    }
+
 
     return (
         <div>
             {
                 currentItems.map(todo => <TodoItem
+                    showModal={showModal}
                     setShowModal={setShowModal}
+                    removeTodo={removeTodo}
                     toggleTodo={toggleTodo}
                     key={todo.id} {...todo}/>)
             }
@@ -60,7 +59,7 @@ const TodoList: FC<TodoListProps> = (props) => {
                 nextLinkClassName={style.pageNum}
                 activeLinkClassName={style.active}
             />
-            {showModal && (<Modal closeModal={closeModal}/>)}
+
         </div>
     );
 };

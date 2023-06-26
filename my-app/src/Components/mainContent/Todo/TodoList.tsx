@@ -5,20 +5,20 @@ import ReactPaginate from "react-paginate";
 import style from './Todo.module.css'
 
 const TodoList = () => {
-    const list = useAppSelector(state => state.todo.todoList)
-    const [currentItems, setCurrentItems] = useState(list);
+    const todoSelector = useAppSelector(state => state.todo.todoList)
+    const [currentItems, setCurrentItems] = useState(todoSelector);
     const [pageCount, setPageCount] = useState(0);
     const [itemOffset, setItemOffset] = useState(0);
     const itemsPerPage = 12
 
     useEffect(() => {
         const endOffset = itemOffset + itemsPerPage;
-        setCurrentItems(list.slice(itemOffset, endOffset));
-        setPageCount(Math.ceil(list.length / itemsPerPage));
-    }, [itemOffset, itemsPerPage, list]);
+        setCurrentItems(todoSelector.slice(itemOffset, endOffset));
+        setPageCount(Math.ceil(todoSelector.length / itemsPerPage));
+    }, [itemOffset, itemsPerPage, todoSelector]);
 
     const handlePageClick = (event: any) => {
-        const newOffset = event.selected * itemsPerPage % list.length;
+        const newOffset = event.selected * itemsPerPage % todoSelector.length;
         setItemOffset(newOffset);
     };
     return (

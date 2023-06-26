@@ -1,8 +1,8 @@
 import React, {useEffect, useState} from 'react';
-import {useAppDispatch} from "../../../hooks/hooks";
 import {addTodo, fetchTodo} from "../../../redux/Slices/todoSlice";
 import TodoInput from "./TodoInput";
 import TodoList from "./TodoList";
+import {useAppDispatch} from "../../../hooks/hooks";
 
 const Todo = () => {
     const [title, setTitle] = useState('')

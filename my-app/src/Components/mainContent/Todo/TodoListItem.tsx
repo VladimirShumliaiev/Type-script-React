@@ -15,7 +15,7 @@ const TodoListItem: FC<TodoListItemProps> = (props) => {
     const dispatch = useAppDispatch()
 
     const handleRemoveTodo = () => {
-        if (window.confirm('delete todo?')) {
+        if (window.confirm('do you really want to delete the task ?')) {
             dispatch(removeTodo(id))
         }
     }

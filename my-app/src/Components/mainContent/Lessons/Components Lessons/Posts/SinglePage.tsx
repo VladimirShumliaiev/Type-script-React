@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import axios from "axios";
-import {useParams} from "react-router-dom";
+import {Link, useParams} from "react-router-dom";
 
 type Post = {
     id: string
@@ -22,11 +22,15 @@ const SinglePage = () => {
         <div>
             {posts && (
                 <div>
+                    <Link to={'/lessons/posts'}><h3>back</h3></Link>
                     {posts.title}
                     <div>
                         <img src={posts.url} alt=""/>
-                        <img src={posts.thumbnailUrl} alt=""/>
+                        <div>
+                            <img src={posts.thumbnailUrl} alt=""/>
+                        </div>
                     </div>
+
                 </div>
             )}
         </div>

@@ -15,7 +15,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 5rem;
+  margin: 2rem 0 1rem 0 ;
   font-size: 1.2rem;
   gap: 5px;
 
@@ -32,6 +32,7 @@
 
 a.active{
   background-color: #06c2e5;
+  color: white;
 }
 
 

@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment=" 27.06.2023+++">
-      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/ExampleComponents/ExampleAll/ExampleAll.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/ExampleComponents/ExampleAll/ExampleAllInput.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/ExampleComponents/ExampleAll/ExampleAllList.jsx" afterDir="false" />
+    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment=" 28.06.2023+++">
+      <change afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/ExampleComponents/ExampleAll/useScrollBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/ExampleComponents/NavLinkExample/NavLinkExamples.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/ExampleComponents/NavLinkExample/NavLinkExamples.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/ExampleComponents/RoutingExample/RoutingExamples.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/ExampleComponents/RoutingExample/RoutingExamples.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/ExampleComponents/ExampleAll/ExampleAllList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Examples/ExampleComponents/ExampleAll/ExampleAllList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,14 +252,7 @@
       <workItem from="1687843429123" duration="3219000" />
       <workItem from="1687932819823" duration="169000" />
       <workItem from="1687933016011" duration="11000" />
-      <workItem from="1687933159544" duration="2353000" />
-    </task>
-    <task id="LOCAL-00136" summary="03.06.2023 +++">
-      <created>1685815960399</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1685815960399</updated>
+      <workItem from="1687933159544" duration="5115000" />
     </task>
     <task id="LOCAL-00137" summary="04.06.2023 +++">
       <created>1685878703186</created>
@@ -601,7 +590,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687846075313</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary=" 28.06.2023+++">
+      <created>1687935596856</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1687935596857</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -632,7 +628,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="11.05.2023 +++" />
     <MESSAGE value="12.05.2023 +++" />
     <MESSAGE value="16.05.2023 +++" />
     <MESSAGE value="17.05.2023 +++" />
@@ -657,6 +652,7 @@
     <MESSAGE value=" +++" />
     <MESSAGE value=" 26.06.2023+++" />
     <MESSAGE value=" 27.06.2023+++" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 27.06.2023+++" />
+    <MESSAGE value=" 28.06.2023+++" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 28.06.2023+++" />
   </component>
 </project>

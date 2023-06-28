@@ -17,6 +17,8 @@ const NavLinkExamples = () => {
             {'|'}
             <NavLink className={isActive} to={'examplesArray'}> Array </NavLink>
             {'|'}
+            <NavLink className={isActive} to={'examplesAll'}> All </NavLink>
+            {'|'}
         </div>
     );
 };

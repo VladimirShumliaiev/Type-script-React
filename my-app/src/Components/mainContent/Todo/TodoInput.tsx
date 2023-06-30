@@ -8,7 +8,7 @@ type TodoInput = {
 
 const TodoInput: FC<TodoInput> = (props) => {
     const {text, setText, addTodo} = props
-    const inputRef = useRef<HTMLTextAreaElement>(null)
+    const inputRef = useRef<HTMLInputElement>(null)
 
     const handleOnSubmit: React.FormEventHandler<HTMLFormElement> = (event) => {
         event.preventDefault()
@@ -16,14 +16,14 @@ const TodoInput: FC<TodoInput> = (props) => {
         setText('')
     }
 
-    const handleOnchange: React.ChangeEventHandler<HTMLTextAreaElement> = (event) => {
+    const handleOnchange: React.ChangeEventHandler<HTMLInputElement> = (event) => {
         setText(event.target.value)
     }
 
 
     return (
         <form onSubmit={handleOnSubmit}>
-            <textarea
+            <input
                 value={text}
                 onChange={handleOnchange}
                 ref={inputRef}

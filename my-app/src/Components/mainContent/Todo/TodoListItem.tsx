@@ -1,42 +1,29 @@
 import React, {FC} from 'react';
+import {removeTodo, Todo, toggleTodo} from "../../../redux/Slices/todoSlice";
 import {useAppDispatch} from "../../../hooks/hooks";
-import {removeTodo, toggleTodo} from "../../../redux/Slices/todoSlice";
-import iconButtonDel from '../../../assets/img/delete-svgrepo-com.svg'
+import buttonImg from '../../../assets/img/delete-svgrepo-com.svg'
 import style from './Todo.module.css'
 
-type TodoListItemProps = {
-    id: string
-    title: string
-    completed: boolean
-}
-
-const TodoListItem: FC<TodoListItemProps> = (props) => {
+const TodoListItem: FC<Todo> = (props) => {
     const {id, completed, title} = props
     const dispatch = useAppDispatch()
 
-    const handleRemoveTodo = () => {
-        if (window.confirm('do you really want to delete the task ?')) {
+    const handleToggle = () => {
+        dispatch(toggleTodo(id))
+    }
+
+    const handleDelete = () => {
+        if (window.confirm('delete todo?')){
             dispatch(removeTodo(id))
         }
     }
 
-    const handleToggleTodo = () => {
-        dispatch(toggleTodo(id))
-    }
 
     return (
         <div>
-            <input
-                type="checkbox"
-                checked={completed}
-                onChange={handleToggleTodo}
-            />
-
+            <input type="checkbox" checked={completed} onChange={handleToggle}/>
             {title}
-
-            <span className={style.item} onClick={handleRemoveTodo}>
-                    <img src={iconButtonDel} alt=""/>
-                </span>
+            <span className={style.item} onClick={handleDelete}><img src={buttonImg} alt=""/></span>
         </div>
     );
 };

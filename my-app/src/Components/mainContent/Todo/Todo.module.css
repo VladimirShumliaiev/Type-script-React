@@ -1,5 +1,7 @@
 .item {
   color: black;
+    border: none;
+    padding: 3px;
 }
 
 .itemButton {

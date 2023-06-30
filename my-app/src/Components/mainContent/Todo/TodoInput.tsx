@@ -1,32 +1,33 @@
 import React, {FC, useRef} from 'react';
 
-type TodoInputProps = {
-    title: string
-    setTitle: (title: string) => void
+type TodoInput = {
+    text: string
+    setText: (text: string) => void
     addTodo: () => void
 }
 
-const TodoInput: FC<TodoInputProps> = (props) => {
-    const {title, setTitle, addTodo} = props
-    const inputRef = useRef<HTMLInputElement>(null)
+const TodoInput: FC<TodoInput> = (props) => {
+    const {text, setText, addTodo} = props
+    const inputRef = useRef<HTMLTextAreaElement>(null)
 
     const handleOnSubmit: React.FormEventHandler<HTMLFormElement> = (event) => {
         event.preventDefault()
         addTodo()
-        setTitle('')
+        setText('')
     }
 
-    const handleOnChange: React.ChangeEventHandler<HTMLInputElement> = (event) => {
-        setTitle(event.target.value)
+    const handleOnchange: React.ChangeEventHandler<HTMLTextAreaElement> = (event) => {
+        setText(event.target.value)
     }
+
 
     return (
         <form onSubmit={handleOnSubmit}>
-            <input
-                value={title}
-                onChange={handleOnChange}
+            <textarea
+                value={text}
+                onChange={handleOnchange}
                 ref={inputRef}
-                placeholder={'add todo...'}
+                placeholder={'add text...'}
             />
             <button>add</button>
         </form>

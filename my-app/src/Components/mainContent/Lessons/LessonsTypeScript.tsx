@@ -9,6 +9,10 @@ const LessonsTypeScript: FC = () => {
             <LessonsNavLink/>
             <hr/>
             <LessonsRouting/>
+            <h3>Lessons Page</h3>
+            <div className={styles.item}>
+                <img src="https://images.unian.net/photos/2020_04/thumb_files/400_0_1588002724-2615.jpg?0.16335044642912266" alt=""/>
+            </div>
         </div>
     );
 };

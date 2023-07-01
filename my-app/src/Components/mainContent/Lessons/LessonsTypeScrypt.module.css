@@ -1,7 +1,12 @@
 .item {
-    background: #ffffff;
+    background: #dff357;
 }
 
 .item a{
  text-decoration: none;
+}
+
+.item img{
+    width: 1000px;
+    height: 500px;
 }

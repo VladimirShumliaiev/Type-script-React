@@ -4,6 +4,7 @@
 
 .item a{
   color: #1e21ff;
+  text-decoration: none;
 }
 
 .itemBackToPage {
@@ -26,12 +27,11 @@
   border-radius: 3px;
   font-weight: 400;
   cursor: pointer;
-
 }
 
 
 a.active{
-  background-color: #06c2e5;
+  background-color: #550bd3;
   color: white;
 }
 

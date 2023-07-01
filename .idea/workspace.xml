@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment=" 30.06.2023+++">
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/TodoInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/TodoInput.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/TodoList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Todo/TodoList.tsx" afterDir="false" />
+    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment=" 28.06.2023+++">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Posts/BlogPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Posts/BlogPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Posts/Posts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Posts/Posts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Posts/SinglePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/mainContent/Lessons/Components Lessons/Posts/SinglePage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,14 +253,8 @@
       <workItem from="1687932819823" duration="169000" />
       <workItem from="1687933016011" duration="11000" />
       <workItem from="1687933159544" duration="5195000" />
-      <workItem from="1688103289810" duration="4107000" />
-    </task>
-    <task id="LOCAL-00139" summary="04.06.2023 +++">
-      <created>1685885425699</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
-      <option name="project" value="LOCAL" />
-      <updated>1685885425699</updated>
+      <workItem from="1688103289810" duration="4844000" />
+      <workItem from="1688201188318" duration="1457000" />
     </task>
     <task id="LOCAL-00140" summary="05.06.2023 +++">
       <created>1685955599897</created>
@@ -596,7 +592,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688107223878</updated>
     </task>
-    <option name="localTasksCounter" value="188" />
+    <task id="LOCAL-00188" summary=" 28.06.2023+++">
+      <created>1688107579545</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1688107579546</updated>
+    </task>
+    <option name="localTasksCounter" value="189" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -650,8 +653,8 @@
     <MESSAGE value=" +++" />
     <MESSAGE value=" 26.06.2023+++" />
     <MESSAGE value=" 27.06.2023+++" />
-    <MESSAGE value=" 28.06.2023+++" />
     <MESSAGE value=" 30.06.2023+++" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 30.06.2023+++" />
+    <MESSAGE value=" 28.06.2023+++" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 28.06.2023+++" />
   </component>
 </project>

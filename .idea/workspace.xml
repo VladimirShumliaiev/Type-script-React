@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment=" 31.07.2023+++" />
+    <list default="true" id="33e3c861-6426-4d17-b556-1cd08ee33ff0" name="Changes" comment="12.08.2023">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -255,34 +257,9 @@
       <workItem from="1690630916142" duration="267000" />
       <workItem from="1690748123106" duration="197000" />
       <workItem from="1690832563565" duration="91000" />
-    </task>
-    <task id="LOCAL-00149" summary="05.06.2023 +++">
-      <created>1686058672121</created>
-      <option name="number" value="00149" />
-      <option name="presentableId" value="LOCAL-00149" />
-      <option name="project" value="LOCAL" />
-      <updated>1686058672122</updated>
-    </task>
-    <task id="LOCAL-00150" summary="09.06.2023 +++">
-      <created>1686322401026</created>
-      <option name="number" value="00150" />
-      <option name="presentableId" value="LOCAL-00150" />
-      <option name="project" value="LOCAL" />
-      <updated>1686322401027</updated>
-    </task>
-    <task id="LOCAL-00151" summary="09.06.2023 +++">
-      <created>1686322503018</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1686322503019</updated>
-    </task>
-    <task id="LOCAL-00152" summary="09.06.2023 +++">
-      <created>1686322514690</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1686322514690</updated>
+      <workItem from="1691864684442" duration="55000" />
+      <workItem from="1691864824683" duration="47000" />
+      <workItem from="1692897732717" duration="20000" />
     </task>
     <task id="LOCAL-00153" summary="09.06.2023 +++">
       <created>1686565832531</created>
@@ -599,7 +576,35 @@
       <option name="project" value="LOCAL" />
       <updated>1690832631502</updated>
     </task>
-    <option name="localTasksCounter" value="198" />
+    <task id="LOCAL-00198" summary=" 31.07.2023+++">
+      <created>1691864707838</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
+      <option name="project" value="LOCAL" />
+      <updated>1691864707839</updated>
+    </task>
+    <task id="LOCAL-00199" summary=" 31.07.2023+++">
+      <created>1691864720180</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
+      <option name="project" value="LOCAL" />
+      <updated>1691864720180</updated>
+    </task>
+    <task id="LOCAL-00200" summary="12.08.2023">
+      <created>1691864737012</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1691864737012</updated>
+    </task>
+    <task id="LOCAL-00201" summary="12.08.2023">
+      <created>1691864865445</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1691864865445</updated>
+    </task>
+    <option name="localTasksCounter" value="202" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -630,7 +635,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="22.05.2023 +++" />
     <MESSAGE value="23.05.2023 +++" />
     <MESSAGE value="24.05.2023 +++" />
     <MESSAGE value="25.05.2023 +++" />
@@ -655,7 +659,8 @@
     <MESSAGE value=" 01.07.2023+++" />
     <MESSAGE value=" 04.07.2023+++" />
     <MESSAGE value=" 31.07.2023+++" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 31.07.2023+++" />
+    <MESSAGE value="12.08.2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.08.2023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

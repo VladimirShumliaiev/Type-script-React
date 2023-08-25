@@ -16,7 +16,7 @@ const BlogPage = () => {
     const [currentItems, setCurrentItems] = useState(posts);
     const [pageCount, setPageCount] = useState(0);
     const [itemOffset, setItemOffset] = useState(0);
-    const itemsPerPage = 7;
+    const itemsPerPage = 12;
 
     useEffect(() => {
         const endOffset = itemOffset + itemsPerPage;

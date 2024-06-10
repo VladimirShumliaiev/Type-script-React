@@ -9,7 +9,7 @@ const LessonsTypeScript: FC = () => {
             <LessonsNavLink/>
             <hr/>
             <h3>
-                Lessons page
+                Lessons Go
             </h3>
             <LessonsRouting/>
         </div>

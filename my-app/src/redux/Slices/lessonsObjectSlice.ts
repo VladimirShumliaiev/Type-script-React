@@ -52,7 +52,7 @@ export const fetchUsers = createAsyncThunk<Users[], undefined, {rejectValue: str
 export const deleteUser = createAsyncThunk<string, string, {rejectValue: string}>(
     'Users/deleteUser',
     async (id, {rejectWithValue}) => {
-        const response = axios.delete(`https://jsonplaceholder.typicode.com/users/${id}`)
+        const response = await axios.delete(`https://jsonplaceholder.typicode.com/users/${id}`)
         if (!response) {
             return rejectWithValue('Error delete')
         }

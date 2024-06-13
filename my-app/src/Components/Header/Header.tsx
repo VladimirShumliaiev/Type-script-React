@@ -1,12 +1,12 @@
 import React, {FC} from 'react';
 import style from './Header.module.css'
 
-type Header = {
+type HeaderType = {
     theme: string
     setTheme: (str: string) => void
 }
 
-const Header: FC<Header> = ({theme, setTheme}) => {
+const Header: FC<HeaderType> = ({theme, setTheme}) => {
 
    const onclickHandler = () => {
        setTheme(theme === 'light' ? 'dark' : 'light')

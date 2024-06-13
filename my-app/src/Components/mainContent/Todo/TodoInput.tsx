@@ -1,12 +1,12 @@
 import React, {FC, useRef} from 'react';
 
-type TodoInput = {
+type TodoInputType = {
     text: string
     setText: (text: string) => void
     addTodo: () => void
 }
 
-const TodoInput: FC<TodoInput> = (props) => {
+const TodoInput: FC<TodoInputType> = (props) => {
     const {text, setText, addTodo} = props
     const inputRef = useRef<HTMLInputElement>(null)
 

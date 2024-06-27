@@ -12,12 +12,15 @@ const TodoInput: FC<TodoInputType> = (props) => {
 
     const handleOnSubmit: React.FormEventHandler<HTMLFormElement> = (event) => {
         event.preventDefault()
+        if (text.trim().length) {
         addTodo()
         setText('')
+        }
+       
     }
 
     const handleOnchange: React.ChangeEventHandler<HTMLInputElement> = (event) => {
-        setText(event.target.value)
+            setText(event.target.value)
     }
 
 

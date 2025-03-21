@@ -30,7 +30,7 @@ const TodoInput: FC<TodoInputType> = (props) => {
                 value={text}
                 onChange={handleOnchange}
                 ref={inputRef}
-                placeholder={'add text...'}
+                placeholder={'add todo...'}
             />
             <button>add</button>
         </form>
